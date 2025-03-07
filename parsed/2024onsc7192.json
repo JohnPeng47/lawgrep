@@ -1,0 +1,38 @@
+{
+    "id": null,
+    "case_name": "Ashcroft Homes Group CCAA",
+    "docket_number": "CV-24-00097134-0000",
+    "date_filed": "2024-12-03",
+    "date_decided": "2024-12-12",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "MacLeod RSJ",
+    "case_category": "Insolvency",
+    "legal_issues": [
+        "Companies' Creditors Arrangement Act (CCAA)",
+        "Appointment of receiver",
+        "Creditor protection",
+        "Insolvency and restructuring",
+        "Good faith obligations in insolvency proceedings"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The motion to extend the stay of proceedings granted by the initial order was dismissed. The motion made by ACM Advisors Ltd., and supported by other banks, for the appointment of a receiver was granted.",
+    "penalty_type": "Receivership Appointment",
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Lack of confidence in management",
+        "Concerns over dated appraisals and asset values",
+        "Opposition by majority of secured creditors",
+        "Potential better management under receivership"
+    ],
+    "cited_cases": [
+        "General Chemical Canada Ltd. (Re), 2005 CanLII 1079 (ON SC)",
+        "Timminco Limited (Re), 2012 ONSC 506",
+        "Bank of Nova Scotia v. Freure Village on Clair Creek, 1996 CanLII 8258 (ON SC)",
+        "Romspen Investment Corporation v. 6711162 Canada Inc., 2014 ONSC 2781",
+        "BCIMC Construction Fund Corporation v. The Clover on Yonge Inc., 2020 ONSC 1953"
+    ],
+    "summary": "The court declined the extension of CCAA protection due to a lack of confidence in Ashcroft Homes' management and various concerns raised by secured creditors. A receivership was favored to manage the restructuring process, aligning with creditors’ interests and existing security arrangements. Other potential structuring routes were not taken due to procedural issues and opposition from creditors."
+}

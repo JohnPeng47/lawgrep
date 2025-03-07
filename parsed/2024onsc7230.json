@@ -1,0 +1,44 @@
+{
+    "id": null,
+    "case_name": "Hannan Custom Building Ltd. v. Irwin and Lynch",
+    "docket_number": "CV-21-00078912-0000",
+    "date_filed": "2022-11-10",
+    "date_decided": "2023-11-10",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Unknown",
+    "case_category": "Construction Lien",
+    "legal_issues": [
+        "Construction Liens",
+        "Contract Formation",
+        "Breach of Contract",
+        "Subcontractor Rights"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Hannan Building has proven a lien in the amount of $100,874.05, but the Owners' liability is limited to basic holdback under the Construction Act, which is $46,854.89, including HST.",
+    "penalty_type": "monetary",
+    "penalty_amount": "46854.89",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "statutory_damages",
+        "amount": 46854.89,
+        "status": "ordered",
+        "effective_date": "2023-11-10T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "No contract formed between Hannan Building and Owners",
+        "Contract formed between Owners and DC Builders",
+        "Hannan Building is a subcontractor to DC Builders",
+        "Hannan Building entitled to lien for services and materials provided"
+    ],
+    "cited_cases": null,
+    "summary": "Hannan Building claimed unpaid services and materials from Owners. The court found no direct contract between Hannan Building and Owners but established that Hannan Building was a subcontractor to DC Builders. Hannan Building proved a lien for $100,874.05, but Owners' liability is capped at the Construction Act holdback amount of $46,854.89, including HST. Judgment granted for the holdback amount."
+}

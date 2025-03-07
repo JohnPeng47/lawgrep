@@ -1,0 +1,46 @@
+{
+    "id": null,
+    "case_name": "Oppression Remedy Application under CBCA",
+    "docket_number": "N/A",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Canada",
+    "court_level": "Trial",
+    "judge_name": "N/A",
+    "case_category": "Corporate Law",
+    "legal_issues": [
+        "Oppression under s. 241 of the CBCA",
+        "Shareholder rights",
+        "Access to accounting records",
+        "Distribution of proceeds"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Court found the respondents' actions to be oppressive, unfairly prejudicial, and disregarding the applicants' interests. Applicants' reasonable expectations were violated, and they are entitled to remedies under s. 241(3) of the CBCA.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 0,
+        "category": "injunctive",
+        "subtype": "restraining_order",
+        "terms": "Applicants are entitled to costs, and if parties cannot agree, they may submit written submissions.",
+        "effective_date": "2023-09-16T00:00:00Z",
+        "id": null,
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "restrictions": null,
+        "status": "ordered",
+        "end_date": null
+    },
+    "decision_factors": [
+        "Denial of access to accounting records",
+        "Improper distribution of sale proceeds",
+        "Unilateral release of trust funds",
+        "Oppressive conduct by Mr. Wei"
+    ],
+    "cited_cases": [
+        "BCE Inc. v. 1976 Debentureholders, 2008 SCC 69"
+    ],
+    "summary": "Minority shareholders of Xtreme Trampoline Park Inc. successfully claimed oppression under s. 241 of the CBCA due to the actions of majority shareholder Mr. Wei. The court found that Mr. Wei's conduct, including denial of access to accounting records, improper distribution of sale proceeds, and unilateral release of funds held in trust, violated the applicants’ reasonable expectations and was oppressive to their interests."
+}

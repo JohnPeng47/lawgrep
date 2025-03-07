@@ -1,0 +1,47 @@
+{
+    "id": null,
+    "case_name": "Applicant vs. Respondent",
+    "docket_number": "Unspecified",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Family Court",
+    "judge_name": "Unspecified",
+    "case_category": "Family Law",
+    "legal_issues": [
+        "Spousal Support",
+        "Separation Agreement Compliance",
+        "Costs"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The respondent was ordered to pay spousal support, provide ongoing proof of meeting the separation agreement requirements, and pay costs.",
+    "penalty_type": "Monetary",
+    "penalty_amount": "3000",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "compensatory_damages",
+        "amount": 3000,
+        "status": "ordered",
+        "effective_date": "2023-10-20T00:00:00.000Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Failure of the respondent to abide by the separation agreement",
+        "Applicant's financial needs",
+        "Five motions required by the applicant",
+        "Lack of settlement offer from the respondent",
+        "Preparation for and attendance at the uncontested trial"
+    ],
+    "cited_cases": [
+        "Boucher v. Public Accountants Council for the Province of Ontario (2004), 71 O. R. (3d) (Ont. C.A.)",
+        "Fyfe v. Jouppien, 2012 ONSC 97 (CanLII)"
+    ],
+    "summary": "The respondent failed to comply with a separation agreement, which included spousal support and additional obligations. The court found the respondent aware but noncompliant with proceedings. The respondent was ordered to pay costs of $3,000 and provide spousal support and proof of compliance with the separation agreement."
+}

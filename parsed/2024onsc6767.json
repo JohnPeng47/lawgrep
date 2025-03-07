@@ -1,0 +1,37 @@
+{
+    "id": null,
+    "case_name": "Daniel Sin v. Kela Medical Inc. and Others",
+    "docket_number": "Unspecified",
+    "date_filed": "2019-09-26",
+    "date_decided": "2023-10-04",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Hybrid Trial",
+    "judge_name": "Sanderson J.",
+    "case_category": "Breach of Contract and Oppression Claim",
+    "legal_issues": [
+        "Breach of Contract",
+        "Oppression under the Ontario Business Corporations Act",
+        "Statute of Limitations",
+        "Good Faith Performance",
+        "Misrepresentation"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "Plaintiff Daniel Sin's claims for breach of contract and oppression were dismissed. The court ruled that the 2013 Agreement was for a one-year term and expired on December 31, 2013. The court found that Mr. Sin knew or ought to have discovered the facts underlying his claim by July 2014 when he resigned from the company, making the claims statute-barred. The court also found no merit in the claim of misrepresentation and oppression.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Expiry of 2013 Agreement",
+        "Lack of Evidence for Continued Applicability of Milestone 4",
+        "Statute of Limitations",
+        "Misrepresentation not Proven",
+        "Good Faith Obligation not Breached"
+    ],
+    "cited_cases": [
+        "Sattva Capital Corp. v. Creston Moly Corp.",
+        "Kosmopoulos v. Constitution Insurance Co. of Canada",
+        "Bhasin v. Hrynew"
+    ],
+    "summary": "The court concluded that the 2013 compensation agreement between Daniel Sin and Kela Medical Inc. was for a limited one-year term, which expired at the end of 2013. The claim for profits from the sale of KAI Innovations to WELL Technologies was denied, as it was reliant on conditions not met within the contract term. The court held that the limitations period for filing the claims had expired, as Mr. Sin should have been aware of the pertinent facts by 2014 when he left the company."
+}

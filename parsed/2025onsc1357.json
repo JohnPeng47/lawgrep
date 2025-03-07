@@ -1,0 +1,42 @@
+{
+    "id": null,
+    "case_name": "Plaintiffs v. Loblaw Companies Limited et al.",
+    "docket_number": "",
+    "date_filed": "2024-07-24",
+    "date_decided": null,
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "",
+    "case_category": "Class Action - Price Fixing",
+    "legal_issues": [
+        "Price fixing",
+        "Class action settlement",
+        "Consumer protection"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Settlement agreement reached in principle pending court approval",
+    "penalty_type": "Monetary settlement",
+    "penalty_amount": "500000000",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "restitution",
+        "amount": 500000000,
+        "status": "proposed",
+        "effective_date": "2024-07-24T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Consent modification to class certification",
+        "Approval required from Superior Courts of Ontario and Quebec",
+        "Separate administration for Ontario and Quebec due to class size and language requirements"
+    ],
+    "cited_cases": [],
+    "summary": "A settlement agreement in principle has been reached between the plaintiffs and Loblaw Companies Limited and associated entities regarding a price-fixing conspiracy related to packaged bread sold across Canada. The settlement amount of $500 million will be distributed between Ontario and Quebec classes, subject to court approval. The agreement includes expanded class definitions, appointment of class counsel, and provisions for settlement administration."
+}

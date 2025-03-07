@@ -1,0 +1,51 @@
+{
+    "id": null,
+    "case_name": "Father v. Mother: Temporary Child Support Motion",
+    "docket_number": "N/A",
+    "date_filed": "2024-10-08",
+    "date_decided": "2024-10-08",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "N/A",
+    "case_category": "Family Law",
+    "legal_issues": [
+        "Child Support",
+        "Imputation of Income",
+        "Parenting Time"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The mother is ordered to pay temporary child support based on an imputed income of $185,000 per year. She is also required to pay 38% of section 7 expenses for the child.",
+    "penalty_type": "Financial",
+    "penalty_amount": "0",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "child_support",
+        "amount": "Based on imputed income of $185,000 per year",
+        "status": "ordered",
+        "effective_date": "2024-09-01T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "The mother did not provide financial disclosure.",
+        "The father seeks child support based on the mother's imputed income of $300,000 per year.",
+        "The child has been primarily residing with the father since March 2024."
+    ],
+    "cited_cases": [
+        "DBS v SRG, 2006 SCC 37",
+        "Michael v Graydon, 2020 SCC 24",
+        "Drygala v. Pauli, 2002 CanLII 41868",
+        "Hong v. Nguyen, 2018 ONSC 7357",
+        "Graham v Bruto, 2008 ONCA 260",
+        "McKenna v. McKenna, 2015 ONSC 3309",
+        "Bak v. Dobell, 2007 ONCA 304",
+        "Seifi v. Hanji, 2021 ONSC 3419"
+    ],
+    "summary": "The father filed a motion for temporary child support, seeking contributions from the mother based on an imputed income of $300,000. The court imputed her income at $185,000 due to lack of financial disclosure, ordering her to pay child support and 38% of the child's section 7 expenses."
+}

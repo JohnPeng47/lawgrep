@@ -1,0 +1,35 @@
+{
+    "id": null,
+    "case_name": "LaFramboise v. Zwaan",
+    "docket_number": "59.06(2)(a)",
+    "date_filed": null,
+    "date_decided": "2025-01-30",
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Justice S.K. Stothart",
+    "case_category": "Civil Procedure",
+    "legal_issues": [
+        "Motion to set aside a trial decision",
+        "Allegation of perjury",
+        "Abuse of process",
+        "Section 59.06(2) of Rules of Civil Procedure"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The motion to set aside the trial decision was dismissed.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "No new issue raised in the motion",
+        "Applicant attempted to use different legal avenues after an unfavorable decision",
+        "Court of Appeal had already addressed the issues",
+        "Applicant failed to demonstrate due diligence in obtaining evidence",
+        "Bringing collateral attacks after a decision is an abuse of process"
+    ],
+    "cited_cases": [
+        "International Corona Resources Ltd. v. LAC Minerals Ltd.",
+        "St. Amand regarding fresh evidence"
+    ],
+    "summary": "Douglas LaFramboise sought to set aside the trial decision, alleging perjury by the respondent. The motion was dismissed as it was found to be an abuse of process, the Court of Appeal had already addressed the issues, and the applicant failed to act with due diligence to obtain evidence. The respondent was awarded costs."
+}

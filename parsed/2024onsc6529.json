@@ -1,0 +1,25 @@
+{
+    "id": null,
+    "case_name": "Employer v. Union",
+    "docket_number": "2024 ONSC XXXX",
+    "date_filed": "2024-07-22",
+    "date_decided": null,
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Unknown",
+    "case_category": "Labor & Employment",
+    "legal_issues": [
+        "Judicial review of an arbitrator's order",
+        "Production of documents for audit in arbitration",
+        "Independence of the auditor"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The application for judicial review by the employer was dismissed. The arbitrator's order for the employer to produce documents for an audit was upheld.",
+    "penalty_type": "Costs",
+    "penalty_amount": "5000",
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": null,
+    "cited_cases": null,
+    "summary": "The employer's application for judicial review to quash an arbitrator's order to produce documents for an audit was dismissed. The court found the application premature and ruled that the arbitrator's decision was an interim award not warranting judicial review. Costs of $5,000 were awarded to the union."
+}

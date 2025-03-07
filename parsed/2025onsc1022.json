@@ -1,0 +1,49 @@
+{
+    "id": null,
+    "case_name": "Belton v. Spencer",
+    "docket_number": "unknown",
+    "date_filed": "2021-10-01",
+    "date_decided": "2024-06-01",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Unknown",
+    "judge_name": "Unknown",
+    "case_category": "Insurance Claims",
+    "legal_issues": [
+        "Legal Expense Insurance interpretation",
+        "Priority of payment of costs and disbursements",
+        "Entitlement to policy funds",
+        "Declaratory relief",
+        "Charging order request"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The court ruled against John Belton, declaring that the policy funds should be shared pro rata between the defendant Spencer and Martin & Hillyer. Since MHA waived their disbursements claim, the entire policy amount will offset Spencer's costs.",
+    "penalty_type": null,
+    "penalty_amount": "100000.00",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "declaratory",
+        "subtype": "restitution",
+        "effective_date": "2024-06-01T00:00:00Z",
+        "id": null,
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "status": "ordered",
+        "end_date": null
+    },
+    "decision_factors": [
+        "LEI policy language interpretation",
+        "Application of general principles of insurance policy interpretation",
+        "Reasonable expectations of parties",
+        "Similar case analyses"
+    ],
+    "cited_cases": [
+        "Progressive Homes Ltd. v. Lombard General Insurance Co. of Canada, 2010 SCC 33",
+        "Ledcor Construction Ltd. v. Northbridge Indemnity Insurance Co., 2016 SCC 37",
+        "Peter B. Cozzi Professional Corporation v Szot, 2019 ONSC 1274"
+    ],
+    "summary": "The court addressed the issue of the distribution of Legal Expense Insurance funds after Belton's claim was dismissed and costs were awarded against him. MHA obtained the insurance, and a dispute arose concerning the entitlement and distribution of $100,000 policy funds. The ruling clarified the interpretation of the insurance policy, ordering a pro rata sharing of the funds. Belton's new application was dismissed, and the policy funds were allocated to offset the defendant's costs due to MHA's waiver of claims."
+}

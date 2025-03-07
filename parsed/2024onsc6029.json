@@ -1,0 +1,48 @@
+{
+    "id": null,
+    "case_name": "Snaden vs. Officer",
+    "docket_number": "2024 ONSC 7890",
+    "date_filed": "2024-06-17",
+    "date_decided": "2024-10-30",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Not provided",
+    "case_category": "Estate Law",
+    "legal_issues": [
+        "Right of possession",
+        "Dependant relief claim",
+        "Occupation rent",
+        "Validity of verbal agreements"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The respondent's motion was granted, resulting in the eviction of the applicant from the Condo, along with the requirement to pay occupation rent.",
+    "penalty_type": "Eviction and monetary",
+    "penalty_amount": "2200",
+    "penalty_duration": 8,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "costs",
+        "amount": 2200,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "status": "ordered",
+        "effective_date": "2024-07-01T00:00:00",
+        "end_date": "2025-02-28T00:00:00",
+        "id": null
+    },
+    "decision_factors": [
+        "No written agreement for life tenancy",
+        "Condo passed by survivorship, not part of estate",
+        "Applicant's testimony deemed unreliable hearsay",
+        "Financial incapability of respondent to maintain rent-free usage"
+    ],
+    "cited_cases": [
+        "Brisco Estate v. Canadian Premier Life Insurance Company, 2012 ONCA 854",
+        "Dagarsho Holdings Ltd. v. Bluestone, 2004 CanLII 11271",
+        "Dyal v. Dyal, 2023 ONSC 4322"
+    ],
+    "summary": "The court ruled in favor of the respondent, requiring the applicant to vacate the condo by February 28, 2025, and to pay an occupation rent of $2,200 per month starting July 1, 2024."
+}

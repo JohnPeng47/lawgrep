@@ -1,0 +1,31 @@
+{
+    "id": null,
+    "case_name": "Bonnick v. Krimker",
+    "docket_number": "2024 ONSC 6331",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "Not provided",
+    "case_category": "Class Proceedings",
+    "legal_issues": [
+        "Settlement approval",
+        "Class action administration"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Court approved Verita Global as the administrator for the settlement.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Verita's national claims administration experience",
+        "Ability to serve vulnerable individuals",
+        "Bilingual communication ability",
+        "Cyber-security certification"
+    ],
+    "cited_cases": [
+        "Bonnick v. Krimker"
+    ],
+    "summary": "The certified class proceeding, originally two separate proceedings, is headed towards a settlement approval hearing on February 4, 2024. The statement of claim was amended, the two actions consolidated into one, and the case certified for settlement purposes. The plaintiffs moved for appointing Verita Global as the administrator for implementing the proposed settlement. Class counsel selected Verita Global due to its experience, ability to communicate, and cybersecurity measures. The court approved Verita as the administrator based on class counsel's recommendation."
+}

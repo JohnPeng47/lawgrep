@@ -1,0 +1,45 @@
+{
+    "id": null,
+    "case_name": "Mehrzad Zarei v. The Association of Families of Flight PS752 Victims",
+    "docket_number": "Not Provided",
+    "date_filed": "2023-03-02",
+    "date_decided": "2024-06-13",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "Not Provided",
+    "case_category": "Civil Litigation",
+    "legal_issues": [
+        "Costs Award",
+        "Not-for-Profit Corporate Governance",
+        "Reasonable Expectation",
+        "Remedies under Canada Not-For-Profit Corporations Act"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The Application was dismissed. The Association was awarded costs, with enforcement of the cost order stayed until the plaintiff collects any money from the government of Iran.",
+    "penalty_type": "Costs",
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "administrative_penalty",
+        "subtype": "costs",
+        "amount": "59862.62",
+        "status": "ordered",
+        "effective_date": "2024-06-13T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Reasonable expectation under Canada Not-For-Profit Corporations Act",
+        "Impact of downing of flight on Plaintiff",
+        "Association's cost request on abandonment of application",
+        "Association's integrity and governance",
+        "Mehrzad's current financial circumstances"
+    ],
+    "cited_cases": null,
+    "summary": "Mehrzad Zarei's application against the Association was dismissed. Costs were awarded to the Association, with enforcement stayed pending receipt of funds from Iran by Mehrzad."
+}

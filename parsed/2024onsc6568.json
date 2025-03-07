@@ -1,0 +1,43 @@
+{
+    "id": null,
+    "case_name": "R. v. Tavora",
+    "docket_number": "N/A",
+    "date_filed": "2024-01-25",
+    "date_decided": null,
+    "jurisdiction": "Canada",
+    "court_level": "Appellate",
+    "judge_name": "N/A",
+    "case_category": "Criminal Law",
+    "legal_issues": [
+        "Impaired operation of a conveyance",
+        "Driving with a blood alcohol level over 80 mg/100 mL",
+        "Canadian Charter of Rights and Freedoms breaches"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The appeal was dismissed. The court found that the officer made a good faith error due to a change in the law after the investigation. Despite breaches of ss. 8, 9, and 10(b) of the Charter, the court ruled the evidence admissible under s. 24(2) of the Charter as it would not bring the administration of justice into disrepute.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Good faith error by the officer",
+        "Consequential breaches",
+        "Impact on Charter-protected interests",
+        "Truth seeking function of the trial process"
+    ],
+    "cited_cases": [
+        "R. v. Breault, 2023 SCC 9",
+        "Housen v. Nikolaisen, 2002 SCC 33",
+        "R. v. Grant, 2009 SCC 32",
+        "R. v. Reid, 2016 ONCA 524",
+        "R. v. Zacharias, 2023 SCC 30",
+        "R. v. Quansah, 2012 ONCA 123",
+        "R. v. Torsney, 2007 ONCA 67",
+        "R. v. Paterson, 2017 SCC 15",
+        "R. v. McColman, 2023 SCC 8",
+        "R. v. Tim, 2022 SCC 12",
+        "R. v. Lafrance, 2022 SCC 32",
+        "R. v. Whittaker, 2024 ONCA 182"
+    ],
+    "summary": "The appellate court dismissed the appeal of Jose Carlos Tavora who was convicted for impaired driving and driving with a blood alcohol level over the legal limit. Despite breaches of the Canadian Charter of Rights and Freedoms, the evidence was not excluded as the errors were made in good faith, they were consequential, and admitting the evidence served the justice system's integrity."
+}

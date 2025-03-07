@@ -1,0 +1,484 @@
+[1]              
+The parties to this putative action have reached a settlement. On this
+motion, the plaintiff seeks orders (i) certifying the action for the purposes
+of settlement; (ii) appointing the plaintiff as representative plaintiff; (iii)
+approving the settlement agreement, (iv) approving the notice of certification
+and settlement approval and, (v) approving the plan of notice.
+[2]              
+The defendant Blackbaud, Inc. (“Blackbaud US”) is an American cloud
+software company which provides data storage and other services to
+organizations engaged in philanthropic activities. I refer to these
+organizations as Blackbaud’s customers. The defendant Blackbaud Canada, Inc.
+(“Blackbaud Canada”) is a wholly owned subsidiary of Blackbaud US.
+Collectively, I refer to the defendants as “Blackbaud.”
+[3]              
+In the course of their charitable work, Blackbaud’s customers collect
+information from and about their constituents, including their financial
+donors, and upload and store that information within online platforms hosted by
+Blackbaud US. It is up to the customer whether to collect data from their
+constituents, and what data to collect. The data collected may include personal
+and financial information. Encrypted fields are available for customers to
+collect sensitive information like credit card numbers, but ultimately, it is
+the customer’s decision whether to use the encrypted fields.
+[4]              
+In May 2020, Blackbaud US learned it was the victim of a ransomware
+attack by cyber criminals, who had accessed Blackbaud’s systems from
+approximately February 7, 2020 to May 20, 2020. The hackers were able to
+extract a copy of a subset of data from the Blackbaud platform.
+[5]              
+Blackbaud paid a ransom to the hackers in exchange for assurances that
+the exfiltrated personal information would be destroyed.
+[6]              
+On July 16, 2020, Blackbaud publicly announced that the ransomware
+attack had occurred, and that it had paid the ransom.
+[7]              
+Blackbaud’s America cybersecurity team engaged in ongoing monitoring of
+the dark web and has found no evidence of any improper use of any data
+exfiltrated by the hackers.
+[8]              
+Following the data breach, proposed class actions were commenced against
+both Blackbaud US and Blackbaud Canada in British Columbia, and in this
+proceeding. In the United States, Blackbaud US was subject to regulatory
+proceedings initiated by the Attorneys General in 50 states, all of which (save
+one, in California) have been settled. The terms of the settlement require
+Blackbaud to assume what is described as a “significant array of duties and
+responsibilities intended to mitigate the risk of future cyber attacks and
+their effects.” In California, Blackbaud US has consented to entry of judgment
+and a permanent injunction which includes similar relief to that in the settled
+proceedings. Such terms include implementing and maintaining written incident
+response plans and breach response plans to prepare for and respond to security
+incidents threatening or compromising personal information stored on
+Blackbaud’s US network, provide training to employees, establish technical
+safeguards, and engage an independent third party to assess its data security
+practices and compliance.
+[9]              
+The proposed representative plaintiff in this action, Ms. Shriqui, was a
+student in the external LLB program through the University of London in
+England, a Blackbaud customer. She was advised that she was subject to a data
+breach linked to the Blackbaud hack. Until this time, Ms. Shriqui had been
+unaware that Blackbaud hosted any of her data; she did not know that the
+University of London had used a third-party provider for that purpose.
+[10]          
+Over four years has passed since the data hack. Ms. Shriqui deposes that
+she has had no negative experiences that she can link to the data breach.
+[11]          
+Similarly, Stephan Wittman, the proposed representative plaintiff in the
+British Columbia action, was advised by an organization he had donated to, the
+BC Cancer Foundation, that his personal information had been accessed in the
+data breach. However, like Ms. Shriqui, Mr. Wittman has been unable to identify
+any negative impacts or harm that he suffered from the hack.
+[12]          
+No one has come forward to class counsel, nor to Blackbaud, nor (to
+Blackbaud’s knowledge), any Blackbaud customer, to advise that they have
+suffered any harm from the data breach.
+[13]          
+Against this backdrop, the parties have negotiated a settlement that
+envisions a cy-prés payment. On this motion,
+they seek certification of this action for the purposes of settlement, approval
+of the settlement, approval of the notice and notice plan, and approval of
+counsel fees, and disbursements. They have abandoned their request for
+honoraria for the representative plaintiffs. I consider each of these issues in
+turn.
+[14]          
+Pursuant to s. 5(1) of the Class Proceedings Act, 1992, S.O.
+1992, c. 6, CPA, the court shall certify a class proceeding if: (a) the
+pleadings or the notice of application disclose a cause of action; (b) there is
+an identifiable class of two or more persons that would be represented by the
+representative plaintiff; (c) the claims or defences of the class members raise
+common issues; (d) a class proceeding would be the preferable procedure for the
+resolution of the common issues; and (e) there is a representative plaintiff
+who would fairly and adequately represent the interests of the class, has
+produced a workable plan for the proceeding, and does not have an interest in
+conflict with the interests of other class members.
+[15]          
+Where certification is sought for the purposes of settlement, all the
+criteria for certification must still be met, although compliance with the
+certification criteria is not as strictly required: Waheed v. Pfizer Canada
+Inc., 2011 ONSC 5057, at para. 36; Nutech Brands Inc. v. Air Canada,
+[2008 CanLII 11643, at para. 9. The representative plaintiff must provide a
+certain minimum evidentiary basis for certification order: Hollick v.
+Toronto (City), 2001 SCC 68, [2001] 3 S.C.R. 158, at para. 24.
+[16]          
+Certification will not be denied under s. 5(1)(a) unless it is plain and
+obvious that the pleadings disclose no cause of action: Hollick, at
+para. 25.
+[17]          
+For the purposes of the settlement approval, the defendants do not
+dispute, and I accept, that the pleadings disclose a cause of action in negligence.
+[18]          
+In determining whether there is an identifiable class, the court asks
+whether the plaintiff has defined the class by reference to objective criteria
+such that a person can be identified to be a class member without reference to
+the merits of the action. The class must be bounded, and not of unlimited
+membership, or unnecessarily broad, and have some rational relationship with
+the common issues: Hollick, at para. 17, Cloud v. Canada (Attorney
+General) (2004), 2004 CanLII 45444 (ON CA), 73 O.R. (3d) 401 (C.A.), at para. 45.
+[19]          
+For purposes of settlement, the plaintiff seeks to certify the following
+class:
+[20]          
+I am satisfied that the class is defined by reference to objective
+criteria, is bounded and bears a rational relationship with the common issue
+which I discuss below.
+[21]          
+When considering whether a claim raises a common issue, the court asks
+whether it is necessary to resolve the issue to resolve each class member’s
+claim, and whether the issue is a substantial ingredient of each of the class
+members’ claims. The issue is a substantial ingredient of each claim if its
+resolution will advance the case or move the litigation forward, and if it is
+capable of extrapolation to all class members: Vivendi Canada Inc. v.
+Dell’Aniello, 2014 SCC 1, [2014] 1 S.C.R. 3, at para. 46.
+[22]          
+The plaintiff must prove that there is some basis in fact that the
+asserted common issues actually exist, and they are common to the entire class:
+Kuiper v. Cook (Canada) Inc, 2020 ONSC 128, at paras. 26-33.
+[23]          
+The plaintiff proposes to certify the following issue, common to the
+class:
+[24]          
+I am satisfied that this question is common to all class members, and
+the resolution of this question at a common issues trial would advance the
+action for all class members, avoiding the need for each class member to prove
+the issue in individual trials.
+[25]          
+Moreover, I am satisfied that the plaintiffs have adduced evidence
+providing some basis in fact that the proposed common issue exists, including
+evidence that Blackbaud hosted their data on its server through third-party
+services engaged by the organizations with which the class members had a direct
+relationship.
+[26]          
+This branch of the test requires that the court be satisfied that a
+class proceeding would be the preferable procedure for the resolution of the
+common issues. This inquiry is directed at two questions: first, whether the
+class proceeding would be a fair, efficient, and manageable way to advance the
+claim, and second, whether the class proceeding would be preferable to other
+procedures for resolving the common issues. Preferable procedure is addressed
+through the lens of the three goals of class proceedings, that is, access to
+justice, behaviour modification, and judicial economy: Hollick, at para.
+27; Banman v. Ontario, 2023 ONSC 6187at para. 313.
+[27]          
+In the context of the settlement, courts have recognized that a class
+proceeding is a fair, efficient, and manageable method for advancing the class
+members claims and is preferable to other procedures. As Perell J. held in Waheed,
+at para. 27, where there is a cause of action, an identifiable class, common
+issues, and a settlement, there is a strong basis to conclude that a class
+proceeding is the preferable procedure because certification would serve the
+primary purposes of the CPA: access to justice, behaviour modification,
+and judicial economy.
+[28]          
+I am satisfied that, in the context of the proposed settlement, a class
+proceeding is the preferable procedure to resolve the common issues.
+[29]          
+I am satisfied that it is appropriate to certify the action for the
+purposes of settlement.
+[30]          
+Normally, once an action is certified for the purposes of settlement,
+class counsel undertakes a notice program to advise the class of the settlement
+and seek objectors, and where appropriate, give class members the opportunity
+to opt out. A date is set for a settlement approval hearing at which class
+members may elect to participate.
+[31]          
+In this case, I am asked to approve the settlement without such notice,
+and approve a notice plan that will provide notice of the approved settlement,
+thus depriving class members of the opportunity to object. The order sought is
+highly unusual. Nevertheless, I have been persuaded that the order sought is
+appropriate and just in the circumstances of this case.
+[32]          
+The factual background to this unusual request is as follows.
+[33]          
+Blackbaud, as a third-party service provider to its customers, does not
+have lists of its customers’ constituents who were potentially impacted by the
+cyber-attack. Blackbaud has no knowledge of any of their data that may have
+been implicated in the cyber-attack. It is not able to provide contact
+information for class members to allow them to receive notice.
+[34]          
+With a process estimated to take three to six months, at a cost of
+$1-2.5 million USD, Blackbaud could produce, at best, an incomplete and
+unreliable list of information. Direct notice to class members is thus
+impractical, and would be unsatisfactory in any event, given the unreliability
+of the information that could be gleaned.
+[35]          
+The other unique feature of this case that impacts upon notice is that
+many, if not most, class members, like Ms. Shriqui originally, have no idea
+that their data was hosted on Blackbaud’s servers. Blackbaud disclosed that it
+had been targeted by a cyber-attack, but its public disclosure would not have
+alerted many class members to the fact that their information may have been implicated.
+Ms. Shriqui found out when she was contacted by the University of London. Mr.
+Wittman found out through the BC Cancer Foundation. But Blackbaud’s customers
+made their own determination about to whether to disclose the breach, and what
+to disclose about it, to their constituents. Thus, it is likely that class
+members would not be able to identify themselves as class members from a
+published notice regarding the Blackbaud data hack class action.
+[36]          
+The CPA anticipates that notice will be tailored to the
+particular case, and gives the court the power to dispense with notice where
+appropriate. Section 27.1.(12) provides that “in approving a settlement, the
+court shall consider whether notice of the settlement should be given under s.
+19…”
+[37]          
+Similarly, s. 17(2) provides that the court may dispense with notice of
+certification of a class proceeding based on the factors set out therein,
+including the cost of giving notice, the nature of the relief sought, the size
+of the individual claims of the class members, and any other relevant matter.
+[38]          
+Section 19(1) provides that, at any time in a proceeding, the court may
+order any party to give such notice as it considers necessary to protect the
+interests of any class member or party, or to ensure the fair conduct of the proceeding.
+Section 19(4) directs the court to make such orders respecting notice as are
+necessary to ensure the notice given is the best notice that is practicable in
+the circumstances.
+[39]          
+In this case, the plaintiff proposes a notice plan that requires class
+counsel to post notice of settlement approval on their three websites, and to
+send direct notice to all persons who have contacted them in connection with
+this action and who have provided their email addresses. There are only a few
+such people, all of whom contacted class counsel before the action was
+commenced.
+[40]          
+This is not a robust notice program, but I accept that it is appropriate
+in the circumstances for the following reasons.
+[41]          
+First, the settlement in this action proposes a modest cy-prés payment.
+The cost of a direct notice program, given the challenges in compiling even an
+unreliable list from Blackbaud’s document, is prohibitive: see Cappelli v.
+Nobilis Health Corp., 2019 ONSC 4521, at para. 30, where Perell J. declined
+to order a direct notice plan because the settlement sum was too small to
+justify the cost.
+[42]          
+Second, the cost of widespread publication of the notice in publicly
+available news and online sources is out of proportion to its likely benefit,
+given that most class members will not recognize that the notice is directed at
+them. The purpose of notice is to allow those people who may be affected by a
+class proceeding to identify themselves so that they can consider their rights,
+including, significantly, the right to opt-out of a settlement to pursue
+individual litigation against the defendant. The notice will serve no purpose
+if class members cannot self-identify on reading the notice.
+[43]          
+Third, the value of the right to opt-out has to be considered in the
+circumstances of the case. If there is reason to conclude that the right to
+opt-out is not particularly valuable, a robust notice program is “far less
+important”: Fantl v. ivari, 2018 ONSC 4443, at paras. 19-22. In this
+case, I conclude that the right to opt-out is not particularly valuable. There
+is no evidence, four years after the data breach, that anyone has suffered any
+negative impacts from it, or that any person wishes to litigate individually. Moreover,
+as I will come to, class counsel’s opinion is that there is no realistic
+possibility of a worthwhile damages award.
+[44]          
+Notice is often waived, or posted solely on class counsel’s website,
+when a plaintiff seeks to discontinue or dismiss a class action. As will become
+apparent, this action is weak. It can be thought of as a request for a discontinuance,
+with a positive benefit of a cy-prés payment. I would have granted leave
+to discontinue this action; in the circumstances, the right to opt out of the
+settlement is of little to no value.
+[45]          
+In these unusual circumstances, I conclude that the notice plan proposed
+is appropriate.
+[46]          
+The proposed settlement provides that the defendants will pay the
+all-inclusive sum of $340,000 in return for a release of claims against them
+and the dismissal of this action. The settlement funds are intended to be
+distributed cy-prés to two recipients: The Samuelson-Glushko Canadian
+Internet Policy and Public Interest Clinic – University of Ottawa, and the
+Computer Science Data Security Fund – University of Saskatchewan. If the
+settlement is approved, the parallel action in British Columbia will be
+discontinued without costs.
+[47]          
+Under s. 27.1(1) of the CPA, a proceeding brought under
+the CPA may only be settled with court approval. The court shall not
+approve a settlement unless it determines that the settlement is fair,
+reasonable, and in the best interests of the class: s. 27.1(5) CPA, at
+para. 7. The burden lies on the party seeking approval: Robinson v.
+Medtronic, Inc., 2020 ONSC 1688, at para. 63; Nunes v. Air Transat A.T.
+Inc., 2005 CarswellOnt 2503 (S.C.J.), at para. 7.
+[48]          
+Public policy favours the resolution of complex litigation: Nunes,
+at para. 7.
+[49]          
+Settlements need not be perfect; they are compromises: Lozanski v.
+The Home Depot, Inc., 2016 ONSC 5447, at para. 71. To find that a
+settlement is not fair and reasonable, it must fall outside a range of
+reasonable outcomes: Nunes, at para. 7. An objective and rational
+assessment of the pros and cons of a settlement is required: Mancinelli v.
+Royal Bank of Canada, 2017 ONSC 2324, at para. 38. There is a strong
+presumption of fairness when a proposed class settlement, which was negotiated
+at arms-length by counsel for the class, is presented for court approval: Nunes,
+at para. 7.
+[50]          
+A court must be assured that the settlement secures appropriate
+consideration for the class in return for the surrender of its litigation
+rights against the defendants: Nunes, at para. 7. However, it is not the
+court’s function to substitute its judgment for that of the parties or attempt
+to renegotiate a proposed settlement. Nor is it the court’s function to
+litigate the merits of the action, or, on the other hand, to rubber-stamp a
+settlement: Nunes, at para. 7.
+[51]          
+When considering whether to approve a negotiated settlement, the court
+may consider, among other things: (a) the likelihood of recovery or likelihood
+of success; (b) the amount and nature of discovery, evidence or investigation;
+(c) the proposed settlement terms and conditions; (d) the recommendation and
+experience of counsel; (e) the future expense and likely duration of litigation
+and risk; (f) the recommendation of neutral parties, if any; (g) the number of
+objectors and nature of objections, if any; (h) the presence of good faith,
+arm’s length bargaining and the absence of collusion; (i) the degree and nature
+of communications by counsel and the representative parties with class members
+during the litigation; and (j) information conveying to the court the dynamics
+of and the positions taken by the parties during the negotiation: Lozanski,
+at para. 73; Nunes, at para. 7; Robinson, at para. 65.
+[52]          
+I find that the proposed settlement agreement is fair and reasonable for
+the following reasons.
+[53]          
+First, the likelihood of success in this litigation was low. Four years
+after the data hack, there is no evidence of any misuse of the exfiltrated
+data, or of any person suffering harm as a result. Recent developments in the
+jurisprudence regarding data breach cases have rejected claims in contract and
+negligence where there is no ability to show actual damages. Moreover, the
+jurisprudence has foreclosed relying on the tort of intrusion upon seclusion in
+data breach cases. There could be the potential for nominal damages for breach
+of certain provincial privacy acts, but then only in four provinces. Three of
+those statutes raise questions regarding the jurisdiction of the Ontario courts
+to entertain such claims. These are not just issues of liability and damages,
+but would create challenges for the plaintiff on the certification motion.
+[54]          
+Second, against this backdrop, the representative plaintiff does not
+wish to be exposed to an adverse costs award. The proceedings, were they to
+continue, could be expected to be lengthy, hard-fought, and expensive. The
+representative plaintiff is not indemnified by counsel or any third party for
+costs in this litigation. In these circumstances, it would be difficult to find
+a new representative plaintiff.
+[55]          
+Third, there is no behaviour modification that can meaningfully be
+achieved through this proceeding. The terms of the settlements Blackbaud US has
+entered into in the United States require it to improve its data security,
+among other things. The evidence is that these improvements will accrue to the
+benefit of Canadian constituents of Blackbaud’s customers as well. Behaviour
+modification has already been achieved in the regulatory proceedings in the
+United States.
+[56]          
+Fourth, the settlement negotiations were undertaken at arms-length and
+in good faith.
+[57]          
+Fifth, the settlement is recommended by both, counsel in this action,
+and counsel in the British Columbia action.
+[58]          
+Sixth, the amount of the settlement is modest, and it would be
+impractical to distribute it to class members, even if they could be
+identified.
+[59]          
+Because I would have granted the plaintiff leave to discontinue this
+action without costs, it is obvious that a cy-prés settlement is a fair
+and reasonable resolution for the class, which at least receives the indirect benefit
+of the charitable donation going to support efforts of organizations that do
+work that will benefit people in similar circumstances to the class members.
+[60]          
+As to the proposed cy-prés recipients, I note the following:
+[61]          
+The proposed cy-prés receipients were chosen by the
+representative plaintiffs, and are appropriate recipients. The work the
+recipients intend to further with the funds is related to the issues raised in
+this litigation and will be for the benefit of class members and the public generally.
+[62]          
+I thus approve the proposed settlement.
+[63]          
+Morgan J. recently noted in Austin v. Bell Canada, 2021 ONSC
+5068, at para. 10, citing Commonwealth Investors Syndicate Ltd. v. Laxton, [1994]
+O.J. No. 2922, at para. 63 (S.C.J.), that generally, considering whether to
+approve class counsel fees, “the amount payable under the contract is the
+starting point for the application of the court’s judgment.”
+[64]          
+In MacDonald et al. v. BMO Trust Company et al., 2021 ONSC 3726,
+at para. 21, Belobaba J. held that the approach that presumes valid the
+percentage of recovery agreed to in the contingency fee retainer (up to
+one-third) is appropriate in most class action settlements, but not in “mega
+fund” settlements that are in the range of $100 million or higher.
+[65]          
+I would have expected a retainer agreement to be placed in evidence
+before me, but I have looked, and there is no retainer agreement in the record.
+Counsel advise me that, in the Ontario action, the contract contemplates a
+contingency fee of 25%.
+[66]          
+There is ample law explaining why contingency fees in class proceedings
+advance the goal of access to justice: see, for example, Baker (Estate) v.
+Sony BMG Music (Canada) Inc., 2011 ONSC 7105, at para. 64; Osmun v.
+Cadbury Adams Canada Inc., 2010 ONSC 2752, at para. 21. Thus, even without
+a retainer agreement in evidence, there is some basis to conclude that an award
+of fees calculated as a percentage of the recovery makes sense in a class
+action.
+[67]          
+The general principles to apply to the assessment of class counsel’s
+fees were set out by Juriansz J.A., in Smith Estate v. National Money Mart
+Co., 2011 ONCA 233, at para. 80:
+[68]          
+The court also considers the integrity of the profession as a relevant
+factor: Fresco v. Canadian Imperial Bank of Commerce, 2023 ONSC 3335, at
+paras. 127-133, aff’d 2024 ONCA 628, at paras. 101-102. It is important to
+note, as the Court of Appeal did in Fresco, at para. 84, that the phrase
+“integrity of the profession” is not meant to connote dishonesty in this
+context, but rather, a fee that is not champertous.
+[69]          
+In McIntyre Estate v. Ontario (Attorney General), 2002 CanLII
+45046, at para. 76, the Court of Appeal for Ontario found that a “fee agreement
+that so over-compensates a lawyer such that it is unreasonable or
+unfair to the client is an agreement with an improper purpose -- i.e.,
+taking advantage of the client.”
+[70]          
+The risk class counsel took on must be measured from the outset of the
+litigation, not with the benefit of hindsight: Gagne v. Silcorp Ltd.,
+1998 CanLII 1584.
+[71]          
+In this case, class counsel seeks fees of $127,939 plus disbursements
+for both, counsel in the Ontario action and counsel in the British Columbia
+action. The amount sought is 33.3% of the settlement award, plus HST and disbursements.
+It is thus higher than the contingency fee contemplated in the retainer
+agreement between Ms. Shriqui and Ontario class counsel.
+[72]          
+The evidence before me details the steps taken by class counsel. Ontario
+counsel met with the representative plaintiff, conducted legal and fact
+research into the claim, drafted the pleading, negotiated a co-counsel
+arrangement with BC counsel, and engaged in settlement negotiations. Counsel
+spent approximately 115 hours on the action.
+[73]          
+In British Columbia, class counsel took additional steps, including
+preparing a notice of application for certification, preparing for and arguing
+a one-day sequencing hearing, and preparing for and arguing a two-day hearing
+on whether the BC action should be stayed in favour of arbitration. British
+Columbia counsel spent about 447 hours on the proceeding there.
+[74]          
+With respect to the fee request, I note the following:
+[75]          
+The use of contingency fees in class actions is designed to promote
+access to justice. But one feature of contingency fees is that the premium
+counsel obtains when they secure a good result in a case works to offset, to
+some extent at least, the losses attached to the cases that end up not progressing
+or succeeding. I see no justification for a fee at the high end of the
+percentage range in a case that was not a success. Awarding a fee at 33.3% of
+the value of the settlement amount only encourages counsel to take on bad
+cases, settle early for what they can get, and maximize their fee recovery. It
+would invite churning bad cases instead of focusing on ones that truly advance
+the goals of the CPA: access to justice, behaviour modification, and
+judicial economy.
+[76]          
+In the circumstances, I am prepared to approve fees to class counsel of
+$60,000, which is just over 17.5% of the settlement funds, plus HST.
+[77]          
+There is evidence before me of disbursements incurred in British
+Columbia, but not in Ontario. I am prepared to award disbursements of $36,157.85
+with respect to the British Columbia matter; that amount is supported in the
+record. Without evidence of Ontario counsel’s disbursements, I am prepared to
+order $1,000 in recognition of the fact that counsel must have incurred some
+disbursements.
+[78]          
+The plaintiffs in Ontario and British Columbia initially sought
+honoraria, but have since withdrawn their request. Accordingly, I do not
+address it.
+[79]          
+The parties have provided me with a form of Notice of Settlement
+approval to be distributed according to the Notice Plan I have already
+approved. I am satisfied with the form of the proposed Notice, with the
+exception that the paragraph regarding approval of counsel fees will have to be
+reworked to reflect my order.
+[80]          
+Counsel shall provide me with a revised draft order including the
+revised Notice as a schedule for my signature.
+[81]          
+In summary, I make the following orders:

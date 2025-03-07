@@ -1,0 +1,49 @@
+{
+    "id": null,
+    "case_name": "Sochnyeva v. LawPro",
+    "docket_number": "Unknown",
+    "date_filed": "2022-11-02",
+    "date_decided": "2023-02-07",
+    "jurisdiction": "Toronto Region, Canada",
+    "court_level": "Associate Justice",
+    "judge_name": "Ronna M. Brott",
+    "case_category": "Civil Procedure",
+    "legal_issues": [
+        "Jurisdiction of Associate Justice",
+        "Case Management Assignment",
+        "Appeal Dismissal",
+        "Procedural Delays",
+        "Costs Award"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Appeal by defendants dismissed. Associate Justice Brott's decision to assign the case to case management upheld.",
+    "penalty_type": "Costs Award",
+    "penalty_amount": "4300",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "costs",
+        "amount": 4300,
+        "effective_date": "2023-02-07T00:00:00",
+        "end_date": "2025-01-17T00:00:00",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "status": "ordered"
+    },
+    "decision_factors": [
+        "Defendants' delay in compliance",
+        "Jurisdiction under Rule 77",
+        "Lack of need for motion for case management",
+        "Costs Order"
+    ],
+    "cited_cases": [
+        "Housen v. Nikolaisen",
+        "R. v. Jordan",
+        "Boucher v Public Accountants Council (Ontario)"
+    ],
+    "summary": "The appeal by defendants Sochnyeva was dismissed. The court found no error in Associate Justice Brott's decision to assign the case to case management without formal motion, especially given defendants' ongoing non-compliance. Costs of $4,300 awarded to LawPro, payable by defendants before January 17, 2025."
+}

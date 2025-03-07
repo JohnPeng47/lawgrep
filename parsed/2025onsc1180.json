@@ -1,0 +1,27 @@
+{
+    "id": null,
+    "case_name": "Appeal under s. 88.33 (9) of the Municipal Elections Act, 1996",
+    "docket_number": "1",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario",
+    "court_level": "Court of Appeal",
+    "judge_name": "Not specified",
+    "case_category": "Municipal Elections",
+    "legal_issues": [
+        "Whether the Election Compliance Audit Committee (ECAC) erred in not ordering a compliance audit due to financial reporting errors on Form 4"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The court found that the ECAC was in error in not ordering a compliance audit. The court ordered a compliance audit and directed the ECAC to appoint an auditor.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Mathematical error in the financial statement (Form 4)",
+        "Role of the Audit Committee in screening requests",
+        "De minimus reporting error can trigger audit obligation"
+    ],
+    "cited_cases": null,
+    "summary": "The court dealt with an appeal concerning the refusal of the Election Compliance Audit Committee (ECAC) to order a compliance audit, despite a financial reporting error by a candidate. The court held that even minor errors are sufficient to warrant an audit to ensure transparency and accountability in municipal elections. Therefore, the court ordered a compliance audit to be conducted by the ECAC."
+}

@@ -1,0 +1,53 @@
+class RemedyCategory(str, Enum):
+    MONETARY = "monetary"
+    INJUNCTIVE = "injunctive"
+    DECLARATORY = "declaratory"
+    SPECIFIC_PERFORMANCE = "specific_performance"
+    CRIMINAL_PENALTY = "criminal_penalty"
+    ADMINISTRATIVE_PENALTY = "administrative_penalty"
+
+class RemedySubtype(str, Enum):
+    # Monetary subtypes
+    COMPENSATORY_DAMAGES = "compensatory_damages"
+    PUNITIVE_DAMAGES = "punitive_damages"
+    STATUTORY_DAMAGES = "statutory_damages"
+    RESTITUTION = "restitution"
+    CHILD_SUPPORT = "child_support"
+    SPOUSAL_SUPPORT = "spousal_support"
+    COSTS = "costs"
+    
+    # Injunctive subtypes
+    PERMANENT_INJUNCTION = "permanent_injunction"
+    TEMPORARY_INJUNCTION = "temporary_injunction"
+    RESTRAINING_ORDER = "restraining_order"
+    
+    # Criminal/Administrative subtypes
+    INCARCERATION = "incarceration"
+    PROBATION = "probation"
+    LICENSE_SUSPENSION = "license_suspension"
+    FINE = "fine"
+    COMMUNITY_SERVICE = "community_service"
+
+class Remedy(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    ruling_id: int = Field(foreign_key="ruling.id")
+    
+    # Core classification
+    category: RemedyCategory
+    subtype: RemedySubtype
+    
+    # Monetary components (used when category is MONETARY)
+    amount: Optional[Decimal] = Field(default=None)
+    
+    # Duration components (used for injunctions, criminal penalties, etc.)
+    duration_value: Optional[int] = None
+    duration_unit: Optional[str] = None  # "days", "months", "years"
+    
+    # Specific terms and conditions
+    terms: Optional[List[str]] = None  # Specific requirements or conditions
+    restrictions: Optional[List[str]] = None  # What is prohibited/restricted
+    
+    # Status tracking
+    status: str = "ordered"  # ordered, in_effect, completed, modified, terminated
+    effective_date: datetime
+    end_date: Optional[datetime] = None

@@ -1,0 +1,38 @@
+{
+    "id": null,
+    "case_name": "Graham v. McNally Estate and Blais",
+    "docket_number": "2024 ONSC 4006",
+    "date_filed": "2024-01-01",
+    "date_decided": "2024-01-01",
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Not provided",
+    "case_category": "Wills and Estates",
+    "legal_issues": [
+        "Testamentary Capacity",
+        "Undue Influence",
+        "Suspicious Circumstances"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The application by Ms. Graham seeking to declare the will invalid was dismissed. Ms. Blais was entitled to costs.",
+    "penalty_type": "Costs",
+    "penalty_amount": "22000",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 0,
+        "category": "monetary",
+        "subtype": "costs",
+        "amount": 22000,
+        "terms": "Costs payable on a partial indemnity scale, due within 45 days.",
+        "effective_date": "2024-01-01T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "restrictions": null,
+        "status": "ordered",
+        "end_date": null
+    },
+    "decision_factors": null,
+    "cited_cases": null,
+    "summary": "Patricia Graham's application to declare her late sister's will invalid was dismissed. The court found no sufficient evidence to support claims of lack of testamentary capacity, undue influence, or suspicious circumstances. Katherine Blais, the estate trustee, was awarded costs of $22,000 on a partial indemnity scale."
+}

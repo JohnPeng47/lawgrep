@@ -1,0 +1,38 @@
+{
+    "id": null,
+    "case_name": "Chand Morningside Plaza Inc. v. Ashok and Usha Badhwar",
+    "docket_number": "2024",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Canada",
+    "court_level": "Trial Court",
+    "judge_name": "Unknown",
+    "case_category": "Contract Law",
+    "legal_issues": [
+        "Non est factum",
+        "Undue influence",
+        "Failure to demand payment on guarantee"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The case was dismissed. The judge ordered the mortgage to be removed from the title to Ashok’s and Usha’s home and set aside the guarantee, promissory note, and mortgage.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Lack of understanding of the document by Ashok and Usha due to their limited English skills.",
+        "Misrepresentation by their son, Rochak.",
+        "Undue influence exerted by Rochak and Ashok on Usha.",
+        "Insufficient independent legal advice."
+    ],
+    "cited_cases": [
+        "Barclays plc v. O'Brien",
+        "Geffen v. Goodman Estate",
+        "JGB Collateral v. Rochon",
+        "Royal Bank of Canada v Biddell",
+        "Bertolo v. Bank of Montreal",
+        "Bank of Nova Scotia v. Williamson",
+        "Sicotte v. 2399153 Ontario Ltd."
+    ],
+    "summary": "The court dismissed the plaintiffs' action, set aside the guarantee, mortgage, and promissory note, and ordered that the mortgage be removed from the title to the parents' property due to a lack of understanding of the documents by the defendants, misrepresentation by their son, undue influence, and insufficient independent legal advice. The claim against the defendants Ashok and Usha Badhwar stemmed from a guarantee, promissory note, and mortgage they signed to secure their son Rochak’s debt, which they did not fully understand. The court found that the plaintiffs failed to meet their legal obligations to ensure Ashok and Usha understood the risks and implications involved."
+}

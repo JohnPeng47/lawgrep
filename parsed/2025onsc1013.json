@@ -1,0 +1,23 @@
+{
+    "id": null,
+    "case_name": "Applicants v. Respondents",
+    "docket_number": "Not provided",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Not provided",
+    "court_level": "Not provided",
+    "judge_name": "Not provided",
+    "case_category": "Property Law - Mortgages",
+    "legal_issues": [
+        "Whether rectification or reregistration of mortgages should be granted"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The application for rectification of the register or reregistration of mortgages is dismissed. The Applicants had already received discharge funds and held them in an interest-bearing account. It was unjust to order rectification of the register as they were no longer entitled to the security.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": null,
+    "cited_cases": null,
+    "summary": "The Applicants sought to rectify the register or reregister two mortgages after discharges were registered, as their initial property sale did not close. Despite this failure, the Applicants' mortgages were discharged, and they sought legal action to restore their original security. The court found that the Applicants were no longer entitled to the security they sought to reinstate, as they had already received payout for the discharges, and these payouts were held in an interest-bearing account by their lawyer. The case relied on sections 159 and 160 of the Land Titles Act and the notion of unjust enrichment but was ultimately dismissed due to changed circumstances and fulfillment of the original loan agreement by the Respondents. Costs submissions are addressed separately."
+}

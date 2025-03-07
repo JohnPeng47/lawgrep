@@ -1,0 +1,57 @@
+{
+    "id": null,
+    "case_name": "R. v. Izaz",
+    "docket_number": "2024 ONSC 2651",
+    "date_filed": "2024-05-06",
+    "date_decided": "2024-05-06",
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Unknown",
+    "case_category": "Criminal",
+    "legal_issues": [
+        "Firearm possession",
+        "Conditional sentencing",
+        "Victim impact statements",
+        "Rehabilitation potential"
+    ],
+    "outcome_for_plaintiff": null,
+    "outcome_details": "Conditional sentence of two years less a day to be served in the community, with two years of probation.",
+    "penalty_type": "Community Sentence",
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "criminal_penalty",
+        "subtype": "probation",
+        "amount": null,
+        "duration_value": 2,
+        "duration_unit": "years",
+        "terms": "House arrest for the first 12 months, curfew for the remainder. Various conditions including abstaining from weapons possession.",
+        "restrictions": "Abstain from owning, possessing, or carrying a weapon, and not apply for or possess a firearm acquisition certificate or gun licence.",
+        "status": "ordered",
+        "effective_date": "2024-05-06T00:00:00",
+        "end_date": null,
+        "id": null
+    },
+    "decision_factors": [
+        "First-time offender",
+        "Constructive possession of the firearm",
+        "Strong rehabilitative potential",
+        "Family support"
+    ],
+    "cited_cases": [
+        "R. v. Bremner, 2000 BCCA 345",
+        "R. v. Gabriel, 1999 CanLII 15050",
+        "R. v. Barreira, 2024 ONSC 4682",
+        "R. v. George, 2024 ONSC 6016",
+        "R. v. Papilota, 2024 ONSC 4065",
+        "R. v. Desmond-Robinson, 2022 ONCA 369",
+        "R. v. Bajraktari, 2024 ONSC 4536",
+        "R. v. Beharry, 2022 ONSC 4370",
+        "R. v. Stewart, 2022 ONSC 6997",
+        "R. v. Morris, 2021 ONCA 680",
+        "R. v. E.N., 2024 ONCA 472",
+        "R. v. D\\u00e9sir, 2021 ONCA 486"
+    ],
+    "summary": "Following a shooting outside a community center, Wasitt Izaz was convicted of possession of a loaded prohibited firearm found in the getaway vehicle he was driving. He received a conditional sentence of two years less a day to be served in the community, with probation. The ruling considered his youth, first-time offender status, and strong potential for rehabilitation."
+}

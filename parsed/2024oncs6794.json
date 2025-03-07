@@ -1,0 +1,32 @@
+{
+    "id": null,
+    "case_name": "Requête concernant le testament de Jeanne Gravelle",
+    "docket_number": "Unknown",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Canada",
+    "court_level": "Unknown",
+    "judge_name": "Unknown",
+    "case_category": "Wills & Estates",
+    "legal_issues": [
+        "Validity of the testament",
+        "Interpretation of testament clause"
+    ],
+    "outcome_for_plaintiff": null,
+    "outcome_details": "The court concluded that the testament and clause 6.6(a) are valid. Julie Gravelle Desormeaux must render an account of her administration since the time of death.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Recognition of signature under Article 4(2)(b)",
+        "Interpretation of testament behind 'armchair rule'"
+    ],
+    "cited_cases": [
+        "Neuberger Estate vs York, 2016 ONCA 191",
+        "Bayford vs Boese, 2021 ONCA 442",
+        "Beaudoin Estate vs Taylor, [1999] B.C.J. No. 770",
+        "Cambareri vs Sorrenti, 2023 ONSC 4918"
+    ],
+    "summary": "The court ruled the testament and clause 6.6(a) are valid. Although there was dispute about the recognition of the testator's signature under Article 4(2)(b), the court found that the actions of the testator amounted to an implicit recognition of her signature. The discussion about Jocelyne Gravelle having the option to purchase the home for the remaining mortgage amount was concluded to be valid despite the mortgage balance being zero at the time of death. Thus, the court interpreted the intent was to provide Jocelyne an option to acquire the house effectively as a gift without any mortgage encumbrance. Julie Gravelle Desormeaux is required to account for her administration since the death of Jeanne Gravelle."
+}

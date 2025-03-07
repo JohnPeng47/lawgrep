@@ -1,0 +1,26 @@
+{
+    "id": null,
+    "case_name": "Plaintiffs v. Phair et al.",
+    "docket_number": "2024 ONSC 4582",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario Superior Court of Justice",
+    "court_level": "Superior Court",
+    "judge_name": "Not specified",
+    "case_category": "Civil Litigation",
+    "legal_issues": [
+        "Summary judgment",
+        "Costs",
+        "Indemnity costs",
+        "Mixed success"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The plaintiffs were successful in obtaining judgment on the single debt issue and were awarded costs on a substantial indemnity basis against personal defendants Bill and Shirley Phair. The personal defendants are liable for the entire cost of the action, including on behalf of the corporate defendants.",
+    "penalty_type": "Cost order",
+    "penalty_amount": "30370.49",
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": null,
+    "cited_cases": null,
+    "summary": "The court granted summary judgment against personal defendants Bill and Shirley Phair while dismissing the motion against corporate defendants. The plaintiffs were awarded costs on a substantial indemnity basis, amounting to $30,370.49, with personal defendants liable for this cost. The ruling highlighted the plaintiffs' success in obtaining judgment on the singular debt in issue, despite mixed success in the motion."
+}

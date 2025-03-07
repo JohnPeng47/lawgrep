@@ -1,0 +1,34 @@
+{
+    "id": null,
+    "case_name": "Nathan Schmerler v. Zev Schmerler, Ramy Schmerler, and Valley Mill Investments Limited",
+    "docket_number": "CV-20-00001509-0000",
+    "date_filed": "2020-11-23",
+    "date_decided": "2024-06-20",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Not specified",
+    "case_category": "Commercial Litigation",
+    "legal_issues": [
+        "Transfer and consolidation of legal proceedings",
+        "Oppression remedy",
+        "Corporate mismanagement"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The motion to transfer and consolidate the Application with the Action was granted. The Plaintiffs were awarded costs of $15,000, payable by the Defendants within 30 days.",
+    "penalty_type": "Costs",
+    "penalty_amount": "15000",
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Overlapping factual matrix",
+        "Risk of inconsistent or contradictory factual findings",
+        "Considerable overlap in the relief sought",
+        "Efficiency and resource savings",
+        "No prejudice to any party"
+    ],
+    "cited_cases": [
+        "Hanif v. College of Pharmacists, 2014 ONSC 2598",
+        "1014864 Ontario Ltd. v. 1721789 Ontario Inc., 2010 ONSC 3306 (CanLII)"
+    ],
+    "summary": "The court granted the Plaintiffs' motion to transfer and consolidate the Application with the Action, citing overlapping factual issues, the risk of inconsistent findings, and the efficiency of resolving all issues in one proceeding. The Plaintiffs were awarded costs of $15,000."
+}

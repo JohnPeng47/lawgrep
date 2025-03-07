@@ -1,0 +1,402 @@
+[1]              
+The Applicants seek an order to enforce Letters
+Rogatory dated October 26, 2022, issued by the United States District Court for
+the Northern District of Illinois Eastern Division, authorized by the Honourable
+Sheila M. Finnegan, United States Magistrate Judge.
+[2]              
+In the Illinois action, the Applicants are plaintiffs
+and representatives of a class certified against Amazon.com Inc. and Amazon.com
+Services LLC (collectively “Amazon”).
+[3]              
+In support of its defences, Amazon seeks
+production and discovery from the Respondent, ModiFace Inc. (“ModiFace”) which is
+a Canadian corporation located in Toronto, Ontario.  ModiFace is not a party to
+the action and has no ties to Illinois or to the United States.
+[4]              
+ModiFace resists the Illinois order because its
+scope is too broad, requiring it to provide its “source code” which would have potentially
+devastating consequences to its business.  It is prepared to provide the source
+code in “compiled” and “obfuscated” form and submit to the deposition process provided
+there are procedural protections in place as per Rule 34.12 of the
+Ontario Rules of Civil Procedure[1].
+[5]              
+To their credit, the parties have conducted extensive
+discussions and have resolved most of the items in the Letters Rogatory, except
+for the following:
+[6]              
+For reasons that follow, I determine that the
+Applicants have not met their evidentiary burden to show that production of the
+source code is relevant or necessary in accordance with Ontario law.  I also
+find that the request for the source code is against public policy and shall
+not be produced.
+[7]              
+Although I am therefore not prepared to grant
+the Applicants’ request, I order ModiFace to provide their compiled and obfuscated
+code to the Applicants and to submit to a deposition as per the order attached
+at Schedule “A” to these reasons.
+[8]              
+Because my order limits the scope of production,
+I am not prepared to order costs of compliance and the costs of responding to
+this application without further submissions from both parties (see below).
+[9]              
+ModiFace is a software company which specializes
+in augmented reality (“AR”) technology which it licences to various beauty
+brands and other companies, including Amazon.  The AR technology is a
+proprietary, specialized form of computer software created in Canada by employees
+of ModiFace.
+[10]          
+There is no corporate connection between
+ModiFace and Amazon, other than the licencing arrangement; Amazon is both a
+client of ModiFace and a competitor with respect to its AR technology.
+[11]          
+ModiFace does not interact directly with
+Amazon’s users, receives no user-specific data from Amazon’s capture of the data,
+and does not store such data.
+[12]          
+In the Illinois class action, the Applicants
+allege that Amazon violated Illinois’ Biometric Information Privacy Act [2] (“BIPA”) by capturing
+and storing biometric data through virtual-try-on (“VTO”) programs which allow
+consumers to virtually try on cosmetics or other products using a photograph or
+live video of the consumer’s face to simulate how these products would look on
+the consumer in person.
+[13]          
+Through the deposition process in Illinois, the
+Applicants learned that the two VTO programs integrated by Amazon into its
+website and mobile application were developed by ModiFace and licenced to
+Amazon.
+[14]          
+In response to an interrogatory about how the
+VTO programs work, Amazon refused to provide and answer with respect to the
+ModiFace VTO program because such an inquiry is “properly directed at ModiFace
+and seeks information outside Amazon’s possession, custody or control”.
+[15]          
+In response to a request to produce the source
+code for each VTO feature used by Amazon, Amazon responded that it “does not
+have possession, custody, or control of the source code”.
+[16]          
+Two motions were brought for production of
+information and documents related to the ModiFace VTO program, which were
+denied on the basis that the information sought was not within Amazon’s
+possession, custody, or control.
+[17]          
+On October 26, 2022, the Illinois Court issued
+Letters Rogatory requesting judicial assistance from this court to compel
+ModiFace to provide deposition testimony, and to produce certain information
+and documents which they had concluded are “directly relevant and material to”,
+“necessary to”, and “not otherwise obtainable”. The Illinois Court concluded
+that compelling ModiFace to produce this scope of “source code” material is
+“fair, appropriate, and necessary under the circumstances”.
+[18]          
+On April 20, 2023, the Applicants filed this
+application to enforce the Letters Rogatory.
+[19]          
+The Applicants take the position that ModiFace’s
+source code is crucial to their action against Amazon and should be produced in
+un-obfuscated form. ModiFace takes the position that its source code is
+proprietary and highly confidential and should not be produced other than in
+obfuscated form and with appropriate confidentiality safeguards in place.
+[20]          
+“Source code” is the foundational code written
+by programmers which is structured to be human-readable and understandable.  Once
+completed, it is converted into “compiled code” which is used to run the
+program. Compiled code may be “obfuscated” to make replication more difficult.
+[21]          
+In the normal course, ModiFace provides its AR
+technology to Amazon as a package of compiled and obfuscated code which allows Amazon
+to deploy the technology.  ModiFace submits that providing the code in this
+form still allows the input and output to be visible and allows insight into
+the code’s behaviour allowing the Applicants and their experts to understand
+the AR technology’s functionality.
+[22]          
+ModiFace also submits that production of
+un-obfuscated source code, even under strict confidentiality, risks exposing its
+core proprietary technology to competitors (of which Amazon is one) and to the
+public, risking irreparable harm to ModiFace.
+[23]          
+Segregating the source code specific to the
+Amazon version of the code would require hundreds of hours at significant cost
+to ModiFace.  Without this work, producing the source code from its
+repositories would expose all versions of its AR technology, not just the one
+used by Amazon.
+[24]          
+Paragraph 14 of Schedule A of the Letters
+Rogatory requests that ModiFace produce:
+[25]          
+The Letters Rogatory provide as follows:
+[26]          
+The Applicants retained Mr. Isaac Pflaum, a
+software expert, to provide an affidavit explaining why the source code for the
+ModiFace VTO program is required in the Illinois action.   In his opinion, the
+source code “provides the greatest transparency for analyzing how software
+performs its functions” at issue, and “reading the source code is necessary to
+gain a complete understanding of …how and why [the ModiFace VTO program] works”
+and “to comprehensively opine on all of the issues presented” in the Illinois action.
+[27]          
+Mr. Pflaum explained that in his experience,
+source code is “typically” produced in U.S. litigation in which the program’s
+capabilities and/or what steps it takes to perform those functions are relevant
+because the source code is what establishes those steps and capabilities.  In his
+view, receiving source code in “un-obfuscated”, “un-minificated” [3], and “un-compiled” form
+is necessary to understand what the ModiFace VTO program does because those
+processes make it extremely difficult, time-consuming, and expensive, “if not
+impossible”, to review and understand the source code.
+[28]          
+ModiFace’s Chief Executive Officer and head
+developer, Mr. Jeff Houghton, a provided a responding affidavit in which he
+explained that providing the source code in obfuscated form permits the
+Applicants to confirm how the ModiFace AR technology works locally on a user’s
+device and to confirm that it does not involve the collection, storage, capture
+or transfer of biometric information or identifiers.
+[29]          
+There is no dispute that the source code is confidential;
+the Applicants do not propose releasing the source code to Amazon and are willing
+to sign a confidentiality agreement.
+[30]          
+The Respondents submit that “once the bell has
+been rung, it cannot be un-rung” and oppose production of the source code even with
+strict confidentiality safeguards.
+[31]          
+Section 60 of the Ontario Evidence Act[4] and
+ss. 46 and 47 of the Canada Evidence Act[5]
+authorize this court to order the production of documents and the examination
+under oath of Ontario residents at the request of a foreign country.
+[32]          
+There are four statutory preconditions for
+enforcing letters rogatory:
+[33]          
+The parties agree that the statutory
+preconditions for enforcing the Applicants’ request have been satisfied.
+[34]          
+The parties also agree on the general principles
+surrounding the granting of requests from foreign courts which are enforced by
+Ontario courts pursuant to the principles of international comity, mutual deference,
+and respect.[7] 
+They also agree that Ontario courts will enforce letters rogatory that are not
+contrary to the public policy of Canada and Ontario, and if there is no
+prejudice to the sovereignty or the citizens of Canada[8].
+[35]          
+In each case, the court must “step back and
+balance” Canadian sovereignty considerations.[9] 
+Ontario courts are not bound to accept the conclusions of the foreign court on
+relevance or necessity as final[10]
+and will not permit a “fishing expedition”.[11]
+[36]          
+The parties also agree that the following
+non-exclusive “guideposts” or “factors”, set out in Friction Division[12], should
+be considered by this court in exercising discretion to enforce letters
+rogatory:
+[37]          
+Because satisfaction of the statutory
+preconditions is not disputed, the analysis of whether to grant the request of
+the Illinois court and enforce the Letters Rogatory as against ModiFace is
+focused on the six Friction Division[14]
+factors.
+[38]          
+The Applicants have not suggested that the
+conclusions of the Illinois court, stated in the Letters Rogatory when deciding
+to make this request, are determinative of this application.
+[39]          
+It is open to me to narrow a request for international
+judicial assistance if the supporting material sustains a more circumscribed
+request.[15]
+[40]          
+While a systematic examination of each is not
+required, and the Friction Division factors need not be rigidly applied
+in each case, this court must itself be satisfied, on the record presented on
+this application, of the recognized factors and the “overarching principles of
+comity, public policy, and the absence of prejudice to the sovereignty of the
+citizens of Canada.”[16]
+[41]          
+The Applicants have the onus of establishing the
+Friction Division factors[17].
+[42]          
+ModiFace maintains that the Applicants have
+failed to establish these factors. Aside from the disagreement about the cost
+burden in complying with the requests, ModiFace’s opposition to this
+application can be generally broken down into concerns about relevance
+and necessity because the proposed production of obfuscated source code will
+satisfy the Applicants’ inquiries regarding how the code functions and how it
+stores any data.  Additionally, Modiface takes the position that production of
+their source code is against public policy because of the potential
+detrimental effect on its business.  I will address these issues in turn.
+[43]          
+Relevance is case and fact specific.  Although there
+is an attraction to affording some deference to the foreign court on the
+question of relevance of the evidence sought since that is a matter that is
+ultimately withing its domain,[18]
+the Ontario court is not bound to accept the language or conclusions of the
+letters rogatory as the “final say”. Instead, it must independently assess the
+evidence to reach its own conclusions.[19]
+[44]          
+The Applicants rely on several American cases
+which were decided under different legislation, discovery rules and case law
+and are not binding upon this court.  I will therefore not refer to them.
+[45]          
+Aker Biomarine AS
+et al. v. KGK Synergize Inc.[20]
+summarizes the important principles to be considered by this court when
+deciding whether to grant requests from foreign courts pursuant to letters rogatory
+and the reasons why caution should be exercised.  Leach J. stated:
+[46]          
+The Court of Appeal in Actava TV, Inc. v.
+Matvil Corp.[23]
+distinguished between “want” and “need” when determining relevancy.  Although
+the opposing expert may “want” the information, this does not make it
+“relevant” for the purposes of obtaining it from a disinterested non-party.
+[47]          
+In Cisco Systems v. N. Harris Computer Corporation[24] MacLeod, R.S.J. dealt
+with the issue of producibility of source code in a Texas patent dispute. He
+noted that there is an important distinction between cases in which source code
+is relevant (such as in a computer program copyright or intellectual property case)
+and cases where it is not. Under Ontario production rules, before the court would
+make an order requiring a non-party to submit to expert analysis the court
+would require specific evidence from an expert as to why the information is
+“essential”.[25]
+[48]          
+Here, as in Cisco, the underlying U.S. action is
+not a copyright nor an intellectual property dispute involving the computer
+code, but rather a dispute regarding the functionality of the program and the
+uses (or misuses) to which it is put.
+[49]          
+The expert retained by the Applicants, Mr.
+Pflaum, indicates the source code provides the “greatest transparency for
+analyzing how software performs its functions” and that obfuscation makes it
+“extremely difficult, time-consuming, and expensive, if not impossible, to
+review and understand the source code”.
+[50]          
+In response, Mr. Houghton, ModiFace’s CEO and
+lead developer deposed that even in obfuscated form, the format still permits
+the Applicants to confirm how the ModiFace AR technology works locally on a
+user’s device and to confirm that it does not involve the collection, storage,
+capture or transfer of biometric information or identifiers.
+[51]          
+Nowhere in Mr. Pflaum’s affidavit does he
+indicate that obtaining the source code in its original form is “essential”; simply
+that it offers the best transparency. While it may be difficult and
+time-consuming to use obfuscated code, he offers no proof that it, in fact, is impossible.
+ While Mr. Pflaum may “want” the source code, he offers no proof of “need” as per
+the Court of Appeal’s decision in Actava TV.  Therefore, in my view,
+the Applicants have not discharged their burden of proof with respect to
+relevance.
+[52]          
+The need to establish “necessity” acts as a
+safeguard to ensure that the Ontario court is not requiring one of its citizens
+to participate in a process that may be of no assistance to the foreign
+litigation.[26]
+[53]          
+Mr. Pflaum explained in his affidavit that source
+code is “typically” produced in U.S. litigation in which the program’s
+capabilities and/or the steps it takes to perform those functions are relevant
+because the source code is what establishes those steps and capabilities.  In
+his view, receiving the source code is “necessary” to understand what the
+ModiFace VTO program does.
+[54]          
+Although he asserts necessity, Mr. Pflaum does not
+offer evidence that in this particular case it would be unfair to
+require the Applicants to proceed to trial without discovery of the source code
+as per Rule 30.10(1)(b).[27] 
+Mr. Houghton attested that the code remains executable, functional, and will
+allow the Applicants’ experts to gain insight into its behaviour for trial
+purposes.  The Applicants have offered no evidence to show that the required
+analysis cannot be accomplished using obfuscated code; it is simply
+expensive and time-consuming.  Mr. Pflaum acknowledges in his affidavit that
+the obfuscated code “would behave exactly the same” as un-obfuscated code. I
+therefore find that the Applicants have not discharged their burden of proof
+with respect to necessity.
+[55]          
+Again, the Illinois action is not an
+intellectual property or copyright case.  No reason has been given by Mr.
+Pflaum as to why he cannot render an expert opinion to the Applicants based
+upon obfuscated code in which the functionality of the VTO program is at issue;
+in my view there is insufficient evidence that the obfuscated code is inadequate
+for the purposes of the underlying litigation. I therefore find that the
+Applicants have not discharged their burden to prove the evidence is not
+otherwise obtainable.
+[56]          
+Our Court of Appeal in Actava TV made it
+clear that the court would decline to enforce letters rogatory if enforcement
+is contrary to public policy.[28]
+[57]          
+There is no defined list of the various public
+policy considerations that may lead a court to refuse to enforce.  The focus is
+on whether granting the request, not the underlying foreign proceeding,
+contravenes Canadian public policy.[29]
+[58]          
+Confidentiality concerns may be considered as
+part of the public policy analysis,[30] 
+specifically, business confidentiality concerns[31] and trade secrets[32]. Requiring a non-party
+to disclose sensitive, confidential information can run contrary to public
+policy, especially when the confidential information “strikes at the heart” of
+the non-party’s business information.[33]
+[59]          
+The information sought from ModiFace is a trade
+secret which strikes at its very existence.  Like the financial information
+sought in Actava TV, nothing could be more confidential and open to
+abusive use.[34]
+Even if there were sufficient evidence of relevance and necessity, in my view, it
+is contrary to public policy to require ModiFace to disclose its source code. The
+potential consequences of disclosure to a competitor (Amazon) and to the
+public, even with a protective order in place, are potentially ruinous to
+ModiFace, a non-party.  This court is therefore not prepared to force ModiFace,
+a Canadian company, to face such consequences even with safeguards in place,
+especially since a viable option exists to provide the information consistent
+with comity.
+[60]          
+The request from the Illinois court is for “all
+computer code (including but not limited to the source code) for each version
+of each ModiFace VTO program used between September 7, 2016 and the present”.
+[61]          
+Counsel for the Applicants submits that all
+iterations of the source code within this timeframe are required to determine
+whether there has been a breach of BIPA[35].
+  Counsel for ModiFace submits that only the latest iteration of the obfuscated
+source code should be produced because it subsumes all the previous iterations.
+To force production of the previous versions would, again, reveal their
+proprietary source code and would be extremely onerous.
+[62]          
+Since I have ordered that only the obfuscated
+source code is to be produced, which incorporates all of the earlier iterations,
+I decline to order production of previous versions.
+[63]          
+Since less intrusive methods of obtaining the necessary
+information are available, in my view it is unlikely that an Ontario court
+would order ModiFace, a non-party, to produce the source code if the underlying
+action were in Ontario.
+[64]          
+Moreover, the Applicants have failed to explain
+why the burden of “painstaking work” should be placed on ModiFace, rather than
+on themselves, particularly where ModiFace is not a party to the Illinois
+action.
+[65]          
+For these reasons, I conclude that the order
+sought against ModiFace is unduly burdensome.
+[66]          
+Although U.S. and Canada have somewhat
+comparable justice systems, the rules relating to discovery are significantly
+dissimilar[36]
+and significantly broader in the United States.[37]
+[67]          
+Rule 31.07 contemplates that a witness on
+discovery may refuse to answer a question and Rule 34.12 deals with the
+procedure applicable to objections.  Other jurisdictions, even within Canada, force
+deponents to answer questions despite objections. [38]
+[68]          
+ModiFace is concerned that during the
+deposition, it may be forced to answer questions over its objections, which
+could have the effect of exposing the source code. They propose safeguards in
+their draft order such that this court will decide any disputes regarding
+refusals under Ontario law and will maintain control over the process.
+[69]          
+I have reviewed ModiFace’s draft order and agree
+that such concerns are well-founded.  I have therefore incorporated the terms
+they propose into the order attached at Schedule “A” to these reasons.
+[70]          
+Given that my decision limits the scope of
+production of the source code, counsel may wish to have further discussions.
+[71]          
+If counsel cannot agree on the costs of
+compliance with my order, and the costs of the application, they may make
+additional submissions as follows:
+[72]          
+If no written cost submissions are received within
+two weeks of the release of this decision, there shall be no costs awarded.

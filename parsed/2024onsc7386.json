@@ -1,0 +1,30 @@
+{
+    "id": null,
+    "case_name": "Bank of Nova Scotia v. Johal",
+    "docket_number": "N/A",
+    "date_filed": "2024-03-27",
+    "date_decided": "2024-05-30",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "N/A",
+    "case_category": "Bankruptcy and Insolvency",
+    "legal_issues": [
+        "Bankruptcy Application",
+        "Stay of Proceedings",
+        "CCAA Proceeding",
+        "Lines of Credit"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The bankruptcy applications by the Bank of Nova Scotia against Jasvir Johal and Sulakhan Johal were stayed. The bank's claims under the lines of credit should be addressed within the ongoing CCAA proceeding of the Pride Entities.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Integration of claims with CCAA proceeding",
+        "Single creditor application insufficient justification",
+        "No fraud or suspicious circumstances"
+    ],
+    "cited_cases": null,
+    "summary": "Bankruptcy applications against the Johals by Bank of Nova Scotia are stayed. The court determined that the claims are best addressed within the CCAA proceeding concerning the Pride Entities. The court found no special circumstances to justify a single creditor bankruptcy application and emphasized the applicability of the stay of proceedings granted in the CCAA proceeding."
+}

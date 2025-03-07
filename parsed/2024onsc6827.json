@@ -1,0 +1,47 @@
+{
+    "id": null,
+    "case_name": "Ruling in the Case of Mr. Samuels and Mr. Minott",
+    "docket_number": "N/A",
+    "date_filed": "2024-11-26",
+    "date_decided": "2024-11-26",
+    "jurisdiction": "Canada",
+    "court_level": "Trial",
+    "judge_name": "N/A",
+    "case_category": "Manslaughter",
+    "legal_issues": [
+        "Manslaughter",
+        "Sentencing",
+        "Self-defense",
+        "Credit for pre-sentence custody"
+    ],
+    "outcome_for_plaintiff": null,
+    "outcome_details": "Mr. Samuels and Mr. Minott both received sentences of six years’ imprisonment before credit for pre-sentence custody.",
+    "penalty_type": "Carceral",
+    "penalty_amount": null,
+    "penalty_duration": 6,
+    "remedy": {
+        "ruling_id": 0,
+        "category": "criminal_penalty",
+        "subtype": "incarceration",
+        "duration_value": 6,
+        "duration_unit": "years",
+        "status": "ordered",
+        "effective_date": "2024-11-26T00:00:00Z",
+        "id": null,
+        "amount": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Aggravating factors included exceeding self-defense by shooting Mr. Bangura.",
+        "Mitigating factors included guilty pleas, prospects for rehabilitation, and harsh pre-sentence custody conditions."
+    ],
+    "cited_cases": [
+        "R. v. Young, 2022 ONSC 1143",
+        "R. v. Khill, 2023 ONSC 3374",
+        "R. v. Pintar, [1994] O.J. No. 1435",
+        "R. v. Johnson, 2022 ONSC 5689"
+    ],
+    "summary": "Mr. Samuels and Mr. Minott pleaded guilty to manslaughter in relation to the death of Mr. Osman Bangura and were sentenced to six years' imprisonment each, with credits for pre-sentence custody reducing the time remaining. Both offenders' circumstances and the harsh conditions of their pre-sentence custody were considered, along with legal precedents and principles."
+}

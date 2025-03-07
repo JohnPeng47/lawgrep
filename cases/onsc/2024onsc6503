@@ -1,0 +1,1255 @@
+[1]              
+DNA testing has become a tool used routinely in criminal investigations.
+Police may seek to compare a DNA sample from a known person (a “reference
+sample”) to a DNA profile of unknown origin, that has been developed from items
+associated with a crime scene or victim of a crime. The results of the
+comparison allow them to determine whether to exclude the donor of the
+reference samples as the source of the DNA profile of unknown origin.
+[2]              
+This certified class proceeding concerns DNA profiles that were prepared
+and retained by the Centre of Forensic Sciences (“CFS,” or the defendant). The
+profiles originated from the forensic analysis of reference samples that were provided
+by class members on consent.
+[3]              
+The plaintiff alleges that the collection and retention of their DNA
+profiles violates s. 8 of the Canadian Charter of Rights and Freedoms,
+and the class members’ common law right to privacy under the tort of inclusion
+upon seclusion. He seeks aggregate and punitive damages for himself and the
+class.
+[4]              
+The trial of the certified common issues took place before me. These are
+my reasons.
+[5]              
+In 2013, the plaintiff, Mr. Granger, was a migrant farm worker living
+and working in Vienna, Ontario. Around that time, a violent sexual assault
+occurred in southwestern Ontario. From the crime scene, the police recovered a
+DNA sample of unknown origin that they believed to be linked to the perpetrator.
+While investigating the assault in October 2013, OPP officers came to the farm
+where Mr. Granger worked seeking to obtain consent samples from all migrant
+workers for comparison against the crime scene sample.[1]
+[6]              
+The police gave Mr. Granger a form to sign. He now understands it was
+likely a consent form. He was not given a copy of the form. The police retained
+the original. However, it is common ground that he signed the standard consent
+form that was in use at the time, and which has been produced in this action.
+[7]              
+The police took Mr. Granger into a van, where they took a buccal swab from
+him (that is, a DNA sample taken by wiping a piece of cotton inside his mouth).
+Samples were also taken from 95 other migrant workers. The samples were
+delivered to the CFS for forensic analysis.
+[8]              
+Subsequently, on November 8, 2013, the CFS reported to the OPP that all
+the migrant workers’ samples were excluded as matches for the crime scene
+sample. The physical DNA samples taken from the migrant workers were destroyed.
+[9]              
+At issue in this case is what happened to the results of the DNA testing,
+not just of the migrant workers, but of all class members who provided consent
+samples for forensic analysis during the class period.
+[10]          
+The definition of the class on whose behalf the plaintiff seeks redress is:
+[11]          
+The certified class originally ended on the date of the certification
+order, without prejudice to the plaintiff bringing a future motion within the
+proceeding to certify an amended class. The class definition was later amended
+to end the class period on April 1, 2022. On this date, the CFS changed its lab
+practices and ceased retaining DNA profiles, except in cases where a reference
+sample is a match to the sample against which it was compared.
+[12]          
+The parties agree that a reasonable estimate of the class size is 7,267
+class members. It is also agreed that this is an underestimate.
+[13]          
+At this juncture, I set out a summary of the CFS’s processes.
+[14]          
+The CFS’s Biology Program Area provides forensic DNA analysis for
+criminal investigations in Ontario. Part of its mandate includes testing
+reference samples for comparison against DNA samples of unknown origin. Reference
+samples may be obtained after an individual signs a consent form, they may be
+seized under warrant, or they may be discarded samples. As I have noted, this
+case focuses on reference samples obtained voluntarily.
+[15]          
+There is no question that the CFS’s services are important to the
+investigation of crimes and the administration of justice. The results of the
+CFS’s testing can lead to the successful identification and prosecution of
+offenders, and they can exonerate people wrongly suspected or convicted of
+crimes.
+[16]          
+The demand for the CFS’s DNA analysis services has ballooned over the
+duration of the class period. Currently, the CFS tests over 25,000 individual
+samples annually, 12% of which are reference samples.
+[17]          
+To enable it to process the volume of testing required, the CFS uses
+highly automated procedures. It tests samples in batches of up to 68. Any given
+batch will contain different kinds of reference samples and the samples
+typically relate to different cases. The CFS describes batch processing as
+“necessary for the CFS to meet the continually increasing demand for forensic
+DNA testing as batching creates efficiencies of scale”.
+[18]          
+Reference samples are submitted by police forces to the CFS for testing.
+The process by which the samples are submitted has changed over the years. Before
+2012, samples were submitted with paper documentation that would often, but not
+always, identify the donor who provided the reference sample by name. After
+2012, the CFS advised police not to include the name of the reference sample
+donor, but rather, to use a “reference sample code.” In addition, the samples
+will typically have a Police Item Number and/or a seal number that identifies
+the item.
+[19]          
+To track samples, the CFS uses a Laboratory Information Management
+System (“LIMS”) that assigns unique numbers to each case and each item of
+evidence. The LIMS is used to record the chain of custody of any given item of
+evidence and to maintain an electronic record of the case and its associated
+items.
+[20]          
+At the risk of stating the obvious, without a tracking system, the CFS
+would not be able to relate the results of its forensic DNA testing back to a
+sample from a particular individual. There would thus be no value in the
+testing process, if law enforcement could not eventually learn if the person
+from whom a sample was obtained was a match, or not, to the DNA profile in
+question.
+[21]          
+Tracking is also necessary for quality assurance and ensuring that the CFS’s
+work is verifiable. Being able to verify its work may be important in cases
+where the results of DNA testing is used in the prosecution of an accused.
+Because CFS does not know in advance which samples will match a DNA sample from
+a crime scene, it must track all samples in the same manner.
+[22]          
+The CFS’s testing process produces two categories of outputs: one physical,
+and one electronic.
+[23]          
+The physical output is called a DNA extract, which is a purified form of
+DNA extracted from the biological sample provided to the CFS for testing. The
+DNA extracts of persons who are excluded as a DNA match to the crime scene sample
+are destroyed. Any unused biological sample (that is, sample remaining after
+the DNA extract has been taken from it) is returned to the police force that
+originally submitted the sample; it is the police force’s responsibility to
+destroy it. This case does not concern physical biological samples or DNA
+extracts. There is no allegation that physical biological samples and DNA
+extracts are not destroyed once a reference sample is excluded.
+[24]          
+The electronic output of the forensic testing is called a DNA profile;
+it is the electronic results of the DNA analysis.
+[25]          
+The DNA profile in question is a 16-locus profile which compares 15
+short tandem repeat (“STR”) loci on the human genome, plus the Amelogenin
+locus, which is an indicator of biological sex. The 15 STR loci are components
+of a commercial test kit designed for identity testing, which uses the 15 STR
+loci because: (i) there is substantial variation at each locus that can be used
+to discriminate between individuals; (ii) the loci are independent, such that
+the results obtained at one locus do not influence the results obtained at any
+of the other loci; and (iii) the same loci are used by forensic laboratories
+throughout North America, and elsewhere in the world, enabling comparison of
+profiles generated in different laboratories. I refer to this type of DNA
+profile as an STR profile.
+[26]          
+An STR profile provides an indication of biological sex, but it does not
+provide specific information regarding an individual’s physical traits, like
+hair or eye colour. It is highly unlikely that two individuals (apart from
+monozygotic twins) would have identical forensic STR profiles. There is debate
+between the parties as to what other information can be gleaned from STR
+profiles. I return to this question in my analysis of the issues.
+[27]          
+ An STR profile is not the only kind of DNA profile that can be
+generated. A second form of genetic variant that is widespread in the human
+genome is a single-nucleotide polymorphism (“SNP”). Each SNP is a locus in the
+human genome at which individuals vary. SNPs are a primary form of genetic
+variability of interest in biomedical genetics, as SNPs show statistical and
+causal connections to various diseases. SNP testing can allow an investigator
+to make inferences or predictions with respect to information including
+physical traits, like hair or eye colour. SNPs are also used in population
+genetics research on relationships among different human populations.
+Commercial ancestry testing companies type individuals for SNP sets. I refer to
+a DNA profile that types SNP loci as a SNP profile. The CFS has not performed
+SNP testing on the reference samples obtained on consent.
+[28]          
+The STR profile the CFS generates is recorded in various formats:
+[29]          
+The end result of the CFS’s forensic analysis — is the reference sample
+a match or not to the sample against which it was compared — is provided to the
+requesting police service, but the police service does not receive a copy of
+the DNA profile of the sample donor.
+[30]          
+The plaintiff alleges that the CFS was required, by both the provisions
+of the Criminal Code, R.S.C. 1985, c. C-46 and the standard consent form,
+to permanently remove the results of its DNA testing of reference samples when
+there was no match. The plaintiff alleges that the CFS failed to do so until
+April 2022, the end date of the class period.
+[31]          
+The plaintiff relies on s. 487.09(3) of the Criminal Code, which
+provides:
+[32]          
+Section 487.01(1)(b) refers to DNA which is collected from a crime scene
+and may belong to a perpetrator of a crime.
+[33]          
+There is no dispute that the reference samples provided by class members
+were samples covered by s. 487.09(3) of the Criminal Code.
+[34]          
+The class members signed standard form consents to provide biological
+samples. The standard form consent was developed in 2005 by the Ministry of the
+Attorney General of Ontario and approved by the Ontario Crown Brief Standards
+Committee. It is a province-wide consent form that police services across the
+provinces are mandated to use by the provincial government. It is the same form
+that Mr. Granger signed. No other standard form consents were produced in this
+litigation.
+[35]          
+The standard form consent to provide biological samples includes a
+paragraph that adverts to the requirements under s. 487.09(3):
+[36]          
+In my analysis of the issues below, I consider the CFS’s procedures in
+greater detail, particularly as they relate to its intake and tracking of
+reference samples. I also review the actions it takes after testing determines that
+a reference sample is not a match, in the context of the Criminal Code
+requirements, consent, and the law relevant to the plaintiff’s claims.
+[37]          
+The certified common issues are set out below. I have re-ordered them to
+reflect the order in which I will address them:
+[38]          
+The plaintiff proffered evidence from two proposed experts, Dr. John S. Waye
+and Dr. Noah Rosenberg. The defendant proffered evidence from one proposed
+expert, Dr. Frederick Bieber. No party objected to the admission of the other
+party’s proposed expert evidence. However, the court retains a gatekeeping role
+and as a result, I must rule upon the admissibility of the proposed expert
+evidence.
+[39]          
+Determining whether to admit expert evidence involves a two-stage analysis.
+In the first stage, there are four threshold requirements that must be
+established: White Burgess Langille Inman v. Abbott and Haliburton Co.,
+2015 SCC 23, [2015] 2 S.C.R. 182, at paras. 19 and 23, citing R. v. Mohan,
+1994 CanLII 80 (SCC), [1994] 2 S.C.R. 9, at pp. 20-25; see also R. v. Abbey,
+2017 ONCA 640, 140 O.R. (3d) 40 (C.A.), at para. 48. These requirements include:
+[40]          
+If the threshold requirements are met, the court moves on to the second
+stage of the analysis. There, the judge, as gatekeeper, determines whether the
+benefits of admitting the evidence outweigh the potential risks. Relevant
+factors include legal relevance, necessity, reliability, and absence of bias.
+[41]          
+I consider each proposed expert in turn.
+[42]          
+Dr. Waye holds a Ph.D. in medical biophysics from the University of
+Toronto. He is board-certified as a clinical molecular geneticist by the
+American Board of Medical Genetics and Genomics. His work experience includes
+holding the position of Molecular Genetics Specialist with the Central Forensic
+Laboratory of the RCMP in Ottawa, where he developed and implemented a forensic
+DNA typing program.
+[43]          
+Since 1990, Dr. Waye has been employed at Hamilton Health Sciences,
+where he currently is the Director of Laboratory Genetics and Head of Service
+for Molecular Diagnostic Genetics. He is a Professor in the Department of
+Pathology and Molecular Medicine at McMaster University.
+[44]          
+Dr. Waye has extensive experience giving evidence as an expert in
+forensic DNA typing, and he has authored or co-authored hundreds of
+publications relating to medical applications of DNA technology and forensic
+DNA profiling.
+[45]          
+Dr. Waye gave affidavit evidence in this proceeding on forensic DNA
+typing including STR profiles and the information that can be gleaned from
+them. He was not cross-examined on his evidence.
+[46]          
+Dr. Rosenberg holds a Ph.D. in Biological Sciences from Stanford University
+and a Postdoc from University of Southern California in Molecular and
+Computational Biology. He is a Professor of Biology at Stanford University
+where he holds the Stanford Professorship in Population Genetics and Society.
+He leads a computational research laboratory at Stanford that investigates
+mathematical and statistical problems in the field of genetics. Among other
+things, the laboratory develops statistics for understanding genetic
+variability among people in problems of anthropological, biomedical,
+evolutionary, and forensic interest.
+[47]          
+Dr. Rosenberg has been widely published in leading scientific journals
+and is a frequent speaker at academic conferences. He has been awarded numerous
+grants and fellowships, has held numerous advisory roles, been involved in many
+reviewing activities, and participates as a member on many PhD committees.
+[48]          
+Dr. Rosenberg’s report and oral evidence focuses on the extent to which
+STR profiles can be matched to SNP profiles, and the implications of the
+possibility of making such matches. This is an area in which Dr. Rosenberg has
+completed research in his laboratory and on which he has published.
+[49]          
+Dr. Bieber holds a Ph.D. in human genetics with a focus on population
+genetics. He completed a post-doctoral research fellowship in Medical Genetics
+at Harvard Medical School. Afterwards, he joined the faculty, where he has
+worked for the past 40 years. Dr. Bieber is also a Medical Geneticist in the
+Center for Advanced Molecular Diagnostics at Brigham and Women’s Hospital. Dr.
+Bieber has a major scholarly focus on DNA-based human identification; his
+research interests focus on statistical aspects of genetic identification,
+interpretation of forensic DNA mixture evidence, and genetic kinship analysis using
+data mining methods including familial searching and forensic genetic genealogy.
+He has worked in these areas for the past 40 years, and in forensic DNA
+analysis for the past 32 years. He is widely published in these areas.
+[50]          
+Dr. Bieber was a member of the first-ever National Commission on
+Forensic Science, having been appointed to the commission by then-U.S. Attorney
+General Eric Holder. He led the team that published the major paper to provide
+guidance to the forensic community on the interpretation of complex DNA
+mixtures. He is in his second term as a member of the U.S. Forensic Science
+Standards Board.
+[51]          
+Dr. Bieber’s report and oral evidence address the basics of DNA
+variation, including STRs and SNPs, the use of DNA typing in criminal
+investigations, the extent to which STR profiles reveal sensitive information
+about a person. He also offers a critique of Dr. Rosenberg’s research on the matching
+that can be made between STR and SNP profiles.
+[52]          
+I am satisfied that the evidence of all three proposed experts is
+relevant and necessary in the context of the issues in this case. They are each
+eminently qualified to give the evidence they have offered. There are no
+exclusionary rules that apply to their evidence. Moreover, the benefits of
+admitting their evidence outweigh any risks associated with the admission of
+expert evidence.
+[53]          
+I qualify Dr. Waye to give evidence on forensic DNA typing.  I qualify
+Dr. Rosenberg to give evidence on forensic DNA typing, and the potential to
+match STR profiles with SNP profiles and the implications of such matching. I
+qualify Dr. Bieber to give evidence on forensic DNA typing and the potential to
+match STR profiles with SNP profiles and the implications of such matching.
+[54]          
+The first issue is whether a DNA profile, such as an STR profile, is a
+“result” within the meaning of s. 487.09(3) of the Criminal Code. Here,
+the issue arises as a component of the plaintiff’s s. 8 Charter argument,
+not because the plaintiff advances a claim in breach of statutory duty.
+[55]          
+Sensibly, the parties agree that a DNA profile is a result within the
+meaning of s. 487.09(3) and the CFS generates results for purposes of s.
+487.09(3). The parties disagree about whether the CFS complies with the
+requirements of s. 487.09(3); this in turn, has implications for the Charter
+arguments before the court.
+[56]          
+The plaintiff alleges that s. 8 was breached at two points in time:
+[57]          
+Section 8 of the Charter provides that “[e]veryone has the right
+to be secure against unreasonable search or seizure.”
+[58]          
+The Supreme Court of Canada has emphasized the need to adopt a purposive
+approach to s. 8 that emphasizes the protection of privacy as a prerequisite to
+individual security, self-fulfillment and autonomy, as well as to the
+maintenance of a thriving democratic society: see R. v. Spencer, 2014
+SCC 43, [2014] 2 S.C.R. 212, at para.15.
+[59]          
+An alleged breach of s. 8 is analyzed through a two-step process. First,
+the court asks if the state has engaged in a search, for constitutional
+purposes. A search falls within the meaning of s. 8 only where state
+examinations constitute an intrusion upon some reasonable privacy interest of
+an individual. It is thus necessary at this stage to ask whether the
+government’s actions engage an individual’s reasonable expectation of privacy: R.
+v. Tessling, 2004 SCC 67, [2004] 3 S.C.R. 432, at para. 18.
+[60]          
+If an individual has a reasonable expectation of privacy in the subject
+matter of the search, s. 8 is engaged. The court then proceeds to the second
+step: determining whether the search is reasonable: R. v. Cole, 2012 SCC
+53, [2012] 3 S.C.R. 34, at para. 36.
+[61]          
+In R. v. Jarvis, the Supreme Court explained that privacy is not
+an “all-or-nothing” concept: the fact that a person does not expect complete
+privacy in the circumstances does not mean they waive all reasonable
+expectations of privacy: 2019 SCC 10, [2019] 1 S.C.R. 488, at para. 61.
+[62]          
+The reasonable expectation of privacy analysis is both a fact-specific
+and normative exercise. It requires conducting a “contextual assessment that
+takes into account the totality of the circumstances”: Jarvis, at para.
+60; R. v. Edwards, 1996 CanLII 255 (SCC), [1996] 1 S.C.R. 128, at para.
+45. “The normative inquiry is broader in nature, with an eye to protecting that
+for which we ought to expect protection from a privacy perspective in a free
+and democratic society”: R. v. El-Azrak, 2023 ONCA 440, 167 O.R. (3d)
+241, at para. 31.
+[63]          
+To assess whether a claimant has a reasonable expectation of privacy in
+the subject matter of the search, the court considers:
+[64]          
+Section 8 protects three broad categories of privacy interests:
+personal, territorial, and informational privacy: Tessling, at para. 20.
+[65]          
+The plaintiff here asserts a personal and informational privacy interest
+in both the physical DNA sample taken from class members’ bodies and the DNA
+profile resulting from the forensic analysis of those samples.
+[66]          
+When characterizing the subject matter of the search, the “Court has
+looked at not only the nature of the precise information sought, but also at
+the nature of the information that it reveals”: R. v. Spencer, 2014 SCC
+43, at para. 26.
+[67]          
+The plaintiff defines the subject matter of the search as the class
+members’ DNA profiles, including the information that can be gleaned from those
+profiles. The defendant argues that the subject matter of the search is narrower;
+it is the retention of anonymized, unused DNA profiles.
+[68]          
+In El-Azrak, at para. 40, the Court of Appeal cautioned that
+determining the subject matter of the search should not take on hypothetical
+dimensions, but it must remain rooted in reality. At para. 38, the court
+endorsed a functional and holistic approach that derives from the actual
+circumstances of the case. “Undoubtedly, this approach requires that we look
+beyond the actual information provided and ask whether, with that information
+in hand, something further is revealed about the individual to whom the
+information relates”: El-Azrak, at para. 38. This requires the court to
+consider the raw data that the state came to possess and “the nature of the
+information that could be inferentially derived from that raw data”: El-Azrak,
+at para. 38.
+[69]          
+The subject matter in this case is the claimants’ DNA profiles. The
+defendants propose what I find to be an artificial separation between the class
+members, their samples, and the resulting DNA profiles. This characterization
+is contrary to the functional and holistic approach set out in El-Razak.
+The class members and their samples are indivisible from the resulting DNA
+profiles. During the initial search and continued seizure, each class member’s DNA
+profile was the information that was sought and subsequently derived from the
+sample.
+[70]          
+In R. v. Dosanjh, the Court stated that “whether an individual
+has a direct interest in the subject matter of a search is not defined by
+whether the subject matter is incriminating or not, but by the degree to which
+the individual has a meaningful connection to the subject matter – for example,
+through participation, authorship, ownership or control”: 2022 ONCA 689, 163
+O.R. (3d) 401, at para. 117.
+[71]          
+It is plain that class members have a direct interest in the subject
+matter of the search; it is their DNA profile. Further, I agree that the nature
+of their privacy interest is both personal and informational.
+[72]          
+Supreme Court of Canada jurisprudence has repeatedly acknowledged the
+potentially significant intrusion that the taking of bodily samples may have on
+an individual’s personal privacy interests.
+[73]          
+Privacy of the person has “the strongest claim to constitutional
+shelter” because it protects bodily integrity: Tessling, at para. 21.
+Case law has recognized that taking bodily samples “can involve significant
+intrusions on an individual’s privacy and human dignity”: R. v. S.A.B.,
+2003 SCC 60, [2003] 2 S.C.R. 678, at paras. 40, 44.
+[74]          
+In R. v. Rodgers, 2006 SCC 15, [2006] 1 S.C.R. 554, a case that
+dealt with the DNA data bank provisions, the Supreme Court of Canada held, at
+para. 25, that “there is no question that the taking of bodily samples for DNA
+analysis without the person’s consent constitutes a seizure within the meaning
+of s. 8 of the Charter.” This is so notwithstanding the Supreme Court’s
+finding that a buccal swab “is quick and not terribly intrusive”: S.A.B.,
+at para. 44.
+[75]          
+The collection and retention of DNA profiles at issue in this case
+raises similar personal privacy interests. There is no collection and retention
+of DNA profiles without an initial intrusion into bodily integrity.
+[76]          
+In Rodgers, at para. 39, the Supreme Court of Canada recognized
+that DNA sampling engages the privacy interests of an individual in two ways.
+First, as I have already noted, it interferes with the bodily integrity of the
+person. Second, “it engages the informational component of privacy”: Rodgers,
+at para. 39. At para. 40, the Court described the informational privacy aspect
+of DNA sampling as “far more significant.” Relying on S.A.B., it held
+that there is “undoubtedly the highest level of personal and private
+information contained in an individual’s DNA”: Rodgers, at para. 40;
+S.A.B., at para. 48. Moreover, “DNA can reveal personal information that
+goes far beyond the identity of the person”: Rodgers, at para. 40.
+[77]          
+In Tessling, at para. 23, the Supreme Court of Canada found that
+informational privacy is the claim of individuals, groups, or institutions to
+determine for themselves when, how, and to what extent information about them
+is communicated to others. The protection of informational privacy is based on
+the assumption that all information about a person is in a fundamental way his
+or her own, to communicate or retain as he or she sees fit: see also Spencer,
+at para. 40.
+[78]          
+The defendant argues that it only retains anonymized DNA STR profiles
+which do not reveal private information that can be linked to anyone, and as
+such, retaining them does not intrude upon any reasonable expectation of privacy.
+This position equates informational privacy with anonymity. While anonymity can
+be an integral part of ensuring privacy, it does not eliminate the claimants’ expectations
+of privacy in this case.
+[79]          
+Here, informational privacy must be understood in the context of control.
+The court in Spencer explained that “[e]ven though the information will
+be communicated and cannot be thought of as secret or confidential, ‘situations
+abound where the reasonable expectations of the individual that the information
+shall remain confidential to the persons to whom, and restricted to the
+purposes for which it is divulged, must be protected’”: at para. 40, citing R.
+v. Duarte, 1990 CanLII 150 (SCC), [1990] 1 S.C.R. 30, at p. 46.
+[80]          
+I find that, in this case, the class members consented to the taking of
+their bodily samples for a specific purpose (that is, to be used in a specific
+criminal investigation), and subject to specific terms about the use of the
+results (if their sample was not a match for the sample against which it was
+tested, the electronic data related to their sample would be permanently
+removed). The specific purpose and conditional nature of the class members’
+consent demonstrates a level of ongoing control and illustrates that they did
+not relinquish their reasonable expectation of privacy.
+[81]          
+The reasonable expectation of privacy analysis is also shaped by factors
+such as the nature and quality of the information at issue: Jarvis, at
+para. 66. Here, the parties disagree about the nature of the information and
+inferences that can be gleaned from STR DNA profiles. This disagreement is the
+focus of the expert evidence called at trial, which I now turn to review.
+[82]          
+The experts who gave evidence in this trial did not
+disagree with one another. Their evidence was largely consistent. I summarize
+the key elements of the evidence:
+[83]          
+From this evidence, I conclude that an STR profile, when compared with
+another, has the potential to reveal one's identity and familial relationships,
+including incestuous ones. An STR profile, when compared with a SNP profile,
+has the potential to reveal matches that would reveal information including
+statistical and causal connections to various diseases, and physical traits.
+[84]          
+In R.v. Jarvis, the court explained that “the privacy
+jurisprudence recognizes the potential threat to privacy occasioned by new and
+evolving technologies more generally and the need to consider the capabilities
+of a technology in assessing whether reasonable expectations of privacy were
+breached by its use”: 2019 SCC 10, [2019] 1 S.C.R. 488, at para. 63. The
+STR-SNP comparison is currently only used in academic contexts, but the
+technique exists. The technique is not merely hypothetical, but it also is not
+sufficiently developed to have a practical application.
+[85]          
+Thus, the STR DNA profile in the hands of the defendant can reveal
+private information, including familial relationships and incestuous
+relationships. STR DNA profiles are also the subject of ongoing scientific
+research that seeks to elicit more information from STR DNA profiles, including
+statistical and causal connections to various diseases and physical traits,
+through matching with SNP profiles of the donor or biological relatives.
+[86]          
+Class members have a significant privacy interest in controlling the deeply
+personal information that can be ascertained from STR DNA profiles. And there
+is a realistic potential that more private information will be discernible from
+the STR DNA profiles in the future.
+[87]          
+I thus conclude that the nature of the class members’ privacy interest
+in the subject matter of the search engages significant privacy interests.
+[88]          
+In R. v. Jones,
+2017 SCC 60, [2017] 2 S.C.R. 696, at paras. 20-21, the Supreme Court of Canada
+discussed what is required for a claimant to have a subjective expectation of
+privacy in the subject matter of the search:
+[89]          
+In Tessling, at para. 42, the Supreme Court cautioned against
+using the absence of a subjective expectation of privacy too quickly to
+undermine the protection afforded by s. 8 to the values of a free and
+democratic society. It noted that “suggestions that a diminished subjective
+expectation of privacy should automatically result in a lowering of
+constitutional protection should therefore be opposed. … Expectation of privacy
+is a normative rather than a descriptive standard.” [Emphasis in original]
+[90]          
+The defendant argues that there is no subjective expectation of privacy
+in the DNA profiles because they are hard to access and only reveal certain
+information that is personal but not private. I disagree.
+[91]          
+I have already reviewed the nature of the privacy interests engaged by
+the class members’ DNA profiles. They can reveal highly private and personal
+information, the breadth of which is likely to expand with ongoing scientific
+developments.
+[92]          
+Moreover, in my view, the defendant’s argument is inconsistent with the
+normative nature of the s. 8 inquiry.
+[93]          
+As noted above, the claimants provided a sample for a specific purpose
+and subject to restrictions surrounding its use and retention. Their subjective
+expectation of privacy can be inferred from the fact that the sharing of the
+information was subject to these terms.
+[94]          
+In my view, the class members’ subjective expectation of privacy in their
+STR DNA profile is objectively reasonable in the totality of the circumstances.
+Even if I accepted the defendant’s characterization of the subject matter of
+the search as anonymized DNA profiles, I would find that this reduces, but does
+not negate, the class members’ expectation of privacy. DNA has the potential to
+reveal much about its donor based on current science. Even STR profiles, which
+provide more limited information than SNP profiles, can reveal highly private
+information, like biological familial relationships, including incestuous ones.
+[95]          
+The fact that ongoing research seeks to expand what we can learn from
+DNA, including STR profiles, also demonstrates that subjective privacy concerns
+about retention of DNA profiles, and what may be done with them in the future, are
+objectively reasonable.
+[96]          
+The privacy concerns regarding DNA profiles are reflected in s.
+487.09(3) of the Criminal Code and in the standard consent form signed
+by class members. It is objectively reasonable to assume that the police forces
+which take the bodily sample, and the government institutions that develop DNA
+profiles, will abide by the Criminal Code provision and the terms of the
+consent form: see Spencer, at para. 54, where the court noted that
+contractual and statutory frameworks may be relevant to an individual’s
+reasonable expectation of privacy.
+[97]          
+I find that the claimants have a reasonable expectation of privacy in
+their DNA profiles.
+[98]          
+The parties in this case argue about the validity of the consent signed
+by the class members. They raise the validity of the consent in the context of
+the second branch of the test, that is, whether the search was reasonable.
+[99]          
+In my view, the validity of the consent is more appropriately considered
+at this juncture in the analysis. Valid consent does not
+render a search reasonable; instead, consent acts as a waiver of  a claimant’s
+reasonable expectation of privacy, such that there would be no seizure if there
+is a valid consent: R. v. Borden, 1994 CanLII 63 (SCC), [1994] 3 S.C.R.
+145, R. v. Paul, 2004 CanLII 28946 (ON SC); R. v. Angou, 2021
+ONSC 7446; R. v. Wills, 1992 CanLII 2780 (ON CA), 7 O.R. (3d) 337.
+[100]       Before
+assessing the validity of the consent in this case, I first determine whose
+burden it is to prove whether or not the consent is valid.
+[101]       In
+considering the validity of the consent given to take DNA samples and develop
+and retain DNA profiles, the first issue that arises is who bears the burden of
+proof. The plaintiff argues that the defendant must prove that the DNA
+collection and retention of profiles was consensual. The defendant argues that
+he who asserts must prove, so the plaintiff bears the onus of proving that the
+consent was not informed and is thus ineffective.
+[102]       A
+warrantless search is presumptively unreasonable under s. 8 of the Charter.
+In criminal proceedings, where an applicant establishes standing and a
+warrantless search or seizure, the presumption of unreasonableness arises and
+the Crown must rebut it: Spencer, at para. 68; R. v. Marakah, 2017
+SCC 59, [2017] 2 S.C.R. 608, at para. 55.
+[103]       Is
+the burden different in civil proceedings? In Young v. Ewatski, 2012
+MBCA 64, 351 D.L.R. (4th) 81, the Manitoba Court of Appeal considered a civil
+claim for damages in which a plaintiff alleged that the defendant police
+service members breached her s. 8 Charter rights by conducting a
+warrantless and unreasonable search of her home. The defendants argued that the
+search was not unreasonable, because the plaintiff’s adult daughter had
+consented to the search.
+[104]       The
+Manitoba Court of Appeal observed, at para. 50, that the case raised the issue
+of which party had the burden of proving consent. It noted that consent in the
+context of an alleged Charter breach “almost always arises in the
+context of criminal cases.” It then went on to consider how the burden of proof
+ought to be applied when the question of a s. 8 breach arises in a civil case.
+[105]       The
+court noted that the purpose of s. 8 is to protect individuals from unjustified
+state intrusions upon their privacy; it seeks to prevent unjustified searches
+before they happen by employing a system of prior authorization, not subsequent
+validation: Young, at para. 51.
+[106]       Therefore,
+“it would be unwieldy to require that a plaintiff negative every possible
+justification, not to mention the difficulty of proving a negative, that is,
+that each justification did not apply”: Young, at para. 55. The court
+went on, at para. 56, to find that:
+[107]       The
+Manitoba Court of Appeal thus concluded that once the plaintiff has proven that
+there was a warrantless search, the burden of proof shifts to the defendant as
+part of its defence to a civil claim alleging a breach of the plaintiff’s Charter
+rights.[2]
+[108]       For
+its part, the defendant relies on Halton (Regional Municipality) v. Canadian
+National Railway Company, 2024 ONCA 174. In this case, the defendant
+railway was in the process of constructing an “intermodal hub” in the town of
+Milton, Ontario. This project was affecting local residents adversely, and
+concerns were raised about the disruptive nature of the project, its demands on
+local infrastructure, and its environmental impact. The railway denied that it
+required approval of local authorities on the basis that it was a federal
+undertaking.
+[109]       The
+Municipality of Halton brought an application for declarations and injunctions
+to the effect that the defendant railway company was obligated to seek and
+obtain requisite approvals under provincial laws, regulations and municipal
+by-laws. The question as to who bore the burden of proof arose.
+[110]       Before
+the Court of Appeal, the appellant municipality argued that the onus of proof
+belonged with the railway, because ordinarily applications for declarations
+relating to interjurisdictional immunity or paramountcy are launched by a
+proponent of a federal undertaking, as the party challenging the constitutional
+validity of an impugned law. The railway, however, left the municipality no
+choice but to initiate the application on issues that, according to the
+municipality, the railway bore the burden of proving.
+[111]       The
+Court of Appeal concluded that the municipality’s reasoning was “misconceived,”
+finding that it was “trite law that the party seeking declaratory relief bears
+the burden of establishing that prerequisites to such relief are satisfied.”
+Because the municipality sought the declaration, it fell to it to discharge the
+burden of establishing the factual record supporting its claim that the
+declarations it sought should be made: Halton, at paras. 103-104.
+[112]       I
+see no inconsistency between the decisions in Halton and in Young.
+The plaintiff bears the burden of establishing his claim. He must prove a
+reasonable expectation of privacy. In the case of a warrantless search, once he
+has done so, for the reasons described in Young, the onus shifts to the
+defendant to prove the consent was valid. I turn next to consider whether the
+defendant has discharged its onus.
+[113]       For
+a consent to a seizure of bodily materials to be valid, it must have six
+characteristics, described by the Ontario Court of Appeal in Wills:
+[114]       The
+last of these conditions requires that the giver of the consent have a general
+understanding of the jeopardy in which he found himself, and an appreciation of
+the consequence of deciding for or against giving the consent. “The person
+whose consent is sought must understand that if the consent is given the police
+may use any material retrieved by them in a subsequent prosecution”: Wills.
+[115]       In
+R v. Borden, 1994 CanLII 63 (SCC), [1994] 3 S.C.R. 145, the Supreme Court of Canada held, at
+p. 162, that the waiver of the right to be secure against an unreasonable
+seizure can only be effective when “the person purporting to consent must be
+possessed of the requisite informational foundation for a true relinquishment
+of the right. A right to choose requires not only the volition to prefer one
+option over another, but also sufficient available information to make the
+preference meaningful.”
+[116]       In
+this case, the fourth and sixth elements of valid consent are at issue. The
+plaintiff argues that the consent has been vitiated by the fact that it does
+not disclose that the defendant retains DNA profiles.
+[117]       In
+arguing that the consent is valid, the defendant focuses principally on the
+sixth element. It argues that there is no evidence to suggest that the class
+members did not understand the kind of jeopardy they were in when they gave the
+samples to the police. It argues that its retention of anonymized DNA profiles
+is not material to the provision of consent. It cites cases like R. v. Karas,
+1007 ABCA 362, R. v. Arp, 1998 CanLII 769 (SCC), [1998] 3 S.C.R. 339, R. v. Yu, 2019
+ONCA 942 and R. v. Belbin, 2015 ONSC 5346 to argue that consent, once
+validly given, does not constrain the use that may be made of the sample or the
+results of its analysis, and that consents obtained after police lied or failed
+to disclose facts to the donor remain valid as long as the individuals giving
+the consents understood the legal jeopardy they were facing.
+[118]       The
+defendant’s argument is persuasive, as far as it goes. It speaks to the
+question of what the giver of consent needs to know about the consequences of
+the consent to validly give consent, that is, the sixth element. But it does
+not speak to the fourth element of a valid consent, that is, that the giver of
+consent was aware of the nature of the police conduct to which he or she was
+being asked to consent.
+[119]       The
+consent describes the conduct to which the class members consented. It explains
+that it will allow authorities to take a biological sample from them, to
+conduct such analysis as deemed appropriate by the authorities, including DNA
+testing. There is no question that the consent is accurate in this respect.
+[120]       But
+then it states “[t]he Criminal Code says that samples of bodily substances
+voluntarily given shall be destroyed and electronic data related to those
+samples will be permanently removed once it is determined that the bodily
+substance does not match to the crime under investigation.”
+[121]       The
+clear inference from this paragraph is that once it is determined that the
+reference sample is not a match, the defendant and the police will do what the Criminal
+Code says that they shall do: (i) destroy the samples of bodily substances
+(which they do); and (ii) permanently remove the electronic data related to
+those samples.
+[122]       In
+my view, the consent is limited to the conduct described therein. That conduct
+includes that authorities will permanently remove the electronic data related
+to the donor’s sample if it is not a match for the sample against which it is
+tested.
+[123]       If
+the electronic data related to the samples is not permanently removed once the
+sample is determined not to be a match, the consent has misinformed the class
+members about the nature of the conduct of the authorities at issue.
+[124]       Given
+the current and expanding amount of information DNA profiles offer, what
+happens to the DNA profile after it is excluded as a match is a material part
+of the conduct that the donor is consenting to.
+[125]       It
+follows that the consent to take the bodily sample is only valid if the consent
+accurately indicates that electronic data related to the donor’s sample will be
+permanently removed once the sample is excluded as a match. If, at the time
+consent is obtained, the defendant did not actually intend to take action that
+would permanently remove the electronic data if the sample is excluded, the
+consent to take the bodily sample is invalid from the outset, because the form
+misrepresents a material aspect of the conduct of the authorities.
+[126]       I
+turn next to consider whether the defendant in fact permanently removed the
+electronic data related to the class members’ samples after they were excluded
+as a match.
+[127]       The defendant submits that the consent is not vitiated because it
+complied with the terms of the consent by anonymizing the profiles of the class
+members. This argument rests upon the premise that by de-linking the identity
+of the donor from the DNA profile, it has complied with its obligation to
+permanently remove the results of the DNA testing.
+[128]       The
+consent form does not use the word “anonymized.” It tells potential signatories
+that one thing will happen to their electronic DNA profiles: permanent
+removal.
+[129]       In
+my view, anonymization is not equivalent to permanent removal or destruction.
+The following review of the defendant’s anonymization processes illustrates
+this point. Although doing so would be unethical and difficult, it is possible
+to re-link the DNA profiles.
+[130]       There is a great deal of evidence in the record about the
+defendant’s processes, and how they have changed over time. I describe some of
+it earlier in these reasons. I do not describe it all in these reasons; further
+detail can be found in the affidavits of Mr. Laird, the defendant’s
+representative. The core dispute between the parties is not what the defendant
+does, but whether its practice is sufficient.
+[131]       In
+evaluating the claim that the profiles are anonymized, or
+de-linked, from the identity of the donor, the following facts are noteworthy:
+[132]       As
+of April 1, 2022, the CFS has adopted a new process. It now destroys and
+deletes all copies of all DNA profiles, from consent and warrant donors,
+whether or not they are excluded as a match to the unknown sample. The only
+profiles it retains are hard copies of non-excluded profiles.
+[133]      
+From this review, I conclude that the CFS made
+efforts to anonymize the DNA profiles in its possession and did so based on the
+belief that this would suffice to meet its obligation to permanently remove the
+results of the DNA analysis. I accept that it is possible to relink the DNA
+profiles the CFS retained with the identity of the consent donor; doing so would
+require at least one CFS employee and one police services employee to act
+improperly and outside the scope of their duties. I acknowledge that there is
+no evidence this has ever occurred. The defendant has made it very difficult
+and unlikely that a donor’s identity can or will be relinked to the DNA
+profile, but it is not impossible to do so, and the necessary information
+resides with state entities. Thus, the DNA profile cannot truly be described as
+anonymized.
+[134]      
+I note also that anonymizing the DNA profiles,
+to whatever extent they were anonymized, is not the same thing as permanently
+removing access to the profiles. Until April 1, 2022, the defendant did not
+take all possible steps to permanently remove the DNA results of excluded
+donors in its possession, and since then, has only done so prospectively.
+[135]       The
+consents given up to April 1, 2022 are thus invalid, both at the time the
+bodily samples were taken, and during the time period when the DNA profiles
+continued to be retained after they were excluded as a match. The class members
+were misinformed about a material aspect of the authorities’ conduct: the
+results of the class members’ DNA testing were not permanently removed, but
+only mostly anonymized. The defendants did not comply with s. 487.09(3) of the Code
+or the terms of the consent.
+[136]       I
+thus find that the class members’ have established a reasonable expectation of
+privacy in the subject matter of the search, and that expectation is not
+vitiated or waived by reason of the consent. I thus turn to the second branch
+of the test: whether the search and continued seizure are reasonable.
+[137]       For
+a search to be reasonable: (i) it must be authorized by law; (ii) the law itself
+must be reasonable; and (iii) the manner in which the search was carried out
+must be reasonable: Rodgers, at para. 25.
+[138]       In
+this case the search and seizures were performed without a warrant, and it was
+not argued that they were authorized by law. The parties argued that the reasonableness
+of the seizure, search, and continued retention of the DNA profiles depends on
+the validity of the consent given by the donors.
+[139]       As
+the Court of Appeal held in Wills, in the absence of valid consent,
+taking and testing the class members’ DNA constitutes a search and seizure.  Where
+the defendant relies exclusively on consent to justify a seizure and the
+consent is found to be invalid, “the reasonableness of the seizure must be
+addressed from the premise that the seizure was not authorized by law”: Wills.
+[140]       The
+defendant does not seek to rely upon s. 487.09(3) to establish that the search
+was authorized by law, nor is there a warrant. Both parties agree that the lawfulness
+of the initial seizure and subsequent search for the purpose of excluding the
+donor, turns solely upon whether informed consent was given.
+[141]       Because
+I concluded the requisite consent was not obtained and the class members have
+an expectation of privacy, there was an unlawful seizure of the sample and
+search of the DNA profile. This conduct was unreasonable because it was not
+authorized by a warrant or law. It thus constitutes a breach of s. 8 of the Charter.
+[142]       I
+have already determined that the defendant did not comply with the terms of the
+consent; namely, that it was required to permanently remove the class members’
+electronic DNA profiles once they were excluded as a match. The class members
+did not provide informed consent to the CFS to retain their electronic DNA
+profiles. In the circumstances of this case, they had a reasonable expectation
+of privacy in their DNA profiles and thus the retention was a continued seizure.
+This seizure was not authorized by law or permitted by a warrant and is
+therefore contrary to s. 8.
+[143]       Neither
+the initial seizure and search nor the continued seizure were reasonable. Both Charter
+breaches are therefore established.
+[144]       Because
+this question is identified as a common issue to be determined at trial, I
+address it briefly.
+[145]       Because
+no one challenged the reasonableness of any statutory provision, there is no
+limit “prescribed by law” to evaluate in this case. The s. 1 analysis has no
+application.
+[146]       In
+any event, the analysis of s. 8 already includes a reasonableness component;
+therefore, it is only in exceptional cases that a breach of s. 8 can be saved
+under s. 1: R. v. Fink, 2002 SCC 61, [2002] 3 S.C.R. 209, at para. 46. I
+have already described why the defendant’s conduct was not reasonable.
+[147]       The
+defendant made no oral submissions on the limitation period argument and relied
+solely on its written argument. In its factum, the defendant argues that the
+basic limitation period of two years set out in the Limitations Act, 2002,
+S.O. 2002, c. 24, Schedule B (the “Limitations Act”) is
+applicable to the claims of all class members. The claim was commenced on
+September 14, 2018. The defendant submits that all claims prior to September
+14, 2016, including that of the representative plaintiff, are prima facie barred.
+This position applies to both the Charter claim and the claim of
+intrusion upon seclusion.
+[148]       I
+am asked to determine what limitation period applies to the claims advanced in
+this action.
+[149]       The
+plaintiff argues that there is no limitation period issue because the claim
+addresses ongoing wrongs that continued after the date the action was
+commenced. In response, the defendant submits that “this case does not involve
+the type of conduct that constitutes a continuing cause of action within the
+meaning of the [Limitations Act]”.
+[150]       The
+defendant cites Tyszko v. St. Catharines (City) for the proposition that
+a continuing cause of action is one in which the alleged wrongful act or
+omission is repeated, not where the alleged wrong occurred once and has
+continuing effects or consequences: 2023 ONSC 2892, at paras. 43, 46.
+[151]       The
+defendant’s argument is initially attractive, but it ignores the fact that this
+was not a one-time error. Rather, the defendant adopted and employed a process
+for managing records for years that did not result in the permanent deletion of
+electronic records related to class members’ DNA profiles. This practice directly
+contradicted the one thing class members were told about how their records
+would be treated.
+[152]       Moreover,
+the facts here suggest not so much a single negligent act (or omission), as was
+at issue in Tyszko, but the continual repetition of an unconstitutional
+process and an ongoing failure to permanently delete the records. I am
+satisfied that there was an ongoing wrong.
+[153]       If
+I am wrong that the wrongdoing was ongoing, I would still conclude that the
+limitation period has not expired. I accept the plaintiff’s argument that class
+members were unable to discover their claim.
+[154]       The
+evidence indicates that, at least as of 2005, class members were told in the
+consent form they signed that forensic results related to their DNA produced in
+electronic format would be permanently removed. There is no evidence that the
+class members (including those whose samples were taken before the consent form
+came into use) had any way of knowing that the electronic results related to
+their DNA profiles had not been permanently removed. Nor is there any reason to
+suppose they could have had access to that information.
+[155]       The
+parties have also raised the ultimate limitation period in s. 15(1), prescribed
+at 15 years by s. 15(2). This action was commenced on September 14, 2018, but
+the class period commences in 2000. Therefore, some class members may be
+affected by the ultimate limitation period.
+[156]       Under
+s. 15(4), the ultimate limitation period does not run during any time in which
+the defendant willfully concealed from the class the fact that the injury, loss
+or damage has occurred, or that it was caused or contributed to by the
+defendant’s act or omission.
+[157]       The
+defendant argues that the plaintiff has failed to prove facts amounting to
+wilful concealment under s 15(4) of the Limitations Act, 2002, but has
+offered no law interpreting that section.
+[158]       The
+plaintiff argues that the effect of the consent form was to wilfully conceal
+that the electronic results would not be permanently removed. The consent form
+told the class members who signed it that something different would be done
+with the electronic DNA profiles obtained from their samples than what actually
+occurred.
+[159]       The
+problem with this argument is that the evidence indicates that the consent
+forms came into use in 2005. Anyone who signed a consent form in 2005 or after is
+not affected by the ultimate limitation period anyway.
+[160]       There
+is no evidence in the record about the information given to class members who
+consented to providing reference samples before 2005.
+[161]       I
+thus have no evidentiary basis to draw conclusions about the application of the
+ultimate limitation period to the class members who might be affected by it.
+The defendant is the party most likely to be able to offer evidence about what information
+its standard operating protocol provided donors before 2005, or if a standard
+protocol existed at that time. It has offered no evidence on the subject. Nor
+has the plaintiff delivered evidence regarding this information from a class
+member who gave a sample on consent prior to 2005, before the consent form was
+developed.
+[162]       I
+note that the Criminal Code provision at issue was enacted in 1995 and
+would have applied to police services and the defendant throughout the class
+period. It is therefore likely that consent donors who gave reference samples
+prior to the creation of the consent form were told that their DNA profiles
+would be treated as required by the Criminal Code.
+[163]       No
+one argued that consent donors who provided reference samples before the introduction
+of the consent form should be treated differently from signatories of the form.
+As a result, I conclude that the parties agree that my findings are equally applicable
+to those who provided consent samples prior to 2005, notwithstanding that no
+consent form was signed.
+[164]       If
+I am incorrect and there is no such agreement, the parties may contact me to
+determine next steps to address it.
+[165]       The
+elements of intrusion upon seclusion were set out by the Ontario Court of
+Appeal in Jones v. Tsige, 2012 ONCA 32, 108 O.R. (3d) 241, at paras.
+70-71, and described again more recently in Owsianik v. Equifax Canada Co.,
+2022 ONCA 813, 164 O.R. (3d) 497, at para. 54, as:
+[166]       In
+Jones, the Court of Appeal discussed the limits of the tort:
+[167]       Subsequent
+decisions addressing the tort reveal that courts have been careful not to
+expand the reach of the tort: see, for example, Winder v. Marriott
+International, Inc., 2022 ONSC 390, at paras. 13-14, where Perell J. noted
+the narrow ambit for the tort of intrusion on seclusion; see also Stewart v.
+Demme, 2022 ONSC 1790 (Div. Ct.), 81 C.C.L.T. (4th) 64.
+[168]       In
+my view, the tort of intrusion upon seclusion is not available in this case. I
+do not accept the plaintiff’s argument that the defendant has acted
+intentionally or recklessly.
+[169]       In
+Equifax, at para. 59, the Court of Appeal discussed the prohibited state
+of mind, and found that it must relate to the doing of the prohibited conduct:
+[170]       In
+this case, the evidence reveals that the defendant developed a process to
+manage the DNA results that was intended to comply with s. 487.09(3) of the Criminal
+Code. Before this court, the defendant continued to insist that it had
+complied with the requirements of the provision.
+[171]       The
+process employed by the defendant to determine how to comply with the provision
+included consultation with others in the forensic DNA community. The defendant
+has made changes to its process over time, as technology changed, and perhaps also
+in response to this litigation.
+[172]       In
+my view, the defendant made good faith efforts to comply with the statutory
+requirements, in the context of the changing technological environment. It also
+faced pressures such as technological limitations and the growing demand for
+forensic DNA analysis. I have found that the process that it adopted was not
+satisfactory, but adopting an unsatisfactory process in a good faith effort to
+comply with the law does not amount to conduct that intentionally intruded or
+invaded upon the class members’ affairs.
+[173]       Nor
+can I describe the defendant’s actions as reckless. Recklessness “refers to the
+realization at the time the prohibited conduct is being done that there is a
+risk that the conduct will intrude upon the privacy of the plaintiffs, coupled
+with a determination to nonetheless proceed with that conduct”: Equifax,
+at para. 60. Here, the defendant’s conduct was undertaken to try not to intrude
+upon the privacy of the class members. It fell short and the defendant was
+wrong about the adequacy of the process it adopted, but it was not reckless.
+[174]       I
+dismiss the plaintiff’s claim for intrusion upon seclusion.
+[175]       The
+plaintiff seeks aggregate Charter damages in the amount of $5,000 per
+class member. The defendant argues that if damages are awarded, they should be
+no more than $250 per class member.
+[176]       Damages
+under s. 24(1) of the Charter were considered by the Supreme Court of
+Canada in Vancouver (City) v. Ward, 2010 SCC 27, [2010] 2 S.C.R. 28. Ward holds that a
+functional approach to Charter damages is necessary and finds that they
+are appropriate and just to the extent they serve a useful function or purpose.
+The purposes that an award of damages under s. 24(1) may serve are
+identified in Ward, at para. 25, as: (i) compensation; (ii) vindication; and (iii) deterrence.
+[177]       Compensation is normally the most prominent of
+the three functions that Charter damages may
+serve; it focuses on the claimant’s personal, physical, psychological, and
+pecuniary loss. Vindication focuses on the harm the infringement causes
+society. Deterrence seeks to regulate government behaviour, by influencing it
+to secure state compliance with the Charter in the
+future: Ward, at paras. 27-29.
+[178]       However,
+in many cases a breach of Charter rights can be sufficiently addressed
+through a declaration: Ward, at para. 37:
+[179]       The
+Supreme Court of Canada articulated a four-part test in Ward for when Charter
+damages may be available, at para. 4:
+[180]       The
+first step in the inquiry has already been established; I have found two breaches
+of s. 8 of the Charter.
+[181]       The
+next question is whether damages are a just and appropriate remedy, having
+regard to the function they would fulfil. The plaintiff argues that Charter damages
+will compensate, vindicate and deter in this case. The defendant disputes that
+damages are necessary to achieve any legitimate function.
+[182]       Taking
+compensation first, the plaintiff argues that compensation extends to
+intangible losses, citing Kent Roach, “A Promising Late Spring for Charter
+Damages: Ward v. Vancouver” (2011) 29 Nat’l J. Const. Law 135 at pp. 145-155. The
+plaintiff argues that the intrusion into class members’ bodily autonomy and
+informational privacy was serious and harmed class members’ intangible
+interests. He relies on the evidence of Dr. Waye and Dr. Rosenberg that
+significant and sensitive information can be gleaned from STR profiles,
+including ethnicity and sensitive familial relationships. He describes the
+privacy invasion as significant.
+[183]       I
+do not accept this argument.[3]
+There is no evidence in the record of compensable loss. There is no evidence that
+the STR profiles of the class members were accessed after they were excluded as
+a match, let alone misused. There is no evidence that any concern the class
+members had about the retention of their STR profiles caused any compensable
+damage.
+[184]       The
+plaintiff also argues that vindication and deterrence are required in this case
+to reflect the fact that the defendant broke its bargain with the class to
+permanently remove the results of the analysis of their DNA, contrary to the Criminal
+Code. He submits that this breach undermines the administration of justice
+at large and the public’s ability to trust police, and therefore the public’s
+inclination to voluntarily assist police.
+[185]       In
+support of this argument, the plaintiff notes that, in 2016, the Office of the
+Independent Police Review Director (“OIPRD”) released a report entitled
+“Casting the Net.” This report reviewed the DNA canvas that involved
+participants such as Mr. Granger and concluded that the canvas was overbroad
+because it targeted all migrant workers of colour in the area, including those
+who did not match the physical characteristics of the perpetrator. Relevant
+recommendations made in the report included:
+[186]       There
+is no evidence that any of these recommendations were acted upon.
+[187]       The
+plaintiff argues that these factors demonstrate the need for deterrence and
+vindication.
+[188]       In
+contrast, the CFS argues that it has acted in good faith to protect privacy
+interests and abide by s. 487.09. It characterizes any breach as a technical
+one since there is no evidence of improper use of the DNA results. The CFS
+argues that the OIPRD report did not raise the same issues as the plaintiff in
+this proceeding; instead, it was geared towards the particular DNA canvas that
+the plaintiff participated in and did not investigate the defendant’s
+practices. In any event, the defendant claims Ontario has implemented recommendations
+made by the OIPRD. It relies on a February 2023 document produced by the
+Ministry of the Solicitor General that sets out guidance for conducting mass
+DNA canvasses and provides a new standard consent form in light of the OIPRD
+report.
+[189]       The
+CFS argues that the criticism about its retention of records related to the
+clarity of its retention policies, as opposed to a violation of s. 487.09(3). In
+my view, the distance the defendant is trying to create between the
+recommendation and the retention of records is not supported by the text of the
+actual recommendation:
+[190]       There
+is no evidence that the defendant did anything in response to this
+recommendation.
+[191]       In
+these circumstances, I find that an award of Charter damages would serve
+the purposes of vindicating the class members’ Charter rights and deterring
+future breaches.
+[192]       The
+next step in the assessment of damages is to consider whether there are any
+countervailing concerns. The defendant argues that its conduct does not meet an
+elevated fault threshold; it acted in good faith to comply with s. 487.09 and
+to protect privacy interests. It submits that the imposition of Charter damages
+for making a good faith error would deter effective governance at the CFS and similar
+institutions.
+[193]       In
+Ward, the Supreme Court of Canada held that in some cases, an award of Charter
+damages may interfere with good governance such that they should not be
+awarded unless the state conduct meets a minimum threshold of gravity. “The
+rule of law would be undermined if governments were deterred from enforcing the
+law by the possibility of future damage awards in the event the law was, at
+some future date, to be declared invalid”: Ward, at para. 39.
+[194]       The
+defendant argues that good governance concerns also apply where government
+policies, which precipitated unconstitutional actions, can be sufficiently
+connected to statutory provisions: Francis v. Ontario, 2021 ONCA 197,
+154 O.R. (3d) 498, at para. 92. It argues that its role of providing forensic
+DNA services and retention of DNA profiles is connected to the Executive
+Council Act. It operates under a 1979 Order in Council which provides that
+its functions include producing legally admissible evidence through scientific
+examination to assist with the “just and effective enforcement of the law.”
+Thus, it argues that its policies and action further the duty assigned by the Executive
+Council Act.
+[195]       The
+plaintiff argues that good governance concerns do not apply and an award of Charter
+damages would have no impact on the CFS’s effective governance. In his
+view, the defendant has demonstrated that it is possible to abandon its prior
+practices which failed to comply with s. 487.09(3) of the Criminal Code.
+[196]       I
+am satisfied that there is a sufficient nexus between the CFS and the Executive
+Council Act that good governance concerns may be engaged in this case.  I
+do not, however, accept that good governance concerns negate the
+appropriateness of s. 24(1) damages or necessitate an elevated level of fault.
+I note that the Supreme Court of Canada in Ward, at para. 38, discussed
+the interplay between the purpose of Charter damages and good governance
+concerns:
+[197]        In
+Ward, citing its earlier decision in Mackin v. New Brunswick
+(Minister of Finance), 2002 SCC 13, [2002] 1 S.C.R. 405, the Court
+recognized that the state must be afforded some immunity from liability for
+damages resulting from the conduct of certain functions that only the state can
+perform. It identified legislative and policy-making functions as one such area:
+Ward, at para. 40.
+[198]       The
+actions at issue here are a long way from legislative and policy-making
+functions. The defendant’s conduct was, in fact, at odds with the legislative
+direction. In my view, good governance concerns in this case require an award
+of damages for purposes of vindication, deterrence, and to promote good governance.
+They do not raise concerns that a damages award is not appropriate.
+[199]       Nor
+do I accept that a declaration would suffice in this case. The parties advised
+me that they do not seek forms of relief such as requiring the defendant to
+permanently remove the remaining STR profiles of the class members. I am
+advised this is because it would be virtually impossible to do so; the breach
+of the Charter will thus continue. In these circumstances, a declaration
+that there is an ongoing breach of Charter rights is performative. In my
+view, issuing a declaration about an ongoing breach that cannot be rectified
+does not provide sufficient deterrence of future Charter breaches. Nor would
+such a declaration meaningfully vindicate the rights of the class members.
+[200]       The
+last step in the analysis of Charter damages is to ascertain the
+appropriate quantum. In Ward, the Supreme Court of Canada found that,
+where the objectives of Charter damages are vindication and deterrence,
+making the appropriate determination of quantum is “an exercise in rationality
+and proportionality,” and will be guided by precedent: Ward, at para.
+51.
+[201]       Factors
+that are relevant to quantum include the seriousness of the breach, having
+regard to the objects of s. 24(1) damages, the impact of the breach on the
+claimant, and the seriousness of the state misconduct. Damages must be
+appropriate and just to both the claimant and the state.
+[202]       The
+plaintiff has offered examples of Charter damages in other cases. Of
+these, I find Stewart v. Toronto (Police Services Board), 2020 ONCA 255,
+to be the most useful. In Stewart, the plaintiff was refused entry to
+Allan Gardens during the G20 protests in Toronto, and his backpack was searched
+in violation of s. 8 of the Charter. The breach lasted several minutes.
+The plaintiff was awarded $500 in damages. While the duration of the breaches
+in this case is markedly different than in Stewart, the actual harm
+suffered by the class members is similar. The facts in Stewart are
+closer than in those other cases cited by the plaintiff that involve, for
+example, administrative segregation in correctional institutions.
+[203]       Taking
+into consideration the fact that: (i) the Charter breach will never be
+rectified in this case, (ii) no actual harm to the class members has been
+established, but (iii) that there is a need for deterrence and vindication of
+the class members’ Charter rights, I am of the view that Charter damages
+of $1,000 per class member is appropriate and just.
+[204]       I
+now turn to consider whether those damages can be awarded on an aggregate
+basis.
+[205]       Under
+the Class Proceedings Act, 1992, S.O. 1992, c. 6, s. 24(1) (“CPA”),
+the court may determine the aggregate of a defendant’s liability to class
+members where (i) monetary relief is claimed; (ii) no questions of fact or law
+other than those relating to the assessment of monetary relief remain to be
+determined in order to establish the amount of the defendant’s monetary
+liability; and (iii) the aggregate or a part of the defendant’s liability to
+some or all class members can reasonably be determined without proof by individual
+class members.
+[206]       In
+Ramdath v. George Brown College, 2014 ONSC 3066, 375 D.L.R. (4th) 488, at
+para. 42, the court found that, in class proceedings, aggregate damages should
+be more routine than exceptional. It noted the requirement in the CPA
+that aggregate damages can be reasonably determined, at paras. 43-44:
+[207]       I
+accept the plaintiff’s argument that the common conduct of the defendant in
+retaining DNA profiles provides the foundation for an aggregate award of s. 8 Charter
+damages. In addition, there is evidence in the record of the minimum class
+size to allow for a determination of the defendant’s liability.
+[208]       I
+note that the plaintiff seeks a direction that the defendant confirm the true
+class size given the current figure in the record is an underestimate. In my
+view, that is not required. The evidence does not suggest that the estimate is materially
+off. Further, it is rare that a class action sees a 100% take-up rate (if ever).
+I am more concerned about the disproportionate expenditure of resources to try
+to get a more accurate measurement of class size. As noted, the jurisprudence
+recognizes that aggregate damages awards strive for what is reasonable, not
+what is accurate. Accordingly, I decline to make the direction the plaintiff
+seeks.
+[209]       In
+conclusion, based on a minimum class size of 7,267, and a damages award of
+$1,000 per class member, the aggregate damages for which the defendant is
+responsible for totals $7,267,000.
+[210]       The
+last common issue for determination is whether an award of punitive damages is
+required.
+[211]       Punitive
+damages are awarded where a defendant has engaged in “high-handed, malicious,
+arbitrary or highly reprehensible misconduct that departs to a marked degree from
+ordinary standards of decent behaviour”: Whiten v. Pilot Insurance Co.,
+2002 SCC 18, [2002] 1 S.C.R. 595, at para. 94.
+[212]       To
+award punitive damages, the plaintiff must satisfy the court that the
+defendant’s misconduct would otherwise go unpunished, and that “other penalties
+are, or are likely to be, inadequate to achieve the objectives of retribution,
+deterrence and denunciation”: Whiten, at para. 94. See also Strudwick
+v. Applied Consumer & Clinical Evaluations Inc., 2016 ONCA 520, 349 O.A.C.
+360, at para. 113, where the Court of Appeal found that “[w]hat justifies
+punitive damages ultimately is the conclusion, in exceptional cases, that
+compensatory damages are simply insufficient to respond to the conduct being
+addressed.”
+[213]       The
+plaintiff relies on a class action decision in Bernstein v. People’s Trust
+Company, 2019 ONSC 2867, where Perell J. found that the defendant’s
+violations of consumer protection legislation were serious and “went to the
+very heart of the Legislature’s public purpose in providing protection” to
+consumers: at para. 320. In that case, Perell J. found that the defendant’s
+conduct was not malicious, but it was an intentional violation of the
+legislation, and displayed “ignorance, carelessness, or serious negligence.” An
+award of punitive damages was appropriate to serve the purpose of discouraging
+the repetition of the undesirable conduct: Bernstein, at paras. 321-323.
+[214]       In
+my view, there is no evidence of behaviour that warrants an award of punitive
+damages in this case. I accept that the CFS acted in good faith. It failed to do
+what it should have done, but it did not intentionally or recklessly violate
+the provision in the consent that class members signed. It did not display
+ignorance, carelessness, or serious negligence. It made a mistake, and it has
+corrected that mistake in advance of the trial of this action.
+[215]       This
+is not an appropriate case for punitive damages.
+[216]       The
+parties have advised me that they have reached a resolution on costs in advance
+of the release of these reasons. There is thus no reason to address costs.

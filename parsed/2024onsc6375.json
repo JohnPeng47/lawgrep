@@ -1,0 +1,29 @@
+{
+    "id": null,
+    "case_name": "Langstaff v. Catalyst Capital Group Inc.",
+    "docket_number": "Not Provided",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Not Provided",
+    "case_category": "Civil",
+    "legal_issues": [
+        "Motion to amend counterclaim",
+        "Limitations Act",
+        "Personal liability of Senior Management"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Motion for leave to amend granted in part. Leave to add Senior Management as party defendants is denied. Leave to amend to increase exemplary damages and to plead defamation, unlawful means and intrusion on seclusion is granted.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Discoverability of claims against Senior Management",
+        "Limitation period under the Limitations Act",
+        "Material facts known in earlier pleadings"
+    ],
+    "cited_cases": null,
+    "summary": "Mr. Langstaff's motion to amend his counterclaim against Catalyst Capital Group Inc. was granted in part. The court denied the addition of Senior Management as parties due to the expiration of the limitation period. However, amendments to increase punitive damages and add claims for defamation, unlawful means, and intrusion on seclusion were allowed. The court determined that the initial pleadings from 2018 and 2019 contained sufficient allegations for the proposed claims, and the limitation period had expired before the motion to amend was filed in 2024. Costs were awarded to Catalyst in the amount of $12,000."
+}

@@ -1,0 +1,36 @@
+{
+    "id": null,
+    "case_name": "R v. Davis",
+    "docket_number": "2020-CCR-271-151",
+    "date_filed": "2020-09-01",
+    "date_decided": "2023-10-18",
+    "jurisdiction": "Toronto, Ontario, Canada",
+    "court_level": "Trial Court",
+    "judge_name": "Not provided",
+    "case_category": "Criminal",
+    "legal_issues": [
+        "sexual assault",
+        "sexual interference"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The accused, Mark Andre Davis, was found not guilty on both charges of sexual assault and sexual interference as the court could not establish his guilt beyond a reasonable doubt.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Reasonable doubt on the accused's evidence",
+        "Credibility and reliability concerns regarding complainant's testimony"
+    ],
+    "cited_cases": [
+        "R v. Nyznik, 2017 ONSC 4392",
+        "R v. W.(D.), 1991 CanLII 93 (SCC)",
+        "R v. C.L.Y., 2008 SCC 2",
+        "R v. G.F., 2021 SCC 20",
+        "R v. H.C., 2009 ONCA 56",
+        "R v. W.(R.), 1992 CanLII 56 (SCC)",
+        "R v. F.(C.C.), 1997 CanLII 306 (SCC)",
+        "R v. R.V., 2021 SCC 10"
+    ],
+    "summary": "Mark Andre Davis was acquitted of charges of sexual assault and sexual interference against a 13-year-old complainant. The court found reasonable doubt in the testimony and evidence presented, failing to establish Mr. Davis' guilt beyond a reasonable doubt."
+}

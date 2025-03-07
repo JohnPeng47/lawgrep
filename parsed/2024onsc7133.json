@@ -1,0 +1,37 @@
+{
+    "id": null,
+    "case_name": "Siddiqui and Al-Ahmar v. Sivanarayan et al.",
+    "docket_number": "2022-000456",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Ricchetti R.S.J.",
+    "case_category": "Breach of Contract",
+    "legal_issues": [
+        "breach of contract",
+        "breach of duty of honesty and good faith",
+        "misrepresentation",
+        "civil fraud",
+        "negligence",
+        "unjust enrichment"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The Plaintiffs' claims against the real estate agents and agencies were dismissed. The claims against Ms. Sivanarayan were settled. The court found no contractual basis or unjust enrichment in claims against real estate agents.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "No genuine issue requiring a trial.",
+        "The decision to proceed with the transaction was the Plaintiffs’.",
+        "Plaintiffs were advised to obtain independent legal advice and did so.",
+        "No direct contract between Plaintiffs and real estate agents."
+    ],
+    "cited_cases": [
+        "Hryniak v. Mauldini, 2014 SCC 7",
+        "Poon v. Sultan Realty Inc., 2015 CanLII 45137 (ON SCSM)",
+        "Peel (Regional Municipality) v. Canada; Peel (Regional Municipality) v. Ontario, 1992 CanLII 21 (SCC)"
+    ],
+    "summary": "The Plaintiffs' claims of breach of contract against the real estate agents and agencies were dismissed, as they were not parties to the underlying agreement and no unjust enrichment was proven. The claims against Ms. Sivanarayan were settled prior."
+}

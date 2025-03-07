@@ -1,0 +1,25 @@
+{
+    "id": null,
+    "case_name": "Plaintiff v. Defendants",
+    "docket_number": "N/A",
+    "date_filed": null,
+    "date_decided": "2023-10-01",
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court",
+    "judge_name": "N/A",
+    "case_category": "Civil",
+    "legal_issues": [
+        "Motion for medical assessment",
+        "Late service of expert report",
+        "Pre-trial and trial scheduling"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The court grants the defendants' motion for a medical assessment and allows late service of the expert report.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": null,
+    "cited_cases": null,
+    "summary": "The court ruled on a motion by the defendants to compel the plaintiff to attend a psychological assessment and to allow late service of the resulting expert report. The plaintiff opposed the motion but the court found in favor of the defendants, allowing the psychological assessment to proceed and granting leave for late service of the report, provided it is served by April 4, 2025. The court noted that both parties were responsible for the lack of an agreed schedule for expert reports, and emphasized the importance of fairness and the ability to address the psychological diagnoses."
+}

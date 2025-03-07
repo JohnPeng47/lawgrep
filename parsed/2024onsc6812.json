@@ -1,0 +1,46 @@
+{
+    "id": null,
+    "case_name": "Purolator Inc. v. Canadian Union of Postal Workers",
+    "docket_number": "Unknown",
+    "date_filed": "2024-11-29",
+    "date_decided": "2024-12-01",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "Unknown",
+    "case_category": "Injunction - Labor Dispute",
+    "legal_issues": [
+        "Ex parte injunction",
+        "Secondary picketing",
+        "Application of s. 102 of the Courts of Justice Act",
+        "Constitutional right to picket",
+        "Irreparable harm"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The court granted Purolator an injunction to prevent CUPW members from blocking egress from its property, finding that s. 102 did not apply and that Purolator had demonstrated a strong prima facie case of nuisance. The injunction was granted on the condition that CUPW be provided a designated area for informational picketing.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "injunctive",
+        "subtype": "permanent_injunction",
+        "status": "ordered",
+        "effective_date": "2024-12-01T00:00:00Z",
+        "id": null,
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Whether s. 102 of the Courts of Justice Act applies",
+        "Distinction between primary and secondary picketing",
+        "Irreparable harm to Purolator",
+        "Constitutional right to picket",
+        "Purolator's relationship to Canada Post"
+    ],
+    "cited_cases": null,
+    "summary": "Purolator Inc. sought an ex parte injunction to restrain members of the Canadian Union of Postal Workers (CUPW) from picketing in a way that blocked vehicles from leaving its facility. CUPW argued that the injunction should be set aside under s. 102 of the Courts of Justice Act. The court rejected CUPW's argument, emphasizing that Purolator is not involved in the labor dispute between CUPW and Canada Post. The court found that there was irreparable harm to Purolator because of the picket blockade. CUPW was permitted informational picketing in a designated area without obstructing entry or exit."
+}

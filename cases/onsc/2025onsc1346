@@ -1,0 +1,1778 @@
+[1]         The
+Plaintiff, Nexus Solutions Inc. (“Nexus”), is a software development firm
+located in the City of London.  Nexus’ president is Joseph Sue-Tang (“Joseph”). 
+Nexus was incorporated on September 20, 1999.
+[2]        The
+Defendant, Vladimir Krougly (“Vlad”), was born on April 3, 1975.  Vlad was a
+software developer at Nexus from its inception until his departure on January
+4, 2011. The Defendant, Daria Krougly (“Daria”) is Vlad’s wife.  Vlad and Daria
+incorporated the Defendant Advanced Consulting and Technology Group Inc. (“ACT
+Group”) on November 22, 2004.  Vlad and Daria were each 50% shareholders of ACT
+Group.
+[3]         The
+Defendant Serge Bays (“Serge”) is Daria’s younger brother.  He was born on
+December 20, 1988.  Serge was employed briefly by Nexus during the summer
+months in 2007 as an intern.  During the relevant time period, Serge was a computer
+engineering  student at Western University (“UWO”).
+[4]        The
+Defendant Limesoft Inc. (“Limesoft”) is a company that was incorporated by
+Serge on December 1, 2009.
+[5]        At
+this juncture, this portion of the dispute between these parties centres upon
+copyright law only.
+[6]        The
+subject matter of this case is continuous emissions monitoring software
+(“CEMS”).  CEMS is used to monitor smokestack emissions.  CEMS monitors and
+tracks the compounds in the emissions produced by heavy industry for
+environmental purposes.
+[7]        Nexus’
+product is called “CEMView”.
+[8]        Nexus
+alleges that Vlad, while employed at Nexus, developed competing CEMS software
+with the assistance of Serge, which they then marketed and sold through
+Limesoft in competition to CEMView.  The Limesoft product is called “Limedas”,
+which is an acronym for Live Measurement Data Acquisition System.
+[9]        Vlad
+and Serge deny that Limedas was developed while Vlad was in the course of his
+employment at Nexus or relying upon any proprietary source code belonging to
+Nexus.  They assert that Serge independently developed Limedas as part of his
+fourth-year engineering project at UWO.
+[10]      On
+consent of the parties, Grace J. bifurcated the trial.  The trial before me was
+to address the following issues:
+[11]      A
+number of issues were left to be determined at later proceedings, depending
+upon the outcome of this part of the trial.
+[12]      The
+parties filed a Partial Agreed Statement of Facts.  A total of seven witnesses
+testified, including Joseph, Vlad, Serge, and four experts.  This was a very
+document intensive case, with 316 exhibits.  I note that I issued sealing
+orders with respect to the proprietary source code that was offered into
+evidence.
+[13]      At the
+outset, I provide some description of the concepts that were presented by the
+parties.  Prior to trial, most of these concepts were entirely foreign to the
+court.
+[14]      As
+noted, CEMS software is intended to collect information from smokestacks and
+generate reports for regulatory authorities.  Instruments called process
+analyzers located on a smokestack continuously sample the emissions from the
+smokestack.  There are many compounds that are typically measured and
+recorded.  The CEMS software is used to acquire data about these compounds from
+the process analyzers.  In this case, the analyzers were developed primarily
+from a German company called “SICK”.
+[15]      The
+analyzers have to communicate the data acquired from the smokestacks with the
+software through the use of “communication protocols”.  Nexus’ product,
+CEMView, relied on a communication protocol developed by OPC Foundation Inc.  Nexus
+pays annual dues to be a member of OPC Foundation.  The protocol was called
+“OPC” or “OPC Classic” and the coding used by CEMView was considered “OPC
+compliant”.  “OPC UA” was an upgraded communication protocol that Nexus was
+interested in using with their CEMView products in the future.  OPC UA was
+first introduced in approximately 2006.
+[16]      The software
+of both Nexus and Limesoft was written using source code.  Source code is
+created by a computer programmer to instruct a computer how to execute its
+functions.  Source code is a set of instructions, written in language that the
+computer can understand.  Source code is human-readable by those that
+understand it.  There are many different languages, such as C++ and C#.
+[17]      CEMView
+was written using C++ source code.  Limedas was written in C# source code.  C# became
+available later than C++.
+[18]      Source
+code control systems are used to track the development of source code.  As the
+source code is written or modified by the programmer, it is “checked in” and
+stored in the source code control system.  Source code that has been checked-in
+is called a “commit”.  This system allows the software developer to revert back
+to an earlier version of the source code if there are problems, or “bugs” found
+in a later version.  The source code control system records the time and day of
+the commit and a username associated with the programmer who wrote the source
+code that was checked in.  The programmer may also include a comment to explain
+the nature of the source code being committed.   Thus, the source code control
+system allows others to review the changes made to the source code, to see when
+the changes were made and who made them.
+[19]      Nexus’
+source code control system was called Visual Source Safe and was originally
+kept on a computer called “Builder”.  Over time, Nexus has updated its source
+code control system.  Thus, subsequent computers containing the source code
+control system have been called “Builder 2”, “Builder 3” and finally “TFS”.
+[20]      Limesoft
+did not keep its source code on a local server.  Rather, Limesoft set up an
+account through “Unfuddle”, which allows its customers to store source code in
+online “repositories” for a monthly fee.  There were seven Unfuddle
+repositories referenced in this case and used by Limesoft.
+[21]      In
+software development, “tickets” are used to assign tasks to various members of
+the software development team.  In this case, the CEMView tickets were made an
+exhibit, as were the Limedas tickets.  The ticket is given an “ID number”, for
+example ID:4, and these ID numbers are chronological.  The date that the ticket
+is assigned and closed is noted.  The person to whom the task is assigned is
+identified, as well as the person assigning the ticket.  The nature of the assignment
+is also described.
+[22]      One of
+the key documents in this case is Exhibit 108.  This was a chart created by
+Joseph that lists the 848 commits that were made across the seven Unfuddle
+repositories, in chronological order between June 22, 2009, and March 22, 2011. 
+An individual commit can also be described as a “revision” meaning a change was
+made to the source code (either an Addition, Deletion or Modification).
+[23]      The
+individual revisions (or “changesets”) made in each of the seven Unfuddle
+repositories were also available in separate exhibits.  Thus, for example, in
+the “Tools” repository, the following entry is noted:
+[24]      This
+shows that on June 22, 2009, revision 2 was made at 7:26 pm by someone using
+the username “vlad”.  The specific changes, but not the actual source code, are
+then listed below the revision.  It is possible to see if source code was added
+(A), deleted (D) or modified (M).  The revision also identifies the language
+that the source code is written in.  For example, “.cs” means C#.  There is
+also a brief description of the purpose of the revision.  For revision 2, it
+states:
+[25]      Importantly,
+it was described, and I find, that a commit can be done by the simple press of a
+button and is not to be confused with the actual writing of the source code,
+which can take hours to author.
+[26]      Joseph
+Sue-Tang is a certified professional mechanical engineer.  After graduating
+from UWO he worked for several years and then returned to the University of
+Waterloo where he obtained his master’s degree in system design engineering. 
+He then worked as a consultant through a company called JST Engineering.
+[27]      In
+approximately 1992, Joseph was introduced to CEM Specialities, located in
+Komoka, near London, Ontario.  While working on a project through CEM
+Specialities, he developed a system that would collect emissions data and
+generate reports.
+[28]      Joseph
+incorporated Nexus Solutions.  He met Vlad, and Vlad’s brother Alexandre
+Krougly (“Alexandre”), who joined Nexus as software programmers in 1999.  Nexus
+Solutions’ main project was continuous emissions monitoring systems.  Nexus had
+clients in approximately 40 countries worldwide.
+[29]      Nexus
+originally had six shareholders.  This included Joseph, Vlad and Alexandre.  Joseph
+had the largest holdings of shares—22.5%.  Each Vlad and Alexandre had 12.5%. 
+In 2001, Joseph acquired additional shares through his company JST Engineering
+from some of the remaining shareholders.  In  2004, JST Engineering acquired
+further shares as other shareholders departed.  Thus, by 2004, Joseph
+effectively controlled 75% of the shares and each of Vlad and Alexander
+controlled 12.5%.
+[30]      As of
+February 23, 2004, Vlad became the Secretary of Nexus and Alexander was its
+Treasurer.  Joseph was President.
+[31]      Other
+members of Joseph’s family were also involved with Nexus.  Victor Sue-Tang
+(“Victor”), Joseph’s brother, also worked for Nexus and frequently assigned
+work to Nexus employees, as well as dealt with matters such as sales and
+trouble shooting for clients.  Joseph’s wife worked for Nexus.  In addition to
+the Sue-Tangs, there were as many as three to five software developers working
+for Nexus at any given time.
+[32]      Vlad
+and Alexandre initially billed their time to Nexus for their work.  At first, this
+was done through a company called Elite Technologies Limited.  On November 22,
+2004, Vlad and Daria incorporated ACT Group.  ACT Group billed Nexus for Vlad’s
+services from December 2004 until July 4, 2006.  There was no written contract
+between ACT Group and Nexus.
+[33]      On
+July 4, 2006, Vlad became an employee of Nexus.  Vlad testified that it was
+Joseph that wanted everyone to be employees and not contractors.  Vlad was not
+in favour of this proposal but did not resist nor express his dissatisfaction
+to Joseph.  Thereafter, Vlad was paid an annual salary plus bonuses, as
+follows:
+[34]      Alexandre
+was also a paid employee of Nexus during that time.  He had more of a
+supervisory role than the other employees, and I find was in more of a
+supervisory role than Vlad.
+[35]      In
+June of 2008, Vlad sold all of his shares in Nexus to JST Engineering Inc. and
+resigned as an officer and director.  The sale price was approximately
+$125,000.  Vlad testified that he was presented with a draft shareholder
+agreement which would redistribute shares and he decided he would rather sell
+his shares.  He testified that he did not wish to sign the draft shareholder
+agreement because it contained a non-compete clause.  He did not discuss his
+concern with that clause with Joseph.
+[36]      Vlad officially
+resigned from Nexus on December 13, 2010, effective January 4, 2011.  He agreed
+upon his departure to return Nexus property and delete and/or destroy all
+copies of Nexus’ software on all personal computers or other electronic
+devices.
+[37]      As
+noted, Nexus’ CEMView is used to monitor smokestack emissions.  CEMView acquires
+the data about the emissions from the process analyzers and records the time
+the data is received and the value of the sampled data.  The data acquisition
+component of CEMView which implements the analyzer specific communication
+protocol is called an “OPC Server”.
+[38]      Analyzing
+the data included providing averages of emissions using different intervals,
+such as 1-minute, 6-minute, hourly or daily.  It also recorded the quantity of
+emissions being emitted in any given time.  The data analysis component of
+CEMView is called the “CEMView Server”.
+[39]      CEMView
+created a method of presenting the emissions data to its customers.  The data
+would be presented to the end user in visual form on a computer screen.  The
+data presentation and reporting component of the software was called “CEMView
+client”.
+[40]      Nexus
+has developed and markets various levels of CEMView products.  Its entry level
+product is “CEMView Data Logger” which is used to acquire and record emissions
+data.  It then does calculations without acquiring and analyzing the emissions
+data in accordance with regulatory standards that apply to the client.
+[41]      A
+higher-level product, the “CEMView Standard Edition” acquires and records
+emission data in accordance with regulatory standards.  The highest-level
+product is “CEMView Premium Edition”, and it had more bells and whistles. 
+While CEMView Data Logger cost in the range of $2,000, CEMView SE was in the
+range of $12,000 to $15,000.
+[42]      As
+noted, CEMView is OPC compliant.  CEMView software was developed in accordance
+with OPC Foundation specifications.  Thus, CEMView translates the data it
+acquires from the process analyzers into a form that can be understood by other
+OPC compliant machines.  This was considered by Nexus to be an important selling
+point of CEMView.
+[43]      “OPC
+Classic” was the first OPC specification released in the late 1990’s.  CEMView
+was developed with reference to OPC Classic specifications using source code
+language called C++.  Despite Joseph attempting to magnify OPC UA as being an
+important aspect of CEMView, on cross-examination, he agreed that even as of
+the date of trial, Nexus has not yet integrated OPC UA into its CEMView
+products.
+[44]      Each
+employee at Nexus had their own computer.  Those computers were identified by
+the user, for example “Joe’s PC” or “Vlad’s PC”.  Each employee had an email
+address using the Nexus domain.  Nexus has access to all of its employees’
+emails.  Thus, Joseph produced a number of emails within Nexus’ possession,
+taken from its employees’ computers, including those sent by the employee and
+received by the employee.  The defendants admitted the authenticity of the
+emails in respect of Vlad.
+[45]      Nexus required
+their employees to complete and submit timesheets.  Each timesheet shows the
+pay period, and the amounts of hours devoted to specific tasks on each day of
+the week.  For example, there were specific tasks such as “CEMView
+Development”.  This would represent the amount of time that an employee spent doing
+software development for CEMView products.  Specific projects are identified on
+the timesheets, identified by the name of the client’s site.  The employees
+prepared and submitted the timesheets.  The timesheets evolved so that they
+also tracked when the employees arrived at work and departed.  They also
+included breaks.
+[46]      Joseph
+testified that he became concerned generally with the employees’ hours.  Up
+until early 2010, he had not carefully monitored the employees’ hours. 
+However, he instructed Alexandre in February of 2010 to email all staff about
+keeping accurate timesheets.  There are a number of emails to employees in
+which Joseph is critical of the employees for abusing the work hours policy and
+he impliedly threatens termination.
+[47]      I find
+that Joseph was a demanding employer.  This was evidenced by  several emails
+that he authored that were condescending in their tone.  By way of example, Joseph’s
+email dated April 22, 2010, in which he is clearly frustrated with one of his
+developers, but cc’s the entire staff in which he defines the word “patient”
+(Ex. “179”)  Victor’s emails often had the same tone.
+[48]      Joseph
+also insisted that if an employee was going to take any time off, including a
+few hours, that they notify their supervisor in advance and arrange to make up
+the time.  In fact, Vlad was docked pay for an absence because he had not
+gotten it pre-approved.
+[49]      Importantly,
+I accept that the employees at Nexus did not have a lot of independence in the
+manner in which they performed their work.  Jospeh kept tight control over the
+developers in many respects.  In the same email chain dated April 21, 2010,
+(Ex. “179”), Joseph writes as follows:
+[50]      Joseph
+also offered his advice to developers when they were trouble shooting with
+clients’ projects and many emails were tendered in which he did so.  His tone on
+most of those occasions was professional and criticism would be constructive.  Although
+some of the emails were often blunt and to the point, many were respectful.  It
+is likely that Ex. “179” is somewhat of an outlier of Joseph’s tone, likely born
+out of frustration given that the client had threatened to remove Nexus from
+its site as a result of the employee’s error but there are other examples of him
+taking that tone.
+[51]      Nexus
+sent, and offered to send, its employees to conferences and seminars to further
+their training and education.  Nexus offered to pay for employees’ tuition
+expenses.  Joseph would frequently share links with the developers, including
+Vlad, when OPC provided updates, including on OPC UA.
+[52]      I note
+that Nexus had a written Employee Manual, authored by Joseph.  The manual set
+out expectations with respect to work schedules, breaks, attendance and
+vacations.  It described Nexus’ expectations with respect to staff training and
+development.  Nexus would pay tuition expenses and for employees to attend
+approved conferences and seminars.  The Employee Manual also sets out the
+system for disciplinary action, stated to be progressive, including leading up
+to termination.  The Manual specifically describes that client information obtained
+from the client or by way of performing daily job functions is company
+confidential to Nexus.  It is also described that full-time employees are
+salaried, and overtime is not paid.  If an employee is required to work extra
+time due to project demands, then with manager’s approval, the employee would
+be entitled to paid time-off in lieu.
+[53]      There
+was no non-compete clause in the Manual or in any agreement between Nexus and
+Vlad.  In fact, other than the Employee Manual, there was no written contract
+between Nexus and Vlad.
+[54]      Vlad
+was born in Minsk, Belarus.  He testified that he studied at Belarus State
+University from approximately 1992 to 1999.  His brother, Alexandre, came to
+Canada first.  The rest of the family, including Vlad followed later, in 1998. 
+Vlad first lived and worked in Toronto and then he moved to London and joined
+Nexus.  He and Alexandre were still working in the IT department of a bank when
+they met Joseph.  They did some work for him on another project.  This led to
+them helping with continuous emissions monitoring at Nexus.  He first started
+there in 1999.
+[55]      Vlad
+agreed that Joseph was the architect of CEMView.  Alexandre was a senior
+software developer.  The software developers wrote the source code for CEM
+View.  Up until approximately 2003, only Vlad and Alexandre were doing software
+development at Nexus.  Joseph was not involved directly with very much
+development.  Vlad thought that he and his brother were doing about 95% of the
+development.  At that time, they were paid through Elite Technologies and were
+contractors of Nexus.
+[56]      In
+2004, Vlad had a disagreement with his brother and formed his own company, ACT
+Group with his wife, Daria.  Vlad and Daria are each 50% shareholders of ACT
+Group.  She did the accounting and Vlad was a contractor for Nexus.  They had
+an employee from 2004 to 2006, Paul Glibin, who also did some work for Nexus
+through ACT Group.  In 2005, Daria was offered a job at the CRA and, according
+to Vlad, stopped doing the ACT Group accounting work.
+[57]      Joseph
+testified about Vlad’s duties while he was with Nexus.  He was one of two
+primary software developers, Alexandre being the other.  Vlad was also sent to
+sites to help customers with start ups.  He was never involved with sales or
+providing quotes.  According to Joseph, Vlad and Alexandre had a role in the
+hiring process.  New programmers would be working with and under Vlad.  Emails
+to and from Vlad were tendered into evidence confirming that Vlad was part of
+the hiring process.
+[58]      Many
+emails were tendered into evidence showing how Vlad would receive his work
+assignments.  Vlad would receive direct communications from other Nexus
+employees that would request assistance with specific CEMS related issues.  For
+example, in Ex. “233”, an email dated July 1, 2008, Vlad was asked to
+troubleshoot a previously integrated system.  In Ex. “234”, tasks were
+distributed by one developer to a number of the other developers, including
+Vlad, with Joseph weighing in to offer advice on how to approach the tasks. Often,
+there would be a chain of command, starting with Victor or Joseph and working
+its way down to Vlad.  Vlad would report back to them with his progress or
+suggestions.
+[59]      The
+emails demonstrate that Vlad was not tasked with writing source code on a daily
+basis.  He also had to troubleshoot for clients, often on an urgent basis. 
+Many of these emails were from 2009 when Vlad’s hours and check-ins were
+allegedly down.  Vlad testified that the tasks he was assigned would take from
+a couple of hours to a couple of days to a couple of weeks depending on their
+nature.  Quite often, he would have several competing tasks which he had to
+prioritize depending upon the urgency level.  Some of the tasks would require
+working with other employees.  Some would involve direct interactions between
+Vlad and the customer, including attending at their site to complete the work.  In
+fact, Nexus paid for Vlad to travel to Saudi Arabia for a project in October of
+2010.
+[60]      Vlad
+described that OPC servers was a main area that he would work on.  Setting up
+an entirely new OPC server could take days and sometimes weeks.
+[61]      A
+review of Vlad’s timesheets (Ex.”18”) leads to the conclusion that Vlad spent significant
+time developing CEMView programming.  “CEMView Development” on the timesheet
+relates to how much time Vlad spent doing software development.  I find that the
+majority of Vlad’s time was spent on software development and/or OPC Server
+Development.  There would be periods in which his time would be more heavily
+devoted to specific projects.
+[62]      I find
+as a fact that although a significant component of Vlad’s job was to write
+source code, he had responsibilities outside of source code development.  A
+significant responsibility was troubleshooting for clients.
+[63]      Vlad
+has presented a shifting narrative of his role as an employee at Nexus.  In an
+affidavit sworn August 18, 2011, Vlad characterized his employment as a
+computer programmer as “data entry”, indicating that he “took instructions from
+his superiors on what to do, when to do it and when to do it by”.  However, he
+also described himself to the Professional Engineers of Ontario as working in
+engineering during that period of time.  He also wrote a reference for a
+departing Nexus employee in which he described himself as a “manager” at Nexus,
+although he conceded that was not accurate.  Furthermore, he wrote in an email
+to SICK on January 25, 2011, that he was intimately involved with CEMS software
+development at Nexus.  I find that Vlad was far more than a “data entry clerk”.
+[64]      Joseph
+testified that Vlad was familiar with OPC UA functionality, which is one of the
+extensions of OPC.  Vlad was on a list of authorized persons that could access
+the corporate membership information on behalf of Nexus.  He had his own
+password.  Thus, Vlad was able to access OPC UA code that was released to
+corporate members.  This is confirmed by various emails, including one from
+Vlad to Joseph dated October 19, 2006 (Ex.”28”).  He also attended OPC UA
+conferences.
+[65]      Joseph
+testified that C# language for coding was a cornerstone of Nexus’ business,
+although CEMView was coded using C++.  Thus, according to Joseph, Vlad knew how
+to code using C# and had taken courses in C#.  Vlad was the first person
+certified in C# at Nexus.  An email dated November 17, 2008 (Ex.”40”) confirms
+that Vlad was sent Microsoft Visual C# 2008 Step by Step book.pdf.  Vlad
+ordered a Microsoft C# technology exam in February of 2009.  Nexus reimbursed
+him for the costs of this exam.  Vlad ultimately passed the certification exam
+in December of 2009.  He accordingly obtained a Microsoft Certificate of
+Excellence to be recognized as a Microsoft Certified Professional Developer
+(Ex. “54”).  Nexus paid for this certification.
+[66]      However,
+on cross-examination, Joseph admitted that throughout all of the Nexus commits
+and check-ins, he only found two entries where Vlad used C#.
+[67]      Vlad
+acknowledged that Joseph would send emails containing links to OPC UA, as well
+as offer to send the developers to OPC UA seminars.  Joseph would follow the
+development of OPC UA and periodically discuss it with the developers.  Vlad
+went to a C++ seminar that was useful for OPC servers and CEMView, in 2008 in
+Phoenix, Arizona but did not attend C# seminars.  Another Nexus developer went
+to the C# seminar.  He denied opening a link sent to him by Joseph about OPC UA
+sent to him on March 28, 2008.  OPC UA was not yet being used in their
+products.
+[68]      In
+March of 2010, Joseph asked the developers if they wanted to participate in an
+OPC UA introduction webinar.  Vlad responded that it was too expensive.  It was
+his assessment that OPC UA was not yet ready to be used in 2008.  By 2010,
+Vlad’s assessment was that the product was now ready to be looked at more
+seriously.  He thought that this was better than C# because Nexus used C++
+source code.  Nexus never purchased the OPC UA or C# toolkit.
+[69]      Vlad
+denied every being tasked with integrating OPC UA into CEMView by Nexus.  Joseph
+would be the only one that would make those decisions.
+[70]      Nexus
+was attempting to market CEMView in Saudi Arabia.  In the mid-2000s, Nexus was
+introduced to a Saudi Arabian integrator named Arabian Technical Trading Est
+(“Attest”).  An integrator is a contractor that assembles packages for
+industrial plants that include the process analyzers that measure smokestack
+emissions, as well as the necessary software to process the data from the
+analyzers.  Attest had the Saudi Arabian distributorship for process analyzers
+built by SICK.
+[71]      Nexus
+began receiving purchase orders for CEMView from Attest in 2006.  The first
+contract was for the sum of $69,603.00 USD.  It was in relation to a Methanol
+Complex in Al-Jubail, Saudi Arabia.
+[72]      Another
+contractor in the region was Lantern Software & Systems (“Lantern”), whose
+principal was an individual named Jabir Hameed (“Jabir”).  Nexus would seek
+CEMS work in Saudi Arabia through Jabir at Lantern.
+[73]      On
+January 28, 2008, Nexus quoted Lantern for a further system for a different
+power plant, in the amount of $7,650.00 USD.  Nexus’ bid was not accepted.
+[74]      However,
+in February of 2008, Jabir advised Nexus of further CEMS projects in Saudi
+Arabia.  These all related to installations operated by the Saudi Electric Company
+(“SEC”) which is responsible for electricity generation in the region.  Nexus
+accordingly made six quotes from January 21, 2009, to February 8, 2010, to
+Lantern.  These quotes ranged from $14,880.00 USD to $219,580.00 USD.
+[75]      Two of
+the most noteworthy quotes in the context of this case are in relation to Madina
+(sometimes spelled “Medinah” in the documentation) and a project in Ar-Razi
+(sometimes spelled “ARRAZI”).  Nexus did not get these projects.  Ar-Razi was a
+CEMS project that Nexus bid for starting in March of 2006.  It involved CEMS
+for each of three plants labelled “II”, “III” & “IV”.  Vlad was involved in
+the Ar-Razi project and met Jabir when Nexus was bidding for it in 2006
+(Ex.”60”) .
+[76]      In the
+fall of 2010, Nexus quoted prices to different integrators for two separate
+series of projects for the SEC.  In September of 2010, Nexus quoted its CEMView
+software to Horiba Instruments for $1,608,840 USD.  In November of 2010, Nexus
+quoted Mannai for a series of projects for $1,480,100 USD.
+[77]      From
+all of those quotes, Nexus received only one purchase order from Lantern on
+June 30, 2009, for a project located in Rabigh, Saudi Arabia, for $134,370.00
+CAD.  Otherwise, Nexus was unsuccessful with respect to their bids for these
+SEC projects.
+[78]      It is
+not currently before me to determine whether or not Nexus failed to obtain
+those projects as a result of any of the defendants.  I note that there were
+emails tendered into evidence that indicate that Nexus was not in favour with
+some of the Saudi companies involved.  Thus, it is for another day, perhaps,
+whether anything the Defendants have done actually cost Nexus projects.
+[79]      Vlad
+and Joseph did not always see eye to eye.
+[80]      Vlad
+testified that he continued, to Joseph’s knowledge, to do work through ACT
+Group on the side from 2005 onward.  According to Vlad, these jobs never
+involved CEMS development.  Vlad testified that this work was always done on Vlad’s
+personal time and never on Nexus’ time.  He specifically disclosed this work to
+Joseph and Nexus, and it was his belief and understanding that ACT Group was
+free to perform such outside work.  I do not believe that this proposition was
+put to Joseph during his cross-examination.
+[81]      In
+2008, Vlad had declined to become a shareholder.  He testified that he was
+dissatisfied with working at Nexus.  The business was primarily run by the
+Sue-Tang family.  His brother, Alexandre, was above him.  They all had nice
+offices and Vlad still had a cubicle for his desk.  He testified that he did
+not see any path to progressing in the company.  I note that on
+cross-examination, Vlad agreed that despite his evidence-in-chief, only Joseph
+had a nice office and everyone else had cubicles like him.
+[82]      Vlad
+testified that he took some steps to improve himself.  He was limited by only
+having done C++ work at Nexus.  He applied for the Professional Engineering of
+Ontario (“PEO”) to improve his certifications and obtain his Project Management
+Professional designation.  He started sending out his resume and applying for
+other positions without success.
+[83]      Vlad
+also attempted to do some work as a contractor through ACT Group.  In 2008, he
+approached Jabir, who he had met through Nexus’ work with Lantern in 2003. 
+According to Vlad, he was only looking for opportunities that were for non-CEMS
+projects.  He was hoping to find work on automation projects, but not CEMS.  In
+April of 2008, Jabir sent Vlad an email (Ex. “80”) about a new project
+involving the Hadeed Project.  That email, dated April 14, 2008, describes that
+the new project involved:
+[84]      Vlad
+described that this involved a “DISOMAT application”.  It did require the
+configuration of software.  It does not appear to be CEMS.  I note that Vlad
+responded to Jabir on April 18, 2008, stating:
+[85]      I note
+that these emails all took place prior to Vlad selling his shares in June of
+2008.  He admitted during his testimony that Joseph would have been unaware of
+this proposed work.
+[86]      Vlad
+tendered an 18-page Commercial Proposal through ACT Group on May 2, 2008 (Ex.
+“82”) but did not obtain this work.  Of note, the DISOMAT application included
+a device communication layer, a database records maintenance and a presentation
+layer.  These are traits found in many industrial programs, including CEMS.
+[87]      Vlad
+and Serge testified that ACT Group had a computer “lab” at Vlad’s home.  This
+consisted of two desks with desktop computers in a spare bedroom and a “test
+lab” with two other computers in the basement.  Vlad testified that he wrote
+the source code for this project at home.  He kept the DISOMAT source code on
+his hard drive for over two years.
+[88]      Jabir
+presented Vlad with another new project by email dated July 15, 2008 (Ex. “83”). 
+This project was for the SEC and was for a web-enabled boiler tube failure
+tracking database software package.  Again, this does not appear to be in
+relation to CEMS. Vlad did not get the project.
+[89]      Vlad
+applied to the PEO in July of 2008, after he had sold his shares in Nexus.  The
+PEO raised concerns with the validity of Vlad’s academic record.  Plaintiff’s
+counsel wanted to make significant use of the file produced by the PEO, but I
+thought it had limited value.  First of all, the PEO’s communications were
+hearsay and inadmissible for the truth of their contents.  Suffice it to say
+that there were some inconsistencies between what Vlad testified to in court,
+during his examination-for-discovery and what his academic records from the
+University of Belarus and the University of Samara show.  However, those latter
+documents, beyond being hearsay, were translated from Russian.  I put little
+weight on them.
+[90]      I do
+not take very much from the PEO file.  However, Vlad does describe to the PEO
+in his letter dated November 23, 2014 (Ex. “290”) that at the time that he
+interviewed with the panel in December of 2008, he “had more than 10 years of
+engineering experience (first working for INEA Corporation in Toronto, and
+later at Nexus Solutions Inc. in London, Ontario)…”.  I have already described
+that this is inconsistent with his sworn evidence that he was basically doing
+data entry.  This is Vlad’s letter and is admissible against him.
+[91]      Joseph
+wrote an email to the PEO dated August 17, 2010 (Ex. “177”) in which Joseph
+expressed concerns to the PEO about Vlad’s qualifications to be licensed as an
+engineer.  Joseph described that at no time did he consider Vlad’s work to be
+professional engineering and he was not authorized to deal with Nexus’ clients
+as if he was providing professional engineering services.
+[92]      The
+defence asks me to take from this email that Joseph held animus towards Vlad. 
+I decline to do so.  It is my view that Joseph believed it was his duty, which
+it was, to provide a candid opinion with respect to his views of Vlad’s credentials
+as an engineer.  I note that Vlad still obtained his designation
+notwithstanding these concerns.
+[93]      I do
+not intend to rely on the PEO file for any further purpose as it only serves to
+distract from the real issues in this case.
+[94]      Joseph
+testified that Vlad’s productivity became an ongoing issue starting in 2009,
+which prompted the crackdown on employees keeping track of their hours to some
+extent.  Joseph testified that he felt he needed to be more aggressive in
+curtailing Vlad’s long lunches.  On August 12, 2010, Vlad was docked pay for
+taking a half day off without making prior arrangements with his supervisor.  Joseph
+testified that when Vlad was confronted about it, he apologized.
+[95]      In
+that regard, Joseph compiled a summary of Vlad’s check-ins at Nexus for each
+month from June  2009 to January 2011 (Ex. “73”).  The chart showed the number
+of days with check-ins, as well as the specific edits, additions and
+deletions.  Joseph used the ID “Vlad” in the Nexus commits to determine the
+number of check-ins that Vlad did.  Joseph was trying to show that there was a
+substantial reduction in the number of check-ins that Vlad made in 2009 and
+2010, suggesting that he must have been devoting a lot more time to ACT
+Group/Limesoft projects during that time.
+[96]      I
+agree that Ex. “73” shows far fewer check-ins during the months of 2009 and
+2010 than in previous times.  However, this trend started well before that
+time, as early as 2006.  Furthermore, during Vlad’s testimony it was apparent
+that Vlad was doing check-ins not only under his own ID name, but under generic
+names such as “developer” or “support”.  This was corroborated by
+documentation.  If you include the IDs for “developer” and “support”, there are
+a further 498 commits from October 31, 2007, to April 5, 2010, although it is
+not clear how many of these were by Vlad.  I believe that this chart could
+simply demonstrate that Vlad’s job morphed into more client troubleshooting
+work, than pure source code developing.  I do not accept that this summary
+demonstrates that Vlad was devoting any less time to Nexus projects as he had
+in the past.  Rather, the summary provides evidence that is simply
+inconclusive.
+[97]      Joseph
+described a project in 2010 that involved troubleshooting for SICK and
+ultimately a factory acceptance test had to be done in September or October of
+2010 in Dresden, Germany.  Vlad was asked to install a “switch” so that Nexus
+could show SICK why the system was failing them.  Vlad had three weeks to build
+the “switch”.  According to Joseph, Vlad did not complete the task and the SICK
+representatives were unimpressed with Nexus.
+[98]      As a
+result, Joseph was really upset with Vlad.  When Joseph returned to Canada he
+decided to ask Vlad for his resignation.  He had seen a decline in Vlad’s
+performance since he had sold his shares in Nexus.  Alexandre opposed asking
+Vlad to resign.  However, a day or two later, Vlad sent in a formal letter of
+resignation.  I note that Vlad’s letter of resignation is in all respects
+professional.
+[99]      Vlad
+signed a document agreeing to turn over all Nexus property on his departure.
+[100]    Joseph
+testified that he first learned of Limesoft in 2009, but, according to him, not
+much came of it.  He testified that he was working on a proposal for SICK in
+2009 involving OPC UA.  He had attended conferences with SICK employees and
+there was some back and forth between them.  While conducting an internet
+search, Joseph came across a website for Limesoft which claimed that they were
+using OPC UA technology.  Joseph was surprised that he had not heard of
+Limesoft because it is a very small market.  Limesoft’s website indicated that
+they were located in Ottawa, and he was unfamiliar with any competitors in that
+area.  Screenshots from the Limesoft webpage, captured in 2009, were made Ex
+“69”.
+[101]    According
+to the website, Limedas was used “to collect, store, display and report
+emission monitoring data from a variety of sources. Limedas was described as
+designed to monitor emissions such as SO2, NOx, CO, CO2, VOC and generate
+regulatory compliance data reports.”  It was also described as being based on
+OPC UA technology.
+[102]    It
+appeared to Joseph that Limedas was in direct competition with Nexus’ CEMView. 
+In fact, Limesoft appeared to be actually ahead of Nexus in some of its OPC UA
+development.  According to Joseph, he called all of the developers at Nexus into
+a meeting in Victor’s office to determine if any of them were familiar with
+Limesoft.  This included Vlad and Alexandre.  No one at Nexus indicated that
+they were aware of Limesoft.
+[103]    Joseph
+states that in 2010, when he was concerned with Vlad’s hours and productivity,
+he spoke to him about trying to progress in Nexus’ development of OPC UA
+software.  He was in Vlad’s office and asked to see what Vlad had come up
+with.  Vlad turned his computer monitor to show Joseph and the computer was
+running a Limedas demo.  Joseph thought that was a good thing and instructed
+Vlad to work through the demo.  At that time, Joseph was not concerned that
+Vlad had the demo.
+[104]    Vlad
+denied that there was any meeting involving him and the other Nexus developers
+about Limesoft.  He denied that he ever had the Limesoft demo running on his
+computer when Joseph came in and denied ever running Limedas on any Nexus
+computer.
+[105]    For
+reasons that will be expanded upon later, I accept Joseph’s evidence over
+Vlad’s generally.  I also accept that Joseph would inquire of his developers as
+soon as he learned of a rival product.  However, I do find it noteworthy,
+considering Joseph’s history of emailing his developers, that no email was
+tendered into evidence where Joseph inquires of any Nexus employees about
+Limedas.
+[106]    In any
+event, Joseph did not hear anything further about Limedas until after Vlad’s
+departure from Nexus.
+[107]    After
+Vlad had left Nexus, on February 3, 2011, Victor forwarded an email to Joseph
+that had been sent from a senior product manager at SICK.  That email (Ex. “76”)
+indicated that SICK had received an email from Vlad and asked if he was related
+to Alex and Nexus in any way.
+[108]    Enclosed
+with that email was an email from vkrougly@limesoft.ca, dated
+January 25, 2011.  The subject line of the email was “New alternative to
+CEMView”.  Vlad writes as follows:
+[109]    Attached
+to Vlad’s email was a Limesoft Inc. pamphlet (Ex.”77”), 20 pages in length.  It
+is a very well put together document and presumably took a fair amount of
+effort.  I note the following taken from the pamphlet:
+[110]    Both
+Vlad and Serge testified that despite what Vlad’s email to SICK claimed, and
+what the pamphlet states, Limedas was not capable of doing CEMS at that time.  Vlad
+described that the attached Limesoft brochure’s purpose was to get SICK
+interested in Limesoft.  However, SICK was not an end user.  While Vlad described
+Limedas as a CEM system, he knew it would not have to be installed right away. 
+He believed it would take a year or two before this would generate any
+interest.  Thus, he denies that the project was up and running.  It was not
+possible to do CEMS right away.   He says of the Basic, Standard and Enterprise
+editions, only Basic was available at that time.  This was the basic Data Logger. 
+To be used for CEMS, one would need either Standard or Enterprise edition. 
+Essentially, the brochure was exaggerating Limesoft’s capabilities at that
+time.  He described that CEMS work did not become a focus of Limesoft until
+after he left Nexus, and thus by that time, Limesoft’s CEMS capability was only
+about 10% along.
+[111]    Similarly,
+Serge testified that Limedas did not have that capability at the time.  He
+testified that he prepared the Limesoft pamphlet.  He was testing the market
+for pre-sales and described it as “customer discovery”.  The purpose was to
+attempt to get some nibbles, even if the product could not yet perform.  Unless
+they got a nibble, then they would not spend the money to develop the product. 
+If they got a nibble, then they would do the development for the future. 
+Limesoft would finalize pricing and timing down the road, which could even be
+two years later.
+[112]    Frankly,
+I do not believe that evidence.
+[113]    Upon
+learning about Vlad’s connection to Limesoft, Nexus moved quickly to commence
+legal proceedings, issuing a statement of claim on March 8, 2011.
+[114]    Joseph
+went to Limesoft’s website and took screenshots of it (Ex. “78”).  Limesoft’s
+address was on the website as being in Ottawa, Ontario.  Joseph performed a
+Google map search of the Ottawa address and downloaded a photograph of the so-called
+Limesoft headquarters.  It is a modest townhouse (Ex. “79”).
+[115]    Serge
+testified that the Ottawa address belonged to a friend of his mother.  He
+testified that he was embarrassed about where he was living in London at the
+time, and wanted an address that if anyone looked it up, it would seem more
+impressive.  I completely reject that explanation.  The Ottawa address is not
+appreciably “more impressive” than his mother’s residence where Serge lived. 
+In fact, they are very comparable.  The Ottawa address would never impress
+anyone doing a search of Limesoft, at least no more so than Serge’s mother’s
+address.
+[116]    Nexus
+obtained a court Order dated March 28, 2011, from Bryant J., requiring Limesoft
+to file its source code with the court and all information from its source code
+control system, if any.
+[117]    As
+noted, Nexus has access to all of its employees’ emails.  Thus, during the course
+of this investigation, Nexus has discovered a number of emails about which they
+were previously unaware.  These include the emails referred to between Jabir
+and Vlad about DISOMAT and the web-based boiler project.
+[118]    There
+is an important email dated December 16, 2008, from Vlad to Serge (Ex. “33”). 
+The subject line is “Stuff to Read”.  Vlad sends various links so that Serge
+can “start with OPC UA”.  Joseph testified that Serge was not an employee of
+Nexus and only authorized personnel were permitted to access the OPC Foundation
+website, where these  links came from.  Thus, Joseph was of the view that Vlad
+was sharing private information with Serge.  Joseph was unaware that this was
+occurring.   On cross-examination, Joseph testified that if Vlad was sharing
+code or SICK protocols to Serge it would have constituted a fireable offense.
+[119]    Vlad
+acknowledged forwarding the OPC UA to Serge.  According to Vlad, Serge was
+considering using OPC UA in 2009 for his engineering project.  Serge admits that
+Vlad sent him various links for OPC UA to get started.  OPC UA was supposed to
+be the latest innovation.  Serge thought that using OPC UA would improve OPC
+and wanted to learn more about it.  Serge used the links to log in, look at the
+material, probably downloaded it, but in 2008 he denied that he did anything
+with it.
+[120]    There
+is an email dated February 9, 2010, from sales@limesoft to Jabir at Lantern
+regarding the “Yanbu project” (Ex. “96”).  It is about the Limedas software. 
+It references a gas analyzer and an opacity monitor device.  It is signed by
+Serge Bays.
+[121]    There
+is an email dated March 28, 2010 (Ex.”93”) from Sales Department (sales@limesoft.ca) to Jabir at Lantern.  The subject line is ARRAZI. 
+It is stated to include a quote.  The attached quote, (Ex “94”) is for the
+Limedas web portal for emission data for ARRAZI II, III and IV Plants.  This
+quote would appear to be in direct competition with Nexus’ product in the
+region.
+[122]    This
+was followed by emails from sales@limesoft to Jabir enclosing information about
+the Limedas Data Logger on May 10, 2010 (Ex. “95”).  This was in respect of the
+Medinah project.  Vlad acknowledged during his evidence that he was involved in
+preparing the Limedas pamphlet that accompanied these emails.  He described
+that it was only a Datalogger, and did not compute averages and thus, in his
+view, was not CEMS.  Thus, although it was close to products that Nexus
+developed, Nexus had stopped selling dataloggers for three or four years.  He
+saw no harm in Serge pursuing this opportunity through Limesoft, but he did not
+put a bid on it through ACT Group because it was too similar to Nexus’
+products.
+[123]    On May
+25, 2010, (Ex.”84”), Jabir emailed Vlad at ACT Group regarding a project.  In
+Vlad’s response, of the same date, he has copied sbays@actgroup.ca. 
+He introduces Serge to the individuals included in the email chain, as ACT
+Group’s “software engineer who is directly responsible for the front-end
+customer application development”.  I do not believe that this project relates
+to emissions.  It is described as an AFIS project.  AFIS is a fingerprint
+reading software for used for security purposes.
+[124]    On June
+13, 2010, emails (Ex. “117”) Jabir advised Vlad that the Medina project had
+been awarded.  This is one of the projects that Nexus had tendered a quote in
+July of 2009.  Vlad testified that this was about the AFIS fingerprinting.  However,
+there is a subsequent email dated December 21, 2010, about the Medina project
+from Vlad to Jabir, with Serge cc’d with the subject line “FW: Madina CEMS
+Commissioning”.  Despite that label, Serge maintained that it was not a CEMS
+project.
+[125]    In an
+email dated July 9, 2010 (Ex. “86”), Vlad, from his ACT Group email, writes to
+Jabir about the AFIS project.  In that email, he states as follows:
+[126]    There
+is an email from Vlad at his Nexus email to Vlad at a personal account dated
+July 29, 2010 (Ex. “88”).  He attaches export declarations that he has obtained
+from a co-worker at Nexus.  Vlad then appears to enlist Serge to assist him in
+handling the shipping between Canada and Saudi Arabia.  In other words, Vlad
+asked a Nexus co-worker for shipping forms so that he could use them for either
+ACT Group or Limesoft.
+[127]    Recall
+that in the fall of 2010, Nexus paid for Vlad to travel to Saudi Arabia to
+perform work for Nexus on the Ar-Razi project and the Rabigh project.  While he
+was there, Vlad acknowledges that he traveled to Saudi Arabia to do work for
+Nexus, but he described that Jabir paid for the flights.  Since he was going to
+be there anyways, Vlad testified that he and Serge thought that he should do a
+demo of Limedas for Medinah.  He described that the demo would take place
+during his free time between Nexus work.
+[128]    There
+are emails between Serge and Vlad from October 2010 (Ex. “120”) that were sent
+while Vlad was in Saudi Arabia.  The emails indicate that Vlad made the first
+presentation and “it went well”.  “Tomorrow, I will be setting a Madinah (sic)
+project”.  The emails reference Limedas.
+[129]    Of
+note, Vlad made commits in the Limedas repositories in October of 2010, while
+on this trip, in which he “Separated demo and Madinah installers” and “Madinah
+installer added”.
+[130]    Vlad
+admitted that while he was in Saudi Arabia, he spoke to Jabir about his
+interest in leaving Nexus.  Jabir wanted him to leave Nexus and form a
+partnership with him.  Vlad testified that Serge was also interested in working
+with him.
+[131]    In that
+vein, Daria sent a very important and contentious series of emails dated
+October 27, 2010 (Ex. “97”).  In her first email, only sent to Vlad, Daria writes
+as follows:
+[132]    In a
+later email in the same chain and on the same date, Daria writes to both Vlad
+and Serge the following:
+[133]    Vlad testified
+that there was no reality to this email from Daria, that she was not involved with
+Limesoft or ACT Group at all by that time, and that the email was not the basis
+for any serious discussion.  The court should essentially disregard it as being
+a meaningless fantasy.  Serge, who had the benefit of watching Vlad testify,
+echoed Vlad’s testimony that there was no basis in reality for this email and
+he had no idea what it meant or where Daria got the figures from.  Serge
+maintained that Limesoft was his company and that he would have been entitled
+to a far bigger share than Vlad.
+[134]    Daria,
+a party to the litigation, was present in the courtroom throughout the trial. 
+Notably, although she could have offered evidence with respect to this key
+document, Daria did not testify.  The plaintiff asks that I draw an adverse
+inference.  In my view, I need not do so.  I simply do not believe either Vlad
+or Serge about their description of this email as being a “fantasy”.  Rather, I
+find that it was intended to be the starting point of discussions with Jabir
+and that Daria was involved in ACT Group/Limesoft at that time.
+[135]    On
+November 16, 2010, Serge sent an email to Vlad with the subject line “SEC West”
+and enclosing a Limesoft Inc. document entitled “SEC WEST CEMS” (Ex. 124”).  It
+notes that it was authored by Serge B.  Its purpose is to describe the
+functionality of Limedas software to be supplied as a continuous gas emission
+monitoring system for Saudi Electricity West Province power plants.  It relies
+upon OPC UA.  This Limesoft pamphlet was sent to Jabir on November 16, 2010.
+[136]    There
+is an email from SICK to Vlad dated March 11, 2011 (Ex.”138”) in which SICK
+expresses concern about Vlad’s prior involvement with Nexus and needing to
+check the “legal situation”.  Vlad, in an email dated March 11, 2011 (Ex.
+“139”) suggests “keeping their conversation confidential”.  I take this as an
+acknowledgment on Vlad’s part that he may have crossed a legal line with Nexus.
+[137]    There
+is an email dated April 25, 2011, from Hameed to Vlad (Ex. 297”).  This
+confirms two projects from SEC to Attest for two power plants in Saudi Arabia. 
+It is for CEMView.  Vlad acknowledged that Limesoft got one of these projects
+for sure.  Vlad denied that he and Jabir were trying to scoop the CEMS work
+from Nexus.  Instead, Vlad testified that he was avoiding that type of work. 
+He says that from late 2009, his plan was not to build CEMS software based on
+OPC UA software.
+[138]    There
+are emails dated May 28, 2011, where Jabir congratulates Vlad for being awarded
+three CEMs contracts.  The emails go to the ACT Group email.
+[139]    Serge
+came to Canada from Ukraine in 2000, at the age of 12.  He went to elementary
+and high school in London before attending UWO starting in 2006.  He says that
+he actually started taking some UWO courses while still in high school through
+a gifted student program.  Serge was taking Software Engineering and using
+engineering protocols for software development.
+[140]    While
+at UWO, after completing his first-year studies, Serge was an intern at Nexus. 
+By my calculation, this would have been in the summer of 2007.  His time at
+Nexus was his first exposure to software engineering.  He started helping here
+and there and reviewing technical documents, like manuals.  He was testing OPC
+software and servers.  He did not do any software development at all because Nexus
+used C++ and he knew C#.  He did do a lot of OPC software testing during his
+internship.
+[141]    Serge
+did not think that it made sense to use OPC Foundation the way Nexus was using
+it.  After he left Nexus, he was working on projects in different fields.  This
+included automation, plant, aerospace and industrial.  In all of those fields,
+there had to be communication between various devices.  OPC could be used for
+that purpose.
+[142]    In
+Serge’s fourth year at UWO, he was required to do a Capstone Project, like a
+thesis.  The students had to use engineering principles to demonstrate
+knowledge in the field.  The project had to involve design and testing.  He had
+to write and design source code.  They had to do “iteration testing” which
+meant building a quick prototype, check it, if it does not work, re-do it to
+improve it.  He also had to do something that was close to real world ready. 
+Serge knew about this project while he was in third year (2008-2009) and
+started thinking about what he wanted to do.
+[143]    The project
+could be individual or done in small groups.  He had a partner, Cody Martin. 
+They both did all of the work.  He had a professor as a project coordinator and
+a different professor as a faculty advisor.  He needed an industry advisor and
+asked Vlad to assume that role.  Therefore, Vlad and ACT Group acted as his
+industry advisor.
+[144]    By
+mid-term, the project had to meet certain milestones.  They had come up with a
+project name—"Limedas” and a company name.  They named the company “ACT
+Group Inc.” because they were the industry advisors.  Serge testified that UWO
+encourages their students to try to commercialize their projects if they can.  Serge’s
+initial idea for the project was the environment and reducing carbon emissions
+at oil and gas facilities.  Achieving net-zero carbon emission was important to
+Serge.
+[145]    Serge
+indicated that he spoke with Vlad about the project very early on.  Thus, the
+first two revisions were done by “vlad” on June 22, 2009.  This code involved
+adding a CEMView database converter that could be used to replace CEMView with
+Limesoft product.  Vlad testified that he did so to help Serge with his project
+although Serge would not need it.  Vlad had offered to get Serge data from an
+oil and gas company.  Serge told him to “give me what you have, and I will
+decide whether to use it”.
+[146]    Vlad
+acknowledged that he gave Serge data that he took from the Plants II, III and
+IV at the Ar-razi project in Saudi Arabia for his project.  Vlad did not ask
+Ar-razi if he could share this information with anyone nor tell them that he
+had done so.  He described that he slightly modified the data and that there
+was no way anyone could identify Ar-Razi as the source of the information.  Vlad
+had access to Nexus’ backup for Ar-razi.
+[147]    Serge
+converted CEMView data for his project.  He decided to use Microsoft because it
+would work well with C#.  He was not trying to build from scratch, so used
+source code from Microsoft SQL server.  He reduced the number of data points
+required.  He thought they could store one data point when the alarm is
+started, and store the data point when the alarm ends.  This reduced the amount
+of storage required.  This innovation was a far more efficient storage of data.
+[148]    In
+September of 2009, Serge spoke to his professor who thought his project had too
+big a scope.  The only industry Serge was familiar with was CEMS, so he decided
+to do his project based on that.
+[149]    In
+October of 2009, Cody and Serge communicated about the project and Serge sent
+him an email with a tutorial for javascript.  They had already prepared their Project
+Proposal, done on October 6, 2009, for Limedas.  They had planned to start
+writing code in January.  They were both doing design and architecture work. 
+They needed to learn how to use a lot of the tools. According to the Project
+Proposal, the project was clearly CEMS.  Serge had researched available CEMS
+products in the market.  He was familiar with Nexus, Honeywell, SICK and
+SIEMENS.  Their plan was to use OPC.
+[150]    The
+project would use Visual Studio, Ankh SVN and Nunit.  It would use Unfuddle for
+project management and a source code repository.  Serge had used Unfuddle for a
+prior project in his third year.
+[151]    Of
+note, Serge started setting up Unfuddle on May 26, 2009, prior to arriving at
+an idea for his project with Cody.  Serge testified that he started setting up
+Unfuddle and had been invited to “unfuddle a project titled My First Project”. 
+The email from Unfuddle already referred to Limedas.
+[152]    Serge
+testified that he had his own computer at home, but it was not very good.  He
+could use the computer lab at UWO to do source code.  He also was allowed to go
+to Vlad’s house and use the ACT Group Inc. computers that Vlad had set up.
+[153]    Serge
+testified that Vlad lived about ten minutes away from Serge’s mother, where
+Serge lived.  He would go over to Vlad’s house and check-in code for his
+project using the ACT Group computers.  According to Serge, Cody would give him
+source code that he had written for the project on a data stick, or email it to
+him.  No such emails were adduced into evidence.  Serge would then check-in the
+source code at Vlad’s house.
+[154]    Serge
+testified that Limedas was different than CEMView.  He testified that the
+modular nature of Limedas meant that if one component failed, another system
+would be protected from the crash.  This reduced failure rates.  He also stated
+that it was more efficient because Limedas did not have to store historical
+data to generate rolling averages for regulatory compliance, like CEMView did.
+[155]    Serge
+testified that data acquisition, data processing and data presentation are
+common to all software systems and are not unique features of CEMS.  I accept
+that evidence.  Limedas was intended to be a web-based viewing of emission
+data, unlike CEMView.
+[156]    In
+December of 2009, Serge incorporated Limesoft.  Serge testified that he wanted
+a real company behind the project.  He had been using ACT Group before because
+they were his industry advisors.  He also had planned to do commercial work
+after the project was completed.  He states that he was in discussions with
+developers in Belarus and Ukraine.  Cody was not intending to stay involved.  Serge
+wanted a company to hold the copyright.
+[157]    Serge
+testified that he paid $62 for an online template for a website (Ex. “69”). 
+The template could be simply filled in, which he did.  Serge states that all
+the photographs that are on the website, were part of the template.  He
+authored the “We offer solutions to meet your process monitoring requirements”
+with Cody’s assistance.  That was part of trying to make the project
+realistic.  He testified that they made stuff up about having more than ten
+years of experience.  The Recent events were written by Serge and Cody.  This
+was to make Limesoft look like a real company.  Cody wrote the section “Live Measurement
+Data Acquisition System”.  Cody did the screenshots of the reports and tables. 
+Again, this was meant to look real, but was made up.  Under “System
+Architecture”, they wrote about OPC UA technology.  Serge testified that it was
+a hot topic and OPC UA was making a log of promises about revolutionizing the
+industry.  This would “add weight” to their project, but the integration of OPC
+UA in their product was not true.
+[158]    I
+reiterate that Serge testified that he did not want to use his mother’s address
+in London because he was embarrassed by it being in a low-income area.  If
+anyone went by that address, the company would not look successful.  On
+cross-examination, Serge took the position that the Ottawa house was nicer than
+his mother’s house.  If so, it is my opinion that it is not appreciably nicer. 
+I do not believe Serge about this.
+[159]    According
+to Serge, he and Cody wrote about 80% of the source code for the project.  He
+acknowledged that some of the code that Vlad had written was used in the
+project.  According to Serge, he was not proficient in C code but was good with
+C#.  Vlad did not know how to write javascript.  Serge described that although
+Vlad was trying to be useful, he was not very good at engineering software
+design and did not have any time to do it.  However, Serge acknowledged that
+Vlad was involved in writing the code for DataLogger.
+[160]    Their
+final written project was submitted in March of 2010 (Ex. “310”).  In the
+Introduction part of their report, it says “Practically, the design document is
+required to coordinate the ACT Group Inc. team under a single vision”.  Serge
+testified that this was supposed to say “Limesoft”.  This was because they cut
+and paste and didn’t change it by mistake.  According to Serge, Limedas could
+not calculate one-minute averages.  They did include a sample report for one-minute
+averages but could not actually do the calculation.  The same was true for one-hour
+averages.
+[161]    Serge
+testified that he did his presentation on his project in April of 2010.  He
+received the highest mark in the class.  He used a power point presentation. 
+The demo did not do any averages.  There were numbers in the report, but they
+were all simulated data.  They could not use real numbers because had no access
+to real clients.  They put data in, but it was not real “one-minute averages”. 
+They did try to use realistic looking data.
+[162]    Serge
+explained that Limedas was designed with four layers.  Their design differed
+from Nexus’ CEMView. CEMView used OPC at every layer.  Limedas only used OPC at
+the collection, server and client layer.  The OPC was all later removed.   Thus,
+there was no connection between the data collection layer and the server. 
+There was local storage.  He found OPC difficult to work with.  With the data
+in the database, the data could be restored and synced over so that there was
+no loss of data.
+[163]    Limedas
+does not store any historical averages.  His product does not store raw data
+for one minute, 15 minute or one-hour averages.  Limedas can recursively
+calculate these averages.  If there is a failure, one could just sync over raw
+data and not worry about the old data. Therefore, one would not have to worry
+about the averages.  Serge described this as the distinguishing feature of Limedas.
+[164]    Serge
+testified that when his project was complete after March of 2010, he started
+trying to monetize it, and therefore, he acknowledged trying to obtain projects
+through sales@limesoft.ca.
+[165]    The Plaintiff disputes that Serge is the real
+controlling mind of Limesoft.  Rather, it asserts that Vlad is the controlling
+mind, through ACT Group.
+[166]    In a very important piece of testimony, Serge
+maintained that he was the controlling mind of Limesoft, not Vlad.  However, he
+was asked in cross-examination what percentage of Limesoft’s quotes related to
+Basic edition and what part was for Standard edition and Serge indicated it was
+about 50-50.  Frankly, this evidence was not even close to being accurate.  The
+evidence shows that the vast majority of the quotes were in relation to Standard
+edition, about $2.8 million, while only approximately $34,000 was in relation
+to Basic edition.  This undermines Serge’s evidence about being in charge of
+Limesoft.
+[167]    Serge
+and Vlad entered into a Share Purchase Agreement on February 1, 2012, for the
+shares of Limesoft.  Serge sold 70/100 shares to Vlad for $28,000.  By that
+time, they were involved in the lawsuit and Serge needed money to finance the
+lawsuit.  Vlad was funding the lawsuit and needed 70% of the shares as
+reimbursement.  Subsequently, Serge sold the balance of his shares, 30%, to
+Vlad on August 26, 2013, for a further $24,000.  The litigation had taken a
+toll on Serge’s mental health, and he testified that he wanted out.  He took a
+mental health break.  He then started a consulting company with his friend. 
+About a year later he bought 30% of the shares back because he was still
+involved in litigation.
+[168]    Limesoft’s
+Tax Return ending 2011 shows $93,062 owing to corporate shareholders.  Serge
+says that this money was advanced by Vlad to help the lawsuit and he did not
+want to do it for free.  Serge denied that Vlad was a shareholder prior to
+2012.  He does not know why it states, “due to corporate shareholder(s)” on the
+Tax Return.  He denies that ACT Group was ever a shareholder in Limesoft. 
+Serge was the only shareholder at the time.
+[169]    Finally,
+the Plaintiff relies upon an email sent from Vlad to SICK dated February 24, 2011,
+that describes Serge as assisting Vlad with his presentation.  Serge offered
+that Vlad said this to maintain appearances with SICK.  Serge was able to point
+to other emails in which Serge has a title with more responsibility than Vlad. 
+He says that they would use whatever titles suited their purpose.
+[170]    I have
+already described how the Unfuddle repositories show their check-ins.
+[171]    From
+June 2009 to May 2011, Serge testified that he had control of Unfuddle, not ACT
+Group and not Limesoft.  It cost about $9 per month for Unfuddle.  Serge
+testified that he did  not have a credit card, so he asked to use Vlad’s to pay
+for Unfuddle.  However, there is evidence that Serge did have a credit card at
+the time.
+[172]    ACT
+Group’s financial ledger shows that ACT Group was making payments for
+Unfuddle.  Both Serge and Vlad testified, very unconvincingly, that Serge
+repaid Vlad for making the credit card payments and it is shown rounded up in
+payments to Serge on the ACT ledger.  I found this evidence unconvincing.
+[173]    Furthermore,
+ACT Group is shown on the Unfuddle website as the company associated with
+Unfuddle.  Serge indicates that he put that in simply to fill the field on the
+questionnaire on the website and that ACT Group was not involved in Unfuddle.
+[174]    Ex. “108”
+shows check-ins to the Unfuddle Limesoft repositories by the following
+usernames: “vlad”, “Vlad”, “serge”, “Serge”, “mihail” and “max”.
+[175]    Serge
+testified that Vlad brought Max and Mihail into the project to help write
+code.  However, Serge could not speak Russian, so Vlad did all of the
+communication between them. Vlad testified that Serge asked him to help with
+implementation, and Vlad told him he did not have time because of his young
+family.  He suggested he use Vlad’s contacts, Max and Mihail, from Eastern
+Europe.  Vlad told Serge that they could help with the Datalogger.  There are
+commits under their names.  Mihail was working from Ukraine and Max was working
+from Belarus.
+[176]    Vlad
+was cross-examined on December 13, 2011.  At that time, Vlad testified that the
+best way to determine who did a commit was to look at the username associated
+with the commit.  At trial, he testified that this was not true, and he was
+merely guessing when he said that in December of 2011.
+[177]    Vlad
+testified that when the Unfuddle account was set up with a username, the
+username is “cached” so that it would automatically load with that username
+when used in the future.  The first time that he and Serge entered source code
+into Unfuddle was on June 9, 2009, and they were sitting together.  When they
+set up the account, he put in the username “vlad”.  From that time forward, if
+a third party used Vlad’s computer to make a commit, it would show “vlad” as
+the author, no matter who entered the commit.  When the username “Vlad”
+appears, it was from a different computer than the computer that used “vlad”.  Vlad
+testified that after the first commit, there is no longer a box where someone
+has to add their credentials to show who did the commit.  The program just does
+it automatically.
+[178]    Serge
+testified in a similar fashion.  However, he also had been previously examined
+under oath on this issue on September 12, 2011, and he stated at that time that
+as far as he could recall, he would use his own name and Vlad would use his own
+name and Cody would use “Cody”.
+[179]    A
+read-in from Serge’s examination for discovery indicates his agreement that the
+Limesoft tickets show from January 24, 2010, to January 24, 2011, the majority
+of the time the tasks were assigned to Vlad.  Serge agreed that Vlad was
+substantially involved with the development of the datalogger functionality. 
+This included data acquisition functionality, which was necessary for continuous
+emissions monitoring.  Serge indicated however, that when Vlad was submitting
+the check-in, Serge was often sitting right there with him, or would sometime
+use “vlad’s” username to do the check-ins.
+[180]    Vlad
+denied doing any of the LCU commits shown on Ex. “108”, despite them appearing
+under the usernames “vlad” and “Vlad”.  He testified that Serge did this work. 
+Vlad denied doing very many of the commits in the “tools” repository.  Again,
+Serge would have done these.  Anytime there was a “Vlad” commit, Vlad indicated
+that it was actually Serge.
+[181]    This in
+my view, makes little sense.  The entire purpose of tracking commits is to
+identify and explain modification to the source code.  Accurately showing who
+created the source code allows all of the software developers to know who to
+consult in the event that they require some explanation about the source code. 
+If the username is essentially random so that there is no way to identify the
+author of the source code, the purpose for the system is entirely eliminated.
+[182]    Furthermore,
+Serge was doing a school project.  If he was the author of the code, and he
+submitted it under “Vlad” or “vlad”, he may not be given credit for the work by
+his professor should that come to light.  It strikes me as an unnecessary risk
+to take.
+[183]    Ex. “108”
+shows “vlad” as working on Limedas as early as June 22, 2009.  Vlad and Serge
+acknowledge that it would have been Vlad that did this work, since Serge did
+not have the knowledge to add an application “to convert CEMView database to
+the new format”.  Again, that would permit CEMView to be converted to a new
+system.  June 22, 2009, was a Monday, but this commit was made at 19:26, after
+work hours.
+[184]    Commits
+were made by “vlad” on Tuesday, June 30, 2009, at 6:35 am in the LCU
+repository.  Serge testified on cross-examination that he might have done that
+commit, but he could not remember.  I would think one would have a distinct
+recollection of a pre-dawn trip to Vlad’s house to commit code.  LCU commits
+were made on Sunday December 27, 2009, before 8:00 am and “vlad” made early
+morning commits on January 29, 2010, as well.  Those certainly would suggest
+Vlad doing the work prior to going to work, rather than Serge traveling to
+Vlad’s house first thing.  There were also a lot of commits done after 11:00 pm
+attributed to “vlad”.  I find it unlikely, although possible, that Serge was at
+Vlad’s house at that time of night.  However, Vlad had denied doing any work on
+the LCU repository.
+[185]    Most of
+the commits occurred after normal work hours or on weekends and holidays.  Often,
+there are entries during the day on the weekends, but after hours on weekdays. 
+If Serge was doing the commits on Vlad’s machines, it would be unnecessary to
+avoid Nexus’ business hours.  Thus, if Serge was doing the commits and not
+Vlad, one might expect to see less commits that seemed to accommodate Nexus
+work hours.
+[186]    However,
+there are also entries that would have occurred during Nexus’ business hours. 
+There are check-ins by “vlad” on Friday, October 30, 2009, at 14:44:13 (Ex.
+“102”).  “Vlad” made commits at 14:36:39, 16:16:52 :44 and 16:18:21 on Tuesday,
+November 3, 2009.
+[187]    Vlad
+acknowledged that he probably did the “DL” Repository commits, including the
+OPC Foundation commits shown as commits 36 DL, 37 DL and 38 DL.  However, the
+source code was what he had developed on his own for the DISOMAT project.
+[188]    The
+first check-ins that use either “serge” or “Serge” as a username occur after
+March 1, 2010, coinciding approximately with the end of his school project.
+[189]    The
+Limedas Tickets are in evidence.  Generally, most of the tickets refer to
+Serge, but certainly many indicate that Vlad was assigned tasks.  Cody was also
+assigned tasks, as well as individuals such as Maksim.  I note that Skype
+records show that Maksim is a friend of Vlad’s that lives in Minks, Belarus. 
+On January 15, 2010, he was sent a link by Vlad via Skype to access OPC
+Foundation material.  Maksim was asked by Vlad to send an invoice in the amount
+of $1,000 for his work.
+[190]    The first
+ticket, May 28, 2009, to June 22, 2009, coincides with when Vlad admits that he
+was involved in installing the CEMView database converter.
+[191]    The
+next ticket dated October 12, 2009, was in respect of the OPC UA server and was
+to provide a model for 3 sample emission sources, corresponding to “Plant II,
+III and IV”.  This was assigned to “Vlad Krougly”.  There are a total of four
+tickets opened for “Vlad Krougly” with the same date, involving OPC UA.  I note
+that this was the Thanksgiving weekend.  There are also seven separate tickets
+for Serge that weekend.
+[192]    On
+November 3, 2009, Vlad was assigned a ticket in respect of adding data quality,
+which appears to relate to calibration.  He was further involved on January 1,
+2010.  Ticket ID:44 was assigned to Vlad Krougly on January 7, 2010, was to
+integrate a new version of the OPC Foundation SDK, with an estimated time of 8
+hours.  Vlad “accepted” this ticket on January 10, and the ticket was closed that
+day.  January 7th was a Thursday, and the 10th a Sunday.
+[193]    Ticket
+ID: 66 was assigned to and accepted by Vlad on April 4, 2010, and indicates
+that the client application was to be written in C#.  There was a total time of
+20 hours noted.  April 1, 2010, was a Thursday.
+[194]    Ticket
+ID:87, assigned to Vlad on May 18, 2010, refers to updating OPC UA SDK.  It
+notes that “the new version was released on May 5, 2010.  Need to update Core,
+Client, Server and Configuration libraries”.  The ticket was accepted by Vlad.
+[195]    On July
+2, 2010, Vlad was assigned to update OPC Foundation Code.
+[196]    Ticket
+ID: 166 dated October 24, 2010, assigned after midnight and worked on until
+1:26 am, describes that Limedas Release version 1.1 was not working.  This was
+assigned to Vlad.  October 24, 2010, was a Sunday.
+[197]    Ticket
+ID:222 dated February 24, 2011, refers to Serge adding custom regulatory
+reports such as daily 15-minute average with 1-hour reports, daily 1-hour
+average multi-component report, monthly 1-hour average report, monthly 1-day
+average multi-component report and quarterly 1-hour average reports.
+[198]    There
+are a separate set of Datalogger tickets.
+[199]    On
+January 25, 2010, Vlad was assigned, and accepted, Ticket ID:45, which was to
+integrate OPC Foundation ANSI C-Stack.  This work was done on a Sunday.
+[200]    On June
+25, 2010, Vlad was assigned to Update OPC UA SDK.  This was resolved August 19,
+2010.
+[201]    On
+September 6, 2010, Ticket ID:120, assigns to Vlad “Implement SICK Maihak CoLa-B
+protocol”.  It is noted “Not sure how we can benefit from this, but it’s a good
+opportunity to do it now, since the hardware is available for test”.  Joseph
+testified that SICK shipped hardware to Nexus for testing at this time and they
+had the hardware on site for two weeks.  According to Joseph, Vlad was the only
+developer Nexus assigned to the project.  Thus, it certainly appears that Vlad
+took this opportunity to test this hardware for the benefit of Limesoft.
+[202]    ACT
+Group’s accounting records have been produced.  ACT Group’s ledger (Ex. “112”)
+shows payments to Maksim on November 12, 2009, in the amount of $540 and again
+on September 1, 2010, for $1,050.  There are also regular payments to Serge in
+the amount of $3,000.  Substantial funds are deposited from Lantern.  Listed
+under “Wages and Salaries” are payments made to Vadim Natsueski.  Recall that
+“Vadim” was one of the people described in Daria’s October 2010 email as
+receiving 20% of the Limesoft shares.  There is an expense for “Unfuddle
+invoices” on September 2, 2020.
+[203]    A
+screen shot of ACT Group’s Website September 4, 2011, at 10:58 (Ex “115”) describes
+that “ACT Group Inc. has developed several applications for the automation
+industry.  Recently we were involved in the development of a process monitoring
+software package to continuously acquire real-time process and emission data
+from a plant smokestack”.
+[204]    Recall
+the Limesoft pamphlet sent to Jabir about Limedas.  At 6.4 of the pamphlet is a
+depiction of circular gauges that display real-time data for emissions.  The
+identical depiction is on the ACT Group webpage.  Similarly, there is a
+Horizontal Linear Gauges depiction that is identical within the Limesoft
+pamphlet and the ACT Group Webpage.
+[205]    From
+the Read-ins from Daria’s examination for discovery, she indicated that by the
+end of 2009, ACT Group was in debt to its shareholders for about $98,000.00. 
+Its only shareholders were herself and Vlad.  By the end of October 2010, ACT
+Group owed over $200,000 to its shareholders.
+[206]    As
+noted, Nexus commenced formal legal proceedings on March 8, 2011.
+[207]    Limesoft
+made 80 quotes of Limedas products between April 17, 2011, and February 2,
+2015.  Most of these are for CEMs.  They do not all reference OPC UA.
+[208]    For
+example, their quote dated April 17, 2011 (Ex. “279”) was for a continuous
+emission monitoring system.  Vlad testified that the Limedas project was not
+capable at that time of meeting the CEMS requirements but that this was just a
+quote, not a purchase order.  Vlad stated that it was three to four months or
+up to six months to a year away from being available at that time.  Therefore,
+they had lots of time to develop the software had they been awarded this
+project.  This does reference OPC UA and OPC Foundations.  He says that they
+later on decided not to use the OPC technology.
+[209]    In my
+opinion, it makes little sense to make a quote if the Limesoft product was no
+where near capable of doing the job.  A simple reading of Ex. “279” makes it
+clear that Limesoft is offering the continuous emissions monitoring system with
+some immediacy.  All of the language is in the present, not future, tense.  It
+refers to allowing 14 days for full system configuration and preparation and
+that CEMS deployment usually takes 3-5 days.  If this quote was intended for
+some indeterminate time in the far-off future, I find that it would have contained
+language to that effect.  I completely reject Vlad’s evidence on that issue.
+[210]    In Limesoft’s
+August 25, 2011, quote (Ex. “280”) to CEM Specialties in London, the subject
+was “continuous emission monitoring system”.  There is no reference to OPC UA. 
+It does state that Limesoft is an OPC Foundation member. I note that Limesoft
+had become a member of OPC Foundation in January 2011.  My comments with
+respect to Ex. “279” applies to Ex. “280”.
+[211]    The
+quote dated August 9, 2011 (Ex. “281”) does refer to OPC UA.  Vlad says that
+OPC UA was removed in August of 2011.  That claim appears substantiated by the
+documents.
+[212]    However,
+the quote dated April 10, 2013, is regarding CEMS.  It states that it would be
+using OPC Communications Protocol, but Vlad indicated that this was an add-on
+that needed to be done to Limedas.  It was OPC Classic, not OPC UA.  He
+testified that there was no OPC in Limedas at all.
+[213]    Mr.
+HelfinSiegel was qualified as an expert, without objection, in digital forensics. 
+He conducts investigations in large software implementation failures, copyright
+infringement and trade secret misappropriation and digital forensics.  He has
+more than 16 years of experience as an IT professional, including system
+administration, security and technical support.  For Reasons given in a
+mid-trial ruling dated November 27, 2023, I permitted him to testify with
+respect to all four reports that he prepared.
+[214]    Mr.
+HelfinSiegel examined Vlad’s Nexus laptop computer to look for evidence linking
+ACT Group with the website Limesoft.unfuddle.com.  He made a digital copy of
+Vlad’s laptop hard drive.  Mr. HelfinSiegel was able to recover deleted
+internet history from the laptop showing visits to limedas.unfuddle.com
+repositories.  These visits occurred in May, July and August of 2010.  Mr.
+HelfinSiegel was able to recover the actual webpages visited for some of the
+entries.
+[215]    For
+example, on May 18, 2010, at 3:01 pm, the ACT Group Inc. webpage was accessed
+from Vlad’s Nexus laptop.  It was logged in as User “vlad”.  On
+cross-examination, Mr. HelfinSiegel agreed that he can only see the User ID,
+but cannot confirm whether the user was actually Vlad.  He agreed that people
+can share passwords.
+[216]    On
+August 18, 2010, User “vlad” visited ACT Group Inc. Data Logger.  The person
+accessed Ticket #8.  Data Logger is one of the Limedas products.  There was a
+drop-down box that indicates “Create application business model, Modbus
+Communication layer, DAS Desktop Client”.
+[217]    There was
+a Limedas_project back.xml file that the defendants produced in the litigation
+from unfuddle.com.  It shows that on March 29, 2011, “Limesoft Inc.” replaced
+ACT Group Inc. on Unfuddle.  It is Mr. HelfinSiegel’s opinion that from May 18,
+2010, to August 18, 2010, ACT Group Inc.’s name appeared on the Unfuddle
+webpages.  The title changed to Limesoft Inc. by March 29, 2011.
+[218]    Mr.
+HelfinSiegel also examined Vlad’s desktop computer at Nexus.  He examined a
+Windows application event log which showed an installation.  The installation
+was Google Apps Migration for Microsoft Outlook.  It was done on December 2,
+2010, at 9:12:41 am.  This program allows a person to migrate emails from Microsoft
+Outlook to another program.  On January 3, 2011, at 9:18:26 am, Google Apps
+Migration was removed from Vlad’s Nexus desktop computer.
+[219]    Mr.
+HelfinSiegel recovered an xml file from Vlad’s desktop computer at Nexus.  It
+was related to Google Apps Migration.  The Account is for nexus@actgroup.ca.  It shows that it was successful.  Vlad
+transferred 1137 Nexus “contacts” emails from his Nexus email account to his
+ACT Group email account on December 2, 2010.  He also transferred files from
+his “inbox”, “resumes”, “SICK Germany”, “SICK Germany/Sent Items”, “OPC UA”,
+“Protocols”, “Saudi Methanol AR-RAZI” and “Sent” folders.  It is Mr.
+HelfinSiegel’s opinion that thousands of items from emails were successfully
+migrated from Vlad’s desktop computer to Nexus@actgroup.ca.  5358
+emails were transferred from the “Inbox” folder alone.  On cross-examination, Mr.
+HelfinSiegel conceded that he was unable to say whether the emails were ever
+successfully accessed or opened by someone using the nexus@actgroup.ca
+account.
+[220]    Mr.
+HelfinSiegel also discovered on Vlad’s Nexus desktop computer an MsiInstaller. 
+On July 28, 2010, “AnkhSVN 2.18420.8” was installed on Vlad’s desktop
+computer.  This is a subversion client, which is a source code repository or
+control system to keep track of changes to source code over time.  It allows a
+person to access the source code control system.  AnkhSVN was removed from
+Vlad’s desktop computer on December 23, 2010.
+[221]    Mr.
+HelfinSiegel also searched “RecentLog Messages” on the desktop computer.  These
+are from Visual Studio 9.0, used to develop source code.  On July 28, 2010,
+according to Vlad’s check-ins (Ex. “108”), the desktop and Unfuddle matched
+precisely.  There were three repository check-ins from Vlad on the same date
+that this was added.  There were other instances of exact matches between
+Vlad’s check-ins and what was put on Unfuddle repository.  The User was always
+“vlad”.
+[222]    Mr.
+HelfinSiegel testified that there was a registry repository for AnkhSVN visited
+on Vlad’s desktop computer on November 23, 2010, at 3:21 pm.  There is an entry
+regarding “limedas.unfuddle.com/svn/limedas_tools”, meaning that this site was
+opened on Vlad’s desktop.
+[223]    Another
+registry entry on Vlad’s desktop (E:\dev\dcu\DCU.sln) is used for development. 
+“DCU” is used for the file for the data logger repository. There was a
+corresponding revision (r2) made by “vlad” by the same name in the Datalogger
+repository.
+[224]    There was
+also a “Windows Error Report” on Vlad’s desktop computer.  It records “crashes”
+of applications.  It was Mr. HelfinSiegel’s evidence that this means that there
+were some crashes caused by the Limedas applications.    Specifically, the
+“Limedas Data Logger.vshost.exe” was implicated in the crash on September 3,
+2010.  This system is used for debugging programs used in development.  The
+Application that was running was a development program when it crashed twice in
+quick succession on Vlad’s desktop computer on September 3, 2010.
+[225]    A SEC-WEST-CEMS
+document was opened on November 16, 2010, in an external hard drive attached to
+Vlad’s desktop computer.  On February 26, 2010, a data logger file was opened
+from an external hard drive.  On August 4, 2010, an external hard drive
+attached to the desktop accessed Medinah demo. On August 6, 2010, data logger
+development code was accessed on the external hard drive attached to the
+desktop.  There are many similar entries relating to Limedas products and SEC
+WEST CEMS in 2010.  There was one for OPC Foundations on June 2, 2010.
+[226]    Mr.
+HelfinSiegel concluded from all of the above that it was much more likely than
+not that Vlad’s Nexus desktop was used for the development of Limedas source
+code.  There were commits made from the Nexus desktop to Limedas at Unfuddle. 
+There is evidence of development work, but no specific evidence that source
+code was written on the desktop.  There was, however, evidence suggestive of
+code being written.  It was his view that it was more likely than not that
+source code was written on the desktop computer because source code is usually
+part of development.   Mr. HelfinSiegel suspects that there was source code
+development because there was debugging apps run, there was a Limesoft crash
+and subversion program (Ankh SVN).  The Visual Studio program found is also a
+special executable program used in development work.  It makes little sense for
+these to be found unless there was source code development.
+[227]    Mr.
+James was also qualified, on consent, to give expert evidence.  He is familiar
+with subversion technology and “blame” subversion technology.  He was qualified
+to provide opinion evidence with respect to computer engineering in two ways:
+[228]    Mr.
+James reviewed the seven source code repositories on Unfuddle.  He created a
+chart (Ex. “212”) using software that showed the amount of source code in the
+Unfuddle repositories over time.  This is from June 22, 2009, to March 29,
+2011.  There were six contributors to source code, by username—Vlad, vlad,
+Serge, serge, max, and mihail.  Most of the source code was committed before
+March 29, 2011, and no code was committed after June 2011.  He agreed that the
+chart could only show the username used to commit code, but not necessarily who
+the actual person using the username was.
+[229]    The
+biggest contributor of source code, by far, was “Vlad”.  The second largest
+contributor was “vlad” and then “serge” closely in third.  Mr. James also
+agreed that some of the source code could have been created by a third-party. 
+This means that part of the computer program or source code was written by
+another developer and was then simply checked-in by the person using the
+username.
+[230]    On
+cross-examination, Mr. James agreed that on Ex. “212”, there was a major jump
+in the amount of code found between day 326 and day 339, added by “Vlad”.  This
+was about 330,000 lines of code.  Another significant jump in the amount of
+code was between days 235 and 248, where approximately 100,000 to 111,000 lines
+of code were entered.  The majority of this code was a commit of OPC code.  A
+third check-in by “vlad” on February 24, 2010, likely accounted for 50,000
+lines of code.  These three specific lines of code totalled approximately
+480,000 or 54.5% of the total code committed during the time frame.
+[231]    Mr.
+James agreed just because source code is committed to a repository, it does not
+mean that the code is ultimately going to be used in the development of the
+final project.  The developer may change paths in the development.  However, it
+was Mr. James’ opinion that anything that was not going to be used is typically
+removed.  He did not see any deletions of source code.  He only saw additions
+and modifications, although he conceded that he was not asked to locate any
+deletions.
+[232]    Importantly,
+Mr. James testified on cross-examination that he compared CEMView software with
+the Limedas Datalogger software.  It was his opinion that the source code was
+not the same.  The algorithms used were dissimilar.  The structures of the
+files were dissimilar.  Although the data in these systems originates from
+sensors, the data was dissimilar.  In his opinion, there was no evidence of
+copying.
+[233]    Mr.
+James identified that “r2” in the OPC repository on April 27, 2010, was C#
+code.  He was asked to examine the OPC repository on Unfuddle to determine how 
+many of the files were connected to an OPC RCBL (Reciprocal Community Binary
+License) License.  There were 308 such files out of 352 files had this license.
+[234]    Mr.
+Cosovic was one of the software developers at Nexus from July 2001 to May of
+2013.  In this case, the Plaintiff called him for the purpose of tendering him
+as an expert witness.  He worked with Vlad and Alexandre and was part of the
+team developing CEMView.  He has since left Nexus but continues to work for a
+software development company.  He is fluent in C# coding language.
+[235]    In a
+mid-trial ruling, I qualified Mr. Cosovic as an expert to examine software to
+determine whether or not it was continuous emissions software.
+[236]    Mr.
+Cosovic was instructed by Joseph on how to install and operate the Limedas
+software.  He was able to create a 6-min average, a 3-hour average and a 30-day
+average.  He did not add any source code to the program.  He used the
+precompiled version that was provided to him.  He testified that he was not
+able to simulate the process running, but he was able to simulate the data that
+would have come from an analyzer.
+[237]    Mr.
+Cosovic testified that he was able to generate 6-minute, 3-hour and 30-day
+rolling averages when he ran the Limedas software.  The 3-hour rolling average
+is a mandatory regulatory average in cement plants, for example.  The Limedas
+software was also capable of generating 1-hour rolling averages, which is also
+a regulatory average used in the field.  The software used 15-minute averages
+to calculate the 1-hour average.  It uses 1-minute averages to calculate 6-minute
+averages.  One day averages are used to calculate 30-day average.
+[238]    In the
+CEMS world, the 6-minute average is mandatory for measuring opacity in concrete
+plants to ensure regulatory compliance.  The Limedas product was capable of
+creating this 6-minute average.
+[239]    The
+Limedas product was capable of generating reports to show the data
+measurements.
+[240]    Based
+on his experience, it was Mr. Cosovic’s opinion that Limedas was a fully
+configurable CEM data acquisition system.  The system could obtain values from
+gas analysers and the status of the gas analyzers.  It could qualify the data
+that it acquired from the analyzers.  It could then be deemed valid or
+invalid.  If valid, the data could be used to calculate the regulatory
+averages.  If invalid, it could not be used.  A CEMS has to be able to track
+daily calculations and calibration drift.  This determines whether the data is
+valid or invalid.  In Mr. Cosovic’s opinion, all of the averages that Limedas
+could calculate are important for continuous emission monitoring systems.
+[241]    In
+cross-examination, Mr. Cosovic was asked about rolling averages.  He compared a
+rolling average to a block average.  For a rolling average, the last hour falls
+off and the next hour is added on, if it is valid.  Ex. “158”, for example, was
+titled “3-hour rolling average”.  However, he agreed that the report was
+generating a chart that was showing every three hours, like a block average
+would.  Mr. Cosovic maintains that he entered a 3-hour rolling average and did
+not investigate why the program set out the chart in this fashion.  When he ran
+the 30-day rolling averages, the chart omitted information.  He did not
+investigate why that was the case.
+[242]    He was
+taken to the instructions he followed to generate the 3-hour rolling average. 
+He followed the instructions and generated the reports.  He labelled the report
+a “3-hour rolling average”.  The fact that he named it that way, does not mean
+the report generated was actually a 3-hour rolling average.  He saw “AVG” in
+one of the Limedas commits.  It is used to calculate the averages.  He used
+3,600,000 milliseconds as the processing interval.  This is one hour.  He saw
+this in a Limedas commit.  He did not see if the source code had been changed
+since he saw it and the version he was using.  He did not look for an “rAVG
+function”.  He does not know if the defendants used a separate function to
+calculate rolling averages.
+[243]    Mr.
+Cosovic did not review the Limedas source code to see if the averages were
+recorded in the database.  However, he felt that the data could be extracted
+from the program to calculate the rolling averages manually.
+[244]    However,
+Vlad testified that r875, done on May 29, 2012, is where the source code was
+added that allowed for rolling averages as defined in the US and Canadian
+regulations.  If that is true, then Mr. Cosovic could not have generated the
+rolling averages with the version of Limedas he was working with.
+[245]    Mr.
+Cosovic concluded that Limedas was capable of tracking the calibration drift
+necessary for CEMS.  Calibration process is from an analyzer on a smokestack. 
+A known concentration of the gas is sent up a probe on the analyzer, read and
+calculations are done by a CEMS program about whether the reading was correct. 
+There is a range of tolerance with known values.  A CEMS product can measure
+this calibration drift.  Mr. Cosovic did not look for source code that would do
+this in the Limedas program.  He did see some historical data, but he did not
+try to run a calibration report.
+[246]    Mr.
+Cosovic was taken through a number of commits dated June 25, 2011, which he had
+not seen before.  He agreed that he would not expect these entries if
+calibration tracking was already in place prior to that time.  He agreed that
+there was extensive work done in calibration in the summer of 2011, which would
+be after the demo that he tested.
+[247]    According
+to Vlad, they started doing calibration drift in Limesoft programming in June
+or July of 2011.   A corresponding entry in Vlad’s Limesoft timesheet (Ex.
+“151”) shows that on June 25, 2011, he started implementing calibration drift
+for Limedas.  By August 12, 2011, the system could generate a calibration
+report.  He spent approximately 172 hours setting up the calibration tracking
+from June 25, 2011, to August 12, 2011.  Vlad did this because Serge was not
+familiar enough with the various International regulations.  This is shown in
+the Limedas Repository at r396 as occurring on July 25, 2011, which states
+“Implement USEPA (Control Chart) drift evaluation (#37)”.  This source code was
+reviewed and is approximately 40 lines of source code.  Prior to that work
+being completed, Vlad says that Limedas could not calculate calibration drift. 
+Therefore, he says that they could not install the software as a Continuous
+Emission Monitoring Software until that was done.
+[248]    It was
+put to Vlad that he was working on calibration drift as early as March 2011. 
+Vlad says that was the first change to have a “mock up screen” to get the
+client interested.  It was not actually implemented.  He denies that there was
+any calibration source code prior to January 2011.  Vlad denies that GME 66
+Calibration had anything to do with actual calibration.  It was just a name
+assigned to that screen for marketing purposes.  It was a demo.  It was not the
+product that would be implemented at the actual customer.  The Saudi Arabia
+plants did not need calibration.
+[249]    Vlad
+conceded that the Limedas source code that was filed with the court in March of
+2011 was a working installation at Medinah.  However, there was no calibration
+possible in that product.  The averaging was possible, but not a rolling
+average.  He then described it as a demo.
+[250]    Mr.
+Whiteside has worked as a consultant engineer on emissions monitoring
+software.  He would configure systems for individual customers and amends
+software.  He reviews source code and has written some source code.  He has
+co-authored data acquisition standards for emissions.  I qualified him as an
+expert in CEMS software.
+[251]    Mr.
+Whiteside described that CEMS data acquisition software is intended to collect
+information from analyzers and store it to produce reports for regulatory
+authorities.  There are analyzers with their own software.  The regulations
+vary quite considerably from jurisdiction to jurisdiction.  The software has to
+be re-written for each site.  Now configurable software is available, and a
+programmer just needs to tell the software the rules.  Overall, the
+requirements are similar.  It is about air quality.  The sites have to
+calculate the total pollutants emitted over time.  Local regulations may limit
+emission levels.  Each site has its own permit.
+[252]    Mr.
+Whiteside was provided with source code from Limesoft’s SVN database.  He
+extracted the software versions of Limedas—Versions 1, 1.1, 1.3, 1.4 and 1.5.  He
+conducted a keyword search in the database.  Certain keywords did not appear in
+version 1.3 but did appear in 1.4 and 1.5.  He focussed on differences between
+1.3 and 1.4.  There was not much difference between 1.4 and 1.5.  The switch
+between 1.3 and 1.4 occurred on July 7, 2011.  This is when the later version
+was released.
+[253]    Mr.
+Whiteside described the difference between a rolling average and a block or
+fixed average.  For a rolling average, every one minute get an average of the
+preceding 60 minutes.  Rolling averages are important where conditions that are
+being monitored may change quickly.  When he conducted his keyword search, the rolling
+average capability was not found in version 1.3 but were found in version 1.4. 
+Rolling averages are required in various regions broadly. For rolling hours, in
+the US, each hour takes the preceding 180 samples.  The difference between
+rolling and fixed, is it gets updated at input for rolling.  The software has
+to be able to tell it what to do.
+[254]    A
+quadrant is a time period, a section of any specific clock hour.  There are
+four quadrants to every hour.  A quadrant is a US requirement in particular, to
+comply with their regulations.  There must be one valid data point per quadrant
+while the plant is in operation.  Otherwise, under those regulations it is not a
+valid hourly average.  This is unique to the United States.  The defendants
+software had quadrant averages but not in version 1.3.  It was in version 1.4. 
+Quadrants were added on December 17, 2011.  However, he conceded that quadrants
+are not required broadly, and he has only seen it in the US regulations.
+[255]    Mr.
+Whiteside described calibration drift.  Analyzers have to be very sensitive. 
+Calibration tests are used to get a zero reading to check performance of the analyzer. 
+The regulations vary about what the permissible calibration drift is.  In CEMS,
+if calibration is off, the regulatory authorities cannot tell if regulatory
+limits are being exceeded.  It is accepted that analyzers have a level of
+uncertainty.  Each region allows a permissible drift from the certainty.  The
+defendants’ software could do calibration drift calculations in version 1.4
+that complied with USA and European regulation in version 1.4.  This was not
+present in version 1.3.  Thus, this was added July 25, 2011, and December 29,
+2011.
+[256]    On
+cross-examination, Mr. Whiteside agreed that cement kilns need rolling
+averages.  He testified that in CEMS, calibration includes a multitude of
+areas.  When they first build a plant and install CEMS, it is compared with a
+reference method.  They install a probe and analyze the chemicals to get a
+chemical concentration for each component.  This produces a chart for
+comparison.  Alternatively, they can do ongoing calibrations to continuously
+check analyzers to ensure they are still working.
+[257]    Mr.
+Whiteside’s report was done using a keyword analysis.  He conceded that there
+are more thorough ways to do this analysis.  He had not seen the Limedas
+executable program filed with the court in March of 2011 that Mr. Cosovic had
+run.  Mr. Whiteside agreed that it would be helpful to use the executable to
+actually run the programs, but it would take some time.  Looking at executable,
+like Mr. Cosovic had done, would have been more thorough.  He was not asked to
+do the executable, just the keyword search.  He had not seen Mr. Cosovic’s
+report.
+[258]    Mr.
+Whiteside concluded that rolling averages, quadrants and calibration drift were
+all done after version 1.3 because there were no keyword hits until version 1.4. 
+He started looking at 1.5 and went backwards.  1.4 had the same as 1.5.  There
+were no hits in 1.3.  He did not include the date version 1.3 started.  But he
+says not a lot of work was done before version 1.4.
+[259]    After
+going through Ex. “108”, he agreed that calibration was being developed as of
+March 2011.  There would be configurable calibration figures.  These commits
+are inconsistent with calibration not being there before July 2011.  His
+keyword search dealt with US and European standards because they are very
+specific.  So therefore, his search was not exhaustive.  A start-up that might
+want to branch out and add US and European regimes might add for version 1.4. 
+Having said that, he is not able to say whether the calibration functionality was
+working or a prototype.  He would need to see the code or if any subsequent
+changes.
+[260]    Mr.
+Whiteside testified that if OPC was removed, there would generally be a new
+version number because they would want people to know that the software had
+been changed.   I note that Serge testified that OPC UA ANSI stack was taken
+out over the summer of 2010.  It was not really useful so he “cleaned it up”. 
+By March of 2011, he testified that it was all gone.  293 DL of Ex. “108” showed
+“serge” removing OPC UA ANSI stack on August 18, 2010.  Serge had testified
+that he was initially interested in OPC UA, but it was not working well so took
+it out.  He still had OPC UA when he presented his project because he could not
+change last minute.
+[261]    Serge
+testified that Limedas completely removed OPC UA by May of 2011 and it was not
+being used by Limedas for any functionality.  Commits 836, 839 and 844 show
+Serge removing OPC UA.  He left it in where the data is moved between the
+client and the server.  He eventually got rid of this too.
+[262]    I note
+that the Unfuddle repositories show, in r158, “OPC UA is no longer required. 
+The server will be recreated”.  Serge testified that on May 25, 2011, he
+removed OPC UA from the software, creating version 1.3.
+[263]    Mr.
+Whiteside testified that subversion allows a source code control system to
+reproduce an earlier version.  It does not allow you to include changes that
+were made to a later version.  Prior versions are preserved.
+[264]    Generally,
+I found Joseph to be a credible witness.  However, he frequently gave
+unnecessarily long-winded answers, both during examination-in-chief and during
+cross-examination.  It was not my impression that he did so to be obstructive. 
+Rather, my impression was that he has a lot of specialized knowledge about Nexus
+and CEMView, and he simply over-explained it to the court.
+[265]    I
+thought, however, that he failed to make his point about the decrease in Vlad’s
+commits in 2009 and 2010 demonstrating that Vlad was not devoting sufficient
+time to Nexus as falling short.  He should have recognized, in my view, that
+his analysis failed to consider commits that would be done under a different username,
+like “support” or “developer”.  I do not think he was trying to mislead I
+simply do not think he considered that possibility.
+[266]    I have
+described that Joseph was a demanding employer.  Some of his emails struck me
+as overly disrespectful to his staff, but he was the boss and was, in my
+opinion, entitled to be demanding.  Thus, these emails, even if I disapprove of
+their tone, did not diminish Joseph’s credibility.
+[267]    There
+is no doubt that Joseph feels betrayed by Vlad.  I also recognize that this
+lawsuit has been going on for many years, has been hard fought and there is no
+love lost between the litigants.  Each of Joseph and Vlad took a few “cheap
+shots” at the other that I do not believe the evidence bore out.  As noted, I
+do not impute an improper motive to Joseph for expressing his views to the PEO,
+particularly since this is before he discovered Vlad’s role with Limesoft.
+[268]    I
+harbour some suspicion about whether Joseph’s claim that when he first heard of
+Limesoft he called in all the developers into a meeting and that he later saw
+the Limedas demo running on Vlad’s computer.  Vlad denies that either of these
+occurred.  I prefer Joseph’s testimony over Vlad’s, for reasons I will explain,
+but it struck me as surprising that no emails that went out to all of the
+Nexus’ programmers would have been adduced into evidence given the quantify of
+emails tendered.  Frankly, it is my view that little turns on whether such a
+meeting occurred, of if Joseph saw the Limedas demo running on Vlad’s computer.
+[269]    Serge
+and Vlad are obviously intelligent men and were able to provide a lot of complicated
+detail about the software development and CEMS, much like Joseph.  Frankly, it
+was impossible for the court to gauge what was accurate given my own scant
+knowledge about the subject matter of this litigation.
+[270]    I
+thought that Vlad testified in a relatively calm fashion, although I noted that
+he became defensive on two or three occasions.  That is not unexpected during
+cross-examination given the allegations in this case.
+[271]    Similarly,
+I thought that Serge remained composed throughout his testimony.
+[272]    As
+noted, I thought Vlad attempted to land some low blows.  He emphasized the
+negative work atmosphere at Nexus, without acknowledging some of the perks.  He
+immediately admitted on cross-examination that his examination-in-chief about
+all the Sue-Tangs and Alex having nice offices was not true and that only
+Joseph had an office and the rest of them had a cubicle like he did.  That
+seemed like a needless untruth.  I noted that he was combative at this point in
+the cross-examination when he was called out on this.
+[273]    As
+noted, I have decided that deciding whether Vlad misrepresented his educational
+qualifications to the PEO is a distraction in an already complicated case. 
+Thus, while there is reason to be skeptical, I place no weight on the PEO hearsay
+evidence or the translated documents, except for Vlad’s shifting narrative
+about his experience.
+[274]    However,
+that shifting narrative is noteworthy.  In the context of the lawsuit, Vlad
+downplayed his independence, describing himself as a “data entry” clerk.  This contrasts
+with his letter to the PEO about having worked as a software engineer for ten
+years including his time at Nexus and his letter as a reference for a co-worker
+in which he described himself as a manager.  He also clearly suggested to SICK
+that he was intimately involved in all of the Nexus CEMView development.
+[275]    Vlad
+initially indicated that he was not aware of the migration of emails from his
+Nexus computer to ACT Group but then tried to explain that he was simply trying
+to retrieve personal information was not believable.
+[276]    Even
+the timing of Vlad’s letter to SICK on January 25, 2011, mere weeks after
+leaving Nexus, and offering Limedas as an alternative to CEMView completely
+undermines his evidence that he was not developing a competing product while at
+Nexus.
+[277]    Serge’s
+explanation for using an Ottawa address on the Limesoft website to give the
+appearance of prestige in case anyone checked the address was completely and
+utterly non-sensical given that the Ottawa address was observably not more
+prestigious than his mother’s home.  That answer hurt Serge’s credibility considerably
+in my view and certainly makes me believe that the Ottawa address was used to
+keep Limesoft’s existence secret from Nexus.

@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "case_name": "Motion to Strike Out the Amended Statement of Claim",
+    "docket_number": "unknown",
+    "date_filed": "2024-08-07",
+    "date_decided": "2024-08-07",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Unknown",
+    "judge_name": "Unknown",
+    "case_category": "Civil",
+    "legal_issues": [
+        "Jurisdiction",
+        "Abuse of Process",
+        "Reasonable Cause of Action",
+        "Charter Rights",
+        "Labour Relations",
+        "Collective Agreement"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The Amended Statement of Claim is struck out in its entirety with leave to amend. Claims against certain non-governmental defendants are struck out. Certain claims were dismissed as they do not disclose a reasonable cause of action. Other claims were considered moot or beyond the court's jurisdiction. The Plaintiff Beth Ann Dick is granted leave to amend her statement of claim in a specific form.",
+    "penalty_type": "Costs",
+    "penalty_amount": "175000",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 0,
+        "category": "monetary",
+        "subtype": "costs",
+        "amount": 175000,
+        "effective_date": "2024-08-07T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "status": "ordered",
+        "end_date": null
+    },
+    "decision_factors": null,
+    "cited_cases": null,
+    "summary": "A motion was filed to strike out the Amended Statement of Claim involving 473 plaintiffs against governmental and non-governmental defendants concerning COVID-19 vaccination policies. The court struck out the Amended Statement of Claim for want of jurisdiction, abuse of process, and failure to disclose a reasonable cause of action with leave to amend."
+}

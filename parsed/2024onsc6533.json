@@ -1,0 +1,50 @@
+{
+    "id": null,
+    "case_name": "M.M.B. v. C.M.V.",
+    "docket_number": "unknown",
+    "date_filed": "2024-06-05",
+    "date_decided": "2024-10-23",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Family Court",
+    "judge_name": "Unknown",
+    "case_category": "Family Law",
+    "legal_issues": [
+        "Child Support",
+        "Motion to Change",
+        "Unreasonable Behaviour"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The Respondent was successful. M.M.B. was ordered to repay collected child support, pay base child support, and arrears of s. 7 expenses. M.M.B.'s financial circumstances considered but did not displace Respondent's entitlement to costs.",
+    "penalty_type": "Monetary",
+    "penalty_amount": "28123.42",
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 123,
+        "category": "monetary",
+        "subtype": "restitution",
+        "amount": 28123.42,
+        "status": "ordered",
+        "effective_date": "2024-10-23T00:00:00Z",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Respondent's success at trial",
+        "Applicant's unreasonable behaviour",
+        "Offers to settle",
+        "Financial circumstances"
+    ],
+    "cited_cases": [
+        "Mattina v. Mattina, 2018 ONCA 867",
+        "Beaver v. Hill, 2018 ONCA 860",
+        "Paranavitana v. Nanayakkara, 2010 ONSC 2257",
+        "Cozzi v. Smith, 2015 ONSC 3626",
+        "Scipione v. Del Sordo, 2015 ONSC 5982",
+        "Self v. Reid, 2006 ONCJ 30"
+    ],
+    "summary": "In a long and tortuous family law case regarding child support and arrears, the court found in favor of the Respondent (C.M.V), ordering the Applicant (M.M.B) to repay child support she collected after children moved in with the Respondent, to pay base child support and arrears of s. 7 expenses. Despite M.M.B's claims of financial hardship, the court awarded costs to the Respondent due to his success at trial and the unreasonable behavior of both parties."
+}

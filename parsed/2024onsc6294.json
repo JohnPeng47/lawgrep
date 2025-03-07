@@ -1,0 +1,49 @@
+{
+    "id": null,
+    "case_name": "Abraham v. Abraham",
+    "docket_number": "2024 ONSC 5315",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court",
+    "judge_name": "Not specified",
+    "case_category": "Civil",
+    "legal_issues": [
+        "Enforcement of arbitration award",
+        "Costs"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "Andrew ordered to pay Lukus costs in the amount of $34,000, all-inclusive, within 30 days.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "monetary",
+        "subtype": "costs",
+        "amount": 34000,
+        "status": "ordered",
+        "effective_date": "2024-07-04T00:00:00",
+        "end_date": "2024-08-03T00:00:00",
+        "id": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null
+    },
+    "decision_factors": [
+        "Lukus' entitlement to costs as the successful party",
+        "Offer to settle under r. 49.10",
+        "Conduct of Andrew not deemed egregious",
+        "Costs should reflect a fair and reasonable amount"
+    ],
+    "cited_cases": [
+        "Davies v. Clarington (Municipality), 2009 ONCA 722",
+        "Manning v. Herb Epp, 2006 CanLII 35631",
+        "The Canada Soccer Association Incorporated v. Association de Soccer de Brossard, 2023 ONSC 2240",
+        "OPB Realty Inc. v. Canada International Medical Suppliers Company Limited, 2015 ONSC 6",
+        "Boucher v. Public Accountants Council for the Province of Ontario, 2004 CanLII 14579 (ON CA)",
+        "Brahma v. HR Services, 2022 ONSC 2645"
+    ],
+    "summary": "Lukus Abraham successfully applied for enforcement of an arbitration award. Andrew Abraham was ordered to pay Lukus $34,000 in costs, with partial indemnity up to and including July 3, 2024, and substantial indemnity costs thereafter, due to a valid offer to settle and despite Andrew's opposition to the application."
+}

@@ -1,0 +1,44 @@
+{
+    "id": null,
+    "case_name": "R. v. A.M.",
+    "docket_number": "Unavailable",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Canada",
+    "court_level": "Unavailable",
+    "judge_name": "Unavailable",
+    "case_category": "Criminal",
+    "legal_issues": [
+        "Sexual interference under s. 151 of the Criminal Code"
+    ],
+    "outcome_for_plaintiff": null,
+    "outcome_details": "A.M. pleaded guilty and was sentenced to three years in jail with ancillary orders.",
+    "penalty_type": "Custodial Sentence",
+    "penalty_amount": null,
+    "penalty_duration": 3,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "criminal_penalty",
+        "subtype": "incarceration",
+        "amount": null,
+        "duration_value": 3,
+        "duration_unit": "years",
+        "terms": null,
+        "restrictions": null,
+        "status": "ordered",
+        "effective_date": "2024-03-01T00:00:00Z",
+        "id": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Denunciation and deterrence as primary sentencing principles",
+        "Aggravating and mitigating factors considered",
+        "No prior criminal record for A.M.",
+        "Guilty plea reduced the need for victim testimony",
+        "Low risk to reoffend as per Dr. Gulati's assessment"
+    ],
+    "cited_cases": [
+        "R. v. Friesen"
+    ],
+    "summary": "A.M. was sentenced to three years in prison after pleading guilty to sexual interference as per s. 151 of the Criminal Code. The court considered factors related to deterrence, the lack of prior criminal record, A.M.'s guilty plea and acceptance of responsibility, and his assessed low risk to reoffend."
+}

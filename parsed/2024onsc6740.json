@@ -1,0 +1,39 @@
+{
+    "id": null,
+    "case_name": "Mehrzad Zarei v. Association of Families of Flight PS752 Victims",
+    "docket_number": "2021 ONSC 3377; 2021 ONSC 8569",
+    "date_filed": "2021-01-01",
+    "date_decided": "2024-11-27",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Ontario Superior Court of Justice",
+    "judge_name": "Not specified",
+    "case_category": "Corporate Governance / Not-for-Profit Corporations",
+    "legal_issues": [
+        "Oppression remedy under the Canada Not-for-Profit Corporations Act",
+        "Business judgment rule",
+        "Reasonable expectation",
+        "Corporate governance"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The application for an oppression remedy was dismissed. The court found that the Association's Board decisions adhered to the business judgment rule, and Mehrzad's reasonable expectations were not violated.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "Business judgment rule",
+        "Reasonable expectations of the complainant",
+        "Failure to demonstrate oppression or unfair prejudice",
+        "Adherence to procedures under the Canada Not-for-Profit Corporations Act"
+    ],
+    "cited_cases": [
+        "Watto v. Immigration Consultants of Canada Regulatory Council, 2019 ONSC 701",
+        "BCE Inc. v 1976 Debentureholders, 2008 SCC 69",
+        "Peoples Department Stores Inc. (Trustee of) v. Wise, 2004 SCC 68",
+        "Hadjor v. Homes First Security, 2010 ONSC 1589",
+        "Campaign for the Inclusion of People who are Deaf and Hard of Hearing v. Canadian Hearing Society, 2018 ONSC 5445",
+        "Saskatchewan WFT Taekwondo et al v. Taikwondo Canada, 2015 ONSC 2937",
+        "Halsey v. Genoil, 2017 ONSC 4817"
+    ],
+    "summary": "Mehrzad Zarei's application for an oppression remedy against the Association was dismissed. The court found that the Association's actions were reasonable under the business judgment rule and did not violate Mehrzad's reasonable expectations."
+}

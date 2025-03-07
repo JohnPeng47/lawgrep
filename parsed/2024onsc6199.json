@@ -1,0 +1,46 @@
+{
+    "id": null,
+    "case_name": "Initial Order for Sandvine Corporation under the CCAA",
+    "docket_number": "N/A",
+    "date_filed": "2024-11-06",
+    "date_decided": "2024-11-06",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court of Justice",
+    "judge_name": "Chief Justice Morawetz",
+    "case_category": "Insolvency and Restructuring",
+    "legal_issues": [
+        "Initial Order under the CCAA",
+        "Stay of Proceedings",
+        "Appointment of Monitor",
+        "Jurisdictional Considerations",
+        "DIP Financing",
+        "Directors' Charge",
+        "Recognition in US Courts"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The court granted an initial order for Sandvine Corporation and related entities to undergo restructuring under the CCAA, including a stay of proceedings, appointment of a monitor, approval of interim financing, and other related reliefs.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": null,
+    "decision_factors": [
+        "The need for restructuring due to insolvency and liquidity issues",
+        "The interconnected global operations of Sandvine",
+        "The support of major creditors",
+        "The need to maintain ongoing business operations without disruption",
+        "Jurisdictional appropriateness of Ontario, Canada",
+        "The necessity of cross-border recognition under Chapter 15 of the US Bankruptcy Code"
+    ],
+    "cited_cases": [
+        "Target Canada Co. (Re), 2015 ONSC 303",
+        "Bed Bath & Beyond Canada Limited (Re), 2023 ONSC 1014",
+        "Global Light Telecommunications Inc., (Re), 2004 BCSC 745",
+        "CanWest Global Communications Corp. (Re), 2009 CanLII 55114 (ONSC)",
+        "Syncreon Group B.V. (Re), 2019 ONSC 5774",
+        "LTL Management LLC (Re), 2021 ONSC 8357",
+        "Ted Baker Canada Inc. et al (Re), 2024 ONSC",
+        "Ghana Gold Corp (Re), 2013 ONSC 3284",
+        "JTI-Macdonald Corp. (Re), 2019 ONSC 1625"
+    ],
+    "summary": "The court ruled in favor of Sandvine Corporation's application for an initial order under the Companies’ Creditors Arrangement Act (CCAA). This order includes a stay of proceedings, appointment of KSV Restructuring Inc. as Monitor, approval of a debtor-in-possession financing facility, authorization to recognize Canadian restructuring proceedings in US courts under Chapter 15 of the US Bankruptcy Code, and other related reliefs to ensure the stability and continuation of Sandvine's operations during restructuring."
+}

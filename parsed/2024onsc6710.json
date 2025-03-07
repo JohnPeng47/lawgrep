@@ -1,0 +1,47 @@
+{
+    "id": null,
+    "case_name": "PCCI v. Ebrahimi Parties",
+    "docket_number": "",
+    "date_filed": null,
+    "date_decided": null,
+    "jurisdiction": "Ontario",
+    "court_level": "Superior Court",
+    "judge_name": "",
+    "case_category": "Contract Law",
+    "legal_issues": [
+        "Fraud",
+        "Breach of Contract",
+        "Enforcement of Settlement"
+    ],
+    "outcome_for_plaintiff": false,
+    "outcome_details": "The court set aside the Implementation Orders, declared the Minutes of Settlement null and void, and dismissed PCCI's Fourth Implementation Motion. Costs were awarded to the Ebrahimi Parties.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 0,
+        "category": "declaratory",
+        "subtype": "specific_performance",
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": "The Minutes of Settlement are declared null and void.",
+        "restrictions": null,
+        "status": "ordered",
+        "effective_date": "2024-02-14T00:00:00",
+        "end_date": null,
+        "id": null
+    },
+    "decision_factors": [
+        "Fraud by PCCI in pursuing Iranian verdict post-January 30 Decision",
+        "PCCI's failure to comply with court orders",
+        "New evidence (February 2024 Memo) introduced by Respondents"
+    ],
+    "cited_cases": [
+        "Mehedi v. 2057161 Ontario Inc.",
+        "Maguire v. His Majesty the King et al.",
+        "671122 Ontario Ltd. v. Sagaz Industries Canada Inc.",
+        "Suddaby v. 864226 Ontario Inc."
+    ],
+    "summary": "The Ebrahimi Parties sought to set aside previous court orders based on fraud and newly discovered evidence. PCCI's actions, including seeking a verdict in Iranian criminal proceedings, were inconsistent with obligations under a settlement agreement. The court found that the Minutes of Settlement were vitiated and void, and that PCCI was not entitled to enforcement under Canadian law."
+}

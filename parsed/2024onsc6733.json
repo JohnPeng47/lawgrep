@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "case_name": "Fisher v. NVA Queen West Management",
+    "docket_number": "2023 ONSC XXXX",
+    "date_filed": "2023-08-04",
+    "date_decided": "2023-12-13",
+    "jurisdiction": "Ontario Superior Court of Justice",
+    "court_level": "Superior Court",
+    "judge_name": "Unknown",
+    "case_category": "Contract Dispute",
+    "legal_issues": [
+        "Dispute over earn-out calculation under SPA",
+        "Compliance with SPA procedural requirements"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The application succeeded, mandating submission of the earn-out dispute to KPMG for determination.",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "injunctive",
+        "subtype": "specific_performance",
+        "effective_date": "2023-12-13T00:00:00Z",
+        "end_date": null,
+        "id": null,
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "status": "ordered"
+    },
+    "decision_factors": [
+        "Plaintiff's delay and incomplete notice of objection",
+        "Plaintiff's access to financial information",
+        "Need for good faith in contractual information sharing"
+    ],
+    "cited_cases": null,
+    "summary": "Dr. Paula Fisher's application to require NVA Queen West Management and National Veterinary Associates Canada Inc. to refer an earn-out calculation dispute to KPMG was granted. The court found that despite procedural shortcomings by Dr. Fisher, the dispute should be submitted to KPMG in accordance with the Share Purchase Agreement's dispute resolution provisions."
+}

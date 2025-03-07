@@ -1,0 +1,49 @@
+{
+    "id": null,
+    "case_name": "R v Birtch (T.P. allegations)",
+    "docket_number": "N/A",
+    "date_filed": "2022-02-02",
+    "date_decided": "2024-11-12",
+    "jurisdiction": "Canada",
+    "court_level": "Trial",
+    "judge_name": "N/A",
+    "case_category": "Criminal Law",
+    "legal_issues": [
+        "Disclosure obligations",
+        "Charter rights violation",
+        "Mistrial"
+    ],
+    "outcome_for_plaintiff": null,
+    "outcome_details": "Mistrial granted on two counts of previous guilty verdict due to Crown's disclosure breach",
+    "penalty_type": null,
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 1,
+        "category": "declaratory",
+        "subtype": "N/A",
+        "terms": "A mistrial declared with future consideration on its scope regarding Count 3",
+        "status": "ordered",
+        "effective_date": "2024-11-12T00:00:00Z",
+        "id": null,
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "Improper Crown disclosure of T.W.S. statement",
+        "Infringement of s. 7 Charter rights",
+        "Capacity to make full answer and defence was impeded"
+    ],
+    "cited_cases": [
+        "R v Stinchcombe",
+        "R v La",
+        "R v Papageorgiou",
+        "R v Arabia",
+        "R v Kowall",
+        "R v Drysdale"
+    ],
+    "summary": "Mr. Birtch was granted a mistrial on two counts of a previous guilty verdict due to inadequate Crown disclosure efforts, which breached his s. 7 Charter rights. The trial judge decided that meaningful redress required a mistrial, given that the non-disclosure interfered with the ability to make full answer and defence. Further submissions are invited regarding the possible application of the mistrial ruling to Count 3."
+}

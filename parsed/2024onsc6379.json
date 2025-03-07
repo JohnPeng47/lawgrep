@@ -1,0 +1,49 @@
+{
+    "id": null,
+    "case_name": "Kristine McGinn vs. Stephen Bleeker & Assurance Home Care Inc.",
+    "docket_number": "2024 ONSC 3478",
+    "date_filed": "2024-09-09",
+    "date_decided": "2024-10-05",
+    "jurisdiction": "Ontario, Canada",
+    "court_level": "Superior Court",
+    "judge_name": "Justice F.L. Myers",
+    "case_category": "Injunction in a business dispute",
+    "legal_issues": [
+        "injunctive relief",
+        "shareholder rights",
+        "arbitration",
+        "dispute resolution"
+    ],
+    "outcome_for_plaintiff": true,
+    "outcome_details": "The court granted an injunction to preserve the status quo prior to the alleged unauthorized termination of Kristine McGinn, protecting her interests in Assurance Home Care Inc. pending arbitration.",
+    "penalty_type": "injunctive relief",
+    "penalty_amount": null,
+    "penalty_duration": null,
+    "remedy": {
+        "ruling_id": 3248,
+        "category": "injunctive",
+        "subtype": "temporary_injunction",
+        "status": "ordered",
+        "effective_date": "2024-10-05T00:00:00Z",
+        "id": null,
+        "amount": null,
+        "duration_value": null,
+        "duration_unit": null,
+        "terms": null,
+        "restrictions": null,
+        "end_date": null
+    },
+    "decision_factors": [
+        "The injunction sought was determined to be prohibitive in nature.",
+        "The RJR-MacDonald test was applied, considering the preservation of the status quo, irreparable harm, and the balance of convenience.",
+        "The court found the applicant would suffer irreparable harm without an injunction."
+    ],
+    "cited_cases": [
+        "RJR-MacDonald Inc. v. Canada (Attorney General), 1994 CanLII 117 (SCC)",
+        "Boni v. Leonardo Worldwide Corporation, 2018 ONSC 1875",
+        "FDV Inc. v. 1338121 Ontario Ltd., 2011 ONSC 3816",
+        "International Steel Services Inc. v. Dynatec Madagascar SA, 2016 ONSC 2810",
+        "1323257 Ontario Ltd. (c.o.b. Hyundai of Thornhill) v. Hyundai Auto Canada Corp., 2009 CanLII 494 (ON SC)"
+    ],
+    "summary": "Kristine McGinn filed for an urgent injunction to prevent unauthorized removal from her roles at Assurance Home Care Inc. by Stephen Bleeker. The court decided on granting a prohibitive injunction, asserting that preserving the status quo will support the arbitration process to determine if the termination was rightful."
+}
